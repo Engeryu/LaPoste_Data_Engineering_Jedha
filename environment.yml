@@ -1,0 +1,15 @@
+name: pysupercourier
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  # Specified only the high-level packages my application needs.
+  # Conda will resolve the correct, compatible versions of all underlying dependencies for the Linux container.
+  - python=3.13
+  - pandas=2.3.1
+  - pyarrow=19.0.0
+  - openpyxl=3.1.5
+  - xlsxwriter=3.2.3
+  - pyinstaller=6.12.0
+  - pytest=8.4.1

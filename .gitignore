@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Pytest
+.pytest_cache/
+
+# PyInstaller / Build artifacts
+build/
+dist/
+
+# Output files from the script
+output_files_mono/

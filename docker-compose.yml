@@ -1,0 +1,13 @@
+services:
+  app:
+    # Build the image from the Dockerfile in the current directory ('.')
+    build: .
+    # Name of the image to build or use
+    image: supercourier-etl
+    # Equivalent of the '-it' flags from 'docker run' to keep the container interactive
+    tty: true
+    stdin_open: true
+    # Bind mount the local './output_files' directory to '/app/output_files' in the container.
+    # This allows retrieving the script's output files on the host machine.
+    volumes:
+      - ./output_files:/app/output_files

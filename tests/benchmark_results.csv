@@ -1,0 +1,11 @@
+Test Case,Deliveries,Weather Days,Output Format,Execution Time (s),Status,Notes
+1000_deliveries_No xlsx,1000,90,No xlsx,0.15,Success,
+1000_deliveries_All,1000,90,All,0.33,Success,
+5000_deliveries_No xlsx,5000,450,No xlsx,0.40,Success,
+5000_deliveries_All,5000,450,All,0.91,Success,
+10000_deliveries_No xlsx,10000,900,No xlsx,0.67,Success,
+10000_deliveries_All,10000,900,All,1.62,Success,
+100000_deliveries_No xlsx,100000,9000,No xlsx,5.90,Success,
+100000_deliveries_All,100000,9000,All,15.59,Success,
+1000000_deliveries_No xlsx,1000000,90000,No xlsx,60.52,Success,
+1000000_deliveries_All,1000000,90000,All,154.40,Success,

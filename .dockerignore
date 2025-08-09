@@ -1,0 +1,10 @@
+# Ignore all files by default
+**
+# Exclude all hidden files and directories
+.*
+# Allow files and directories necessary for the build
+!Dockerfile
+!docker-compose.yml
+!src/
+!main.py
+!environment.yml
