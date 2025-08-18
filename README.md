@@ -88,10 +88,18 @@ There are three ways to run the ETL pipeline, from the simplest method for non-d
    ```
 3. **Follow the interactive prompts in the terminal to configure and run the pipeline.**
 
-If you deleted the executable, you can run the following command as long as you didn't delete `SuperCourierETL.spec`
+If you deleted the executable, you can run the following command based on your operating system, as long as you didn't delete `SuperCourierETL.spec`
 
 ```bash
-pyinstaller --distpath . SuperCourierETL.spec
+pyinstaller --distpath . SuperCourierETL.spec && rmdir /s /q build # Windows base Command
+pyinstaller --distpath . SuperCourierETL.spec; Remove-Item -Recurse -Force build # Windows Powershell Command
+pyinstaller --distpath . SuperCourierETL.spec && rm -rf build # Linux Command
+```
+
+If you did delete the spec file, then you can launch the following command before running pyinstaller command
+
+```bash
+pyi-makespec --onefile --name=SuperCourierETL main.py
 ```
 
 ### 2. Using Conda
