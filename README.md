@@ -1,3 +1,4 @@
+
 # SuperCourier ETL Pipeline - LaPoste Data Engineers Project Overview
 
 ***Made by Angel Gaspard-Fauvelle, LaPoste Data Engineers Teacher Assistant***
@@ -188,4 +189,4 @@ Then we can call it a day !
 
 ---
 
-You can learn even more about the technical part by reading my [Technical_Report](./notebooks/Technical_Report.pdf) and [Technology_Watch](./notebooks/Technology_Watch.pdf) !
+You can learn even more about the technical part by reading my [Technical_Report.pdf](./docs/Technical_Report.pdf)  and [Technology_Watch.pdf](./docs/Technology_Watch.pdf) !
