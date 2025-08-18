@@ -68,7 +68,7 @@ The `environment.yml` file allows any developer to create a perfectly replicated
 ```
 # Create and activate the identical environment
 conda env create -f environment.yml
-conda activate pysupercourier
+conda activate pysupercourieretl
 
 ```
 

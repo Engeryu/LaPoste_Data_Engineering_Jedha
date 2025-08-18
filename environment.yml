@@ -6,7 +6,8 @@ channels:
 dependencies:
   # Specified only the high-level packages my application needs.
   # Conda will resolve the correct, compatible versions of all underlying dependencies for the Linux container.
-  - python=3.13
+  - python=3.13.5
+  - numpy=2.3.2
   - pandas=2.3.1
   - pyarrow=19.0.0
   - openpyxl=3.1.5

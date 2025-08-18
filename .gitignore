@@ -15,5 +15,10 @@ build/
 dist/
 # SuperCourierETL.exe
 
+# Nuitka / Build artifacts
+main.build/
+main.dist/
+
 # Output files from the script
 output_files_mono/
+SuperCourierETL/output_files
