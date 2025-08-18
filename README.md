@@ -1,4 +1,3 @@
-
 # SuperCourier ETL Pipeline - LaPoste Data Engineers Project Overview
 
 ***Made by Angel Gaspard-Fauvelle, LaPoste Data Engineers Teacher Assistant***
@@ -88,6 +87,12 @@ There are three ways to run the ETL pipeline, from the simplest method for non-d
    ./SuperCourierETL
    ```
 3. **Follow the interactive prompts in the terminal to configure and run the pipeline.**
+
+If you deleted the executable, you can run the following command as long as you didn't delete `SuperCourierETL.spec`
+
+```bash
+pyinstaller --distpath . SuperCourierETL.spec
+```
 
 ### 2. Using Conda
 
