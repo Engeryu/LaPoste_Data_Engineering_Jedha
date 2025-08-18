@@ -13,6 +13,7 @@ venv/
 # PyInstaller / Build artifacts
 build/
 dist/
+# SuperCourierETL.exe
 
 # Output files from the script
 output_files_mono/

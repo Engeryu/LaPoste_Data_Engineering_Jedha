@@ -188,4 +188,4 @@ Then we can call it a day !
 
 ---
 
-You can learn even more about the technical part by reading my #docs/Technical_Report.pdf  and #docs/Technology_Watch.pdf !
+You can learn even more about the technical part by reading my [Technical_Report](./notebooks/Technical_Report.pdf) and [Technology_Watch](./notebooks/Technology_Watch.pdf) !

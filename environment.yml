@@ -1,4 +1,4 @@
-name: pysupercourier
+name: pysupercourieretl
 channels:
   - defaults
   - anaconda
