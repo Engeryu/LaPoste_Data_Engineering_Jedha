@@ -225,4 +225,4 @@ Then we can call it a day !
 
 ---
 
-You can learn even more about the technical part by reading my [Technical_Report.pdf](https://github.com/Engeryu/LaPoste_Data_Engineering_Jedha/tree/SPC_1.0.0/notebooks/Technical_Report.pdf)  and [Technology_Watch.pdf](https://github.com/Engeryu/LaPoste_Data_Engineering_Jedha/tree/SPC_1.0.0/notebooks/Technology_Watch.pdf) !
+You can learn even more about the technical part by reading my [Technical_Report.pdf](https://github.com/Engeryu/LaPoste_Data_Engineering_Jedha/tree/main/notebooks/Technical_Report.pdf)  and [Technology_Watch.pdf](https://github.com/Engeryu/LaPoste_Data_Engineering_Jedha/tree/main/notebooks/Technology_Watch.pdf) !
