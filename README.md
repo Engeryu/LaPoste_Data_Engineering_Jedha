@@ -76,27 +76,28 @@ There are three ways to run the ETL pipeline, from the simplest method for non-d
 
 **A pre-compiled executable (**`SuperCourierETL.exe`) is available for users who do not have Python or Docker installed.
 
-1. **Download the** `SuperCourierETL.exe` file.
+1. **Download the** `SuperCourierETL.exe` file [here](https://github.com/Engeryu/LaPoste_Data_Engineering_Jedha/releases/tag/SPC_1.0.0).
 2. **Double click on it to open the program.**
 
 **or :**
 
-1. **Open a terminal or command prompt and navigate to the folder containing the file.**
-2. **Run the program:**
+1. **Download the whole repository, and open a terminal or command prompt and navigate to the folder containing the file.**
+2. **Run the PyInstaller program:**
+
+   ```bash
+   pyinstaller --distpath . SuperCourierETL.spec && rmdir /s /q build # Windows base Command
+   pyinstaller --distpath . SuperCourierETL.spec; Remove-Item -Recurse -Force build # Windows Powershell Command
+   pyinstaller --distpath . SuperCourierETL.spec && rm -rf build # Linux Command
+
    ```
-   ./SuperCourierETL
+3. **Run it by double-clicking or writing the command line :**
+
+   ```bash
+   ./SuperCourierETL.exe
    ```
-3. **Follow the interactive prompts in the terminal to configure and run the pipeline.**
+4. **Follow the interactive prompts in the terminal to configure and run the pipeline.**
 
-If you deleted the executable, you can run the following command based on your operating system, as long as you didn't delete `SuperCourierETL.spec`
-
-```bash
-pyinstaller --distpath . SuperCourierETL.spec && rmdir /s /q build # Windows base Command
-pyinstaller --distpath . SuperCourierETL.spec; Remove-Item -Recurse -Force build # Windows Powershell Command
-pyinstaller --distpath . SuperCourierETL.spec && rm -rf build # Linux Command
-```
-
-If you did delete the spec file, then you can launch the following command before running pyinstaller command
+**If you did delete the spec file, then you can launch the following command before running pyinstaller command**
 
 ```bash
 pyi-makespec --onefile --name=SuperCourierETL main.py
@@ -158,36 +159,58 @@ conda env create -f environment.yml
 The project is organized into a modular structure to separate concerns and improve maintainability.
 
 ```
-.
-│   .dockerignore
+.│   .dockerignore
 │   .gitignore
+│   CODE_OF_CONDUCT.md
 │   docker-compose.yml
 │   Dockerfile
 │   environment.yml
+│   LICENSE
 │   main.py
 │   pytest.ini
 │   README.md
+│   SECURITY.md
 │   SuperCourierETL.spec
 │
 ├───docs
-│
 ├───monolithic_scripts
-│   │   de-code-snippet.py
-│   │   monolithic_etl.py
+│       de-code-snippet.py
+│       monolithic_etl.py
+│
+├───notebooks
+│       Delivery Delay Pipeline.pdf
+│       README.pdf
+│       supercourier-presentation.pdf
+│       Technical_Report.md
+│       Technical_Report.pdf
+│       Technology_Watch.md
+│       Technology_Watch.pdf
+│
+├───output_files
+│   │   deliveries_analysis.csv
+│   │   deliveries_analysis.db
+│   │   deliveries_analysis.json
+│   │   deliveries_analysis.parquet
+│   │   deliveries_analysis.xlsx
+│   │   pipeline.log
+│   │
+│   └───originals
+│           supercourier_logistics.db
+│           weather_conditions.json
 │
 ├───src
-│   │   config.py
-│   │   data_generators.py
-│   │   domain.py
-│   │   etl_pipeline.py
-│   │   file_manager.py
-│   │   __init__.py
+│       config.py
+│       data_generators.py
+│       domain.py
+│       etl_pipeline.py
+│       file_manager.py
+│       __init__.py
 │
 └───tests
-    │   benchmark_tests.ps1
-    │   benchmark_tests.py
-    │   test_pipeline.py
-    │   __init__.py
+        benchmark_results.csv
+        benchmark_tests.py
+        test_pipeline.py
+        __init__.py
 ```
 
 ## What can we do to make the project suitable for a company ?
