@@ -1,1001 +1,1001 @@
 Delivery_ID,Pickup_DateTime,Weekday,Hour,Package_Type,Distance,Delivery_Zone,Weather_Condition,Actual_Delivery_Time,Status
-SC-DEL-00001,2025-08-02 22:10:25,Saturday,22,Extra Large,41.56,Industrial,Stormy,124.06,On-time
-SC-DEL-00002,2025-07-09 12:20:19,Wednesday,12,Special,10.45,Industrial,Snowy,76.54,On-time
-SC-DEL-00003,2025-07-13 10:44:05,Sunday,10,Large,54.3,Shopping Center,Cloudy,142.55,On-time
-SC-DEL-00004,2025-06-14 13:32:17,Saturday,13,Small,59.98,Suburban,Snowy,104.46,On-time
-SC-DEL-00005,2025-06-02 12:45:39,Monday,12,Extra Large,23.6,Industrial,Stormy,59.25,On-time
-SC-DEL-00006,2025-06-10 05:17:37,Tuesday,5,Large,10.78,Industrial,Rainy,70.39,On-time
-SC-DEL-00007,2025-08-07 12:06:16,Thursday,12,Small,52.16,Shopping Center,Rainy,130.09,On-time
-SC-DEL-00008,2025-07-26 03:39:03,Saturday,3,Extra Large,19.82,Urban,Rainy,50.09,On-time
-SC-DEL-00009,2025-08-18 15:06:13,Monday,15,Large,12.92,Rural,Stormy,37.32,On-time
-SC-DEL-00010,2025-07-20 13:57:40,Sunday,13,Large,46.74,Shopping Center,Snowy,102.46,On-time
-SC-DEL-00011,2025-06-29 03:30:04,Sunday,3,Large,34.39,Rural,Sunny,69.45,On-time
-SC-DEL-00012,2025-08-02 06:00:36,Saturday,6,Small,41.6,Urban,Stormy,99.12,On-time
-SC-DEL-00013,2025-07-28 13:34:45,Monday,13,Small,17.12,Industrial,Snowy,77.26,On-time
-SC-DEL-00014,2025-07-09 11:32:18,Wednesday,11,Special,18.99,Suburban,Cloudy,61.27,On-time
-SC-DEL-00015,2025-07-17 08:32:27,Thursday,8,Medium,30.17,Urban,Rainy,99.00,On-time
-SC-DEL-00016,2025-08-17 08:31:44,Sunday,8,Special,47.46,Rural,Rainy,101.13,On-time
-SC-DEL-00017,2025-07-20 04:05:55,Sunday,4,Small,55.46,Shopping Center,Sunny,137.01,Delayed
-SC-DEL-00018,2025-06-05 23:36:05,Thursday,23,Extra Large,25.16,Suburban,Snowy,83.21,On-time
-SC-DEL-00019,2025-06-08 23:30:41,Sunday,23,Large,67.65,Shopping Center,Stormy,117.42,On-time
-SC-DEL-00020,2025-05-31 18:10:18,Saturday,18,Large,65.2,Urban,Rainy,109.34,On-time
-SC-DEL-00021,2025-06-29 13:03:55,Sunday,13,Extra Large,35.62,Industrial,Rainy,88.27,On-time
-SC-DEL-00022,2025-06-27 03:31:30,Friday,3,Small,49.06,Suburban,Sunny,98.27,On-time
-SC-DEL-00023,2025-07-08 17:29:52,Tuesday,17,Large,71.33,Urban,Cloudy,120.16,On-time
-SC-DEL-00024,2025-07-12 02:34:51,Saturday,2,Extra Large,35.32,Industrial,Cloudy,112.33,On-time
-SC-DEL-00025,2025-07-07 11:18:22,Monday,11,Medium,17.36,Industrial,Rainy,42.26,On-time
-SC-DEL-00026,2025-06-28 03:59:47,Saturday,3,Extra Large,14.8,Industrial,Rainy,76.45,On-time
-SC-DEL-00027,2025-06-30 23:28:58,Monday,23,Extra Large,31.67,Industrial,Sunny,81.52,On-time
-SC-DEL-00028,2025-07-09 16:38:49,Wednesday,16,Medium,41.56,Shopping Center,Stormy,123.52,On-time
-SC-DEL-00029,2025-06-24 23:58:03,Tuesday,23,Special,67.65,Urban,Rainy,139.47,On-time
-SC-DEL-00030,2025-06-12 23:01:40,Thursday,23,Extra Large,54.03,Suburban,Snowy,104.10,On-time
-SC-DEL-00031,2025-06-11 13:50:24,Wednesday,13,Medium,39.01,Shopping Center,Cloudy,85.48,On-time
-SC-DEL-00032,2025-07-05 23:45:20,Saturday,23,Special,3.28,Urban,Sunny,23.51,On-time
-SC-DEL-00033,2025-06-12 13:56:16,Thursday,13,Extra Large,1.56,Suburban,Cloudy,56.32,On-time
-SC-DEL-00034,2025-06-16 20:51:51,Monday,20,Special,29.21,Urban,Rainy,106.27,On-time
-SC-DEL-00035,2025-06-28 23:19:49,Saturday,23,Special,40.41,Urban,Rainy,110.45,On-time
-SC-DEL-00036,2025-08-18 22:38:26,Monday,22,Large,73.22,Suburban,Rainy,140.24,On-time
-SC-DEL-00037,2025-08-01 18:55:05,Friday,18,Large,11.76,Suburban,Cloudy,65.42,On-time
-SC-DEL-00038,2025-07-14 13:15:20,Monday,13,Small,24.86,Rural,Rainy,81.22,On-time
-SC-DEL-00039,2025-08-06 01:16:18,Wednesday,1,Small,7.3,Shopping Center,Snowy,29.38,On-time
-SC-DEL-00040,2025-07-24 06:49:46,Thursday,6,Large,47.08,Suburban,Stormy,81.26,On-time
-SC-DEL-00041,2025-08-01 01:46:55,Friday,1,Medium,25.57,Industrial,Rainy,58.30,On-time
-SC-DEL-00042,2025-07-20 13:13:09,Sunday,13,Large,73.25,Industrial,Snowy,128.01,On-time
-SC-DEL-00043,2025-06-01 22:02:39,Sunday,22,Extra Large,4.2,Industrial,Cloudy,34.01,On-time
-SC-DEL-00044,2025-06-23 09:45:02,Monday,9,Medium,41.16,Rural,Stormy,113.32,On-time
-SC-DEL-00045,2025-07-09 23:38:24,Wednesday,23,Medium,11.32,Urban,Sunny,64.42,On-time
-SC-DEL-00046,2025-08-18 02:58:32,Monday,2,Large,8.3,Shopping Center,Snowy,66.55,On-time
-SC-DEL-00047,2025-06-12 23:12:58,Thursday,23,Special,54.73,Suburban,Snowy,125.37,On-time
-SC-DEL-00048,2025-06-12 20:28:57,Thursday,20,Extra Large,45.64,Rural,Rainy,84.50,On-time
-SC-DEL-00049,2025-07-05 18:35:39,Saturday,18,Small,40.39,Urban,Sunny,87.21,On-time
-SC-DEL-00050,2025-07-26 09:54:05,Saturday,9,Large,52.04,Shopping Center,Cloudy,115.50,On-time
-SC-DEL-00051,2025-07-06 22:44:30,Sunday,22,Large,66.03,Industrial,Snowy,157.13,On-time
-SC-DEL-00052,2025-07-12 17:03:40,Saturday,17,Small,27.86,Suburban,Stormy,80.28,On-time
-SC-DEL-00053,2025-06-07 17:48:49,Saturday,17,Large,34.15,Urban,Cloudy,85.00,On-time
-SC-DEL-00054,2025-08-13 22:39:33,Wednesday,22,Extra Large,20.22,Suburban,Snowy,42.43,On-time
-SC-DEL-00055,2025-07-20 04:42:13,Sunday,4,Extra Large,73.17,Industrial,Sunny,166.10,On-time
-SC-DEL-00056,2025-05-26 06:06:09,Monday,6,Medium,33.78,Urban,Rainy,64.27,On-time
-SC-DEL-00057,2025-06-08 10:59:34,Sunday,10,Large,5.46,Industrial,Snowy,51.50,On-time
-SC-DEL-00058,2025-06-22 01:53:25,Sunday,1,Medium,40.38,Urban,Stormy,117.58,On-time
-SC-DEL-00059,2025-07-14 09:29:52,Monday,9,Special,11.33,Rural,Stormy,78.22,On-time
-SC-DEL-00060,2025-07-15 18:37:32,Tuesday,18,Extra Large,15.26,Rural,Sunny,42.39,On-time
-SC-DEL-00061,2025-06-27 17:26:06,Friday,17,Small,5.92,Urban,Stormy,24.56,On-time
-SC-DEL-00062,2025-06-30 23:15:46,Monday,23,Medium,47.18,Rural,Sunny,128.41,On-time
-SC-DEL-00063,2025-07-12 02:40:40,Saturday,2,Medium,70.31,Rural,Cloudy,143.45,On-time
-SC-DEL-00064,2025-08-09 07:00:02,Saturday,7,Large,55.39,Industrial,Cloudy,99.04,On-time
-SC-DEL-00065,2025-07-06 06:06:58,Sunday,6,Small,45.34,Rural,Snowy,106.24,On-time
-SC-DEL-00066,2025-05-30 12:25:10,Friday,12,Extra Large,56.85,Shopping Center,Sunny,137.29,On-time
-SC-DEL-00067,2025-06-25 18:43:29,Wednesday,18,Extra Large,8.49,Suburban,Sunny,37.11,On-time
-SC-DEL-00068,2025-08-01 20:21:05,Friday,20,Special,57.95,Shopping Center,Cloudy,138.48,On-time
-SC-DEL-00069,2025-08-18 01:33:47,Monday,1,Extra Large,23.93,Urban,Snowy,65.23,On-time
-SC-DEL-00070,2025-06-08 19:52:46,Sunday,19,Extra Large,71.23,Rural,Sunny,124.27,On-time
-SC-DEL-00071,2025-08-02 05:51:20,Saturday,5,Special,12.09,Rural,Sunny,67.27,On-time
-SC-DEL-00072,2025-07-22 19:59:45,Tuesday,19,Medium,9.24,Urban,Stormy,47.02,On-time
-SC-DEL-00073,2025-06-01 11:47:00,Sunday,11,Medium,45.71,Shopping Center,Snowy,131.22,On-time
-SC-DEL-00074,2025-08-06 00:31:38,Wednesday,0,Small,46.37,Rural,Stormy,86.49,On-time
-SC-DEL-00075,2025-06-21 16:29:20,Saturday,16,Extra Large,8.88,Industrial,Cloudy,29.12,On-time
-SC-DEL-00076,2025-08-06 03:12:28,Wednesday,3,Small,11.76,Rural,Snowy,45.45,On-time
-SC-DEL-00077,2025-05-23 06:17:08,Friday,6,Large,21.42,Suburban,Cloudy,48.57,On-time
-SC-DEL-00078,2025-05-24 21:26:12,Saturday,21,Extra Large,43.33,Suburban,Sunny,119.57,On-time
-SC-DEL-00079,2025-08-02 08:45:06,Saturday,8,Small,3.6,Rural,Cloudy,53.02,On-time
-SC-DEL-00080,2025-08-06 08:47:31,Wednesday,8,Large,14.75,Urban,Snowy,83.45,On-time
-SC-DEL-00081,2025-08-11 21:04:56,Monday,21,Extra Large,50.93,Shopping Center,Sunny,91.45,On-time
-SC-DEL-00082,2025-06-23 14:10:00,Monday,14,Small,43.74,Rural,Sunny,80.28,On-time
-SC-DEL-00083,2025-07-04 12:30:22,Friday,12,Large,66.85,Suburban,Rainy,118.29,On-time
-SC-DEL-00084,2025-08-02 16:03:34,Saturday,16,Small,61.84,Suburban,Snowy,113.37,On-time
-SC-DEL-00085,2025-06-14 19:45:19,Saturday,19,Extra Large,17.22,Urban,Rainy,38.49,On-time
-SC-DEL-00086,2025-06-11 22:52:09,Wednesday,22,Large,9.87,Urban,Cloudy,48.01,On-time
-SC-DEL-00087,2025-08-15 17:14:51,Friday,17,Extra Large,9.15,Shopping Center,Sunny,57.06,On-time
-SC-DEL-00088,2025-06-08 04:26:06,Sunday,4,Special,25.57,Urban,Stormy,58.17,On-time
-SC-DEL-00089,2025-08-07 05:55:59,Thursday,5,Medium,54.06,Suburban,Stormy,113.47,On-time
-SC-DEL-00090,2025-06-27 11:26:26,Friday,11,Extra Large,21.28,Urban,Stormy,88.47,On-time
-SC-DEL-00091,2025-07-29 17:32:44,Tuesday,17,Large,62.51,Suburban,Snowy,142.37,On-time
-SC-DEL-00092,2025-07-21 17:41:15,Monday,17,Small,69.89,Urban,Sunny,168.48,On-time
-SC-DEL-00093,2025-07-30 15:57:06,Wednesday,15,Small,54.8,Urban,Cloudy,120.58,On-time
-SC-DEL-00094,2025-07-25 00:28:58,Friday,0,Large,6.8,Shopping Center,Snowy,51.02,On-time
-SC-DEL-00095,2025-07-18 14:14:24,Friday,14,Special,20.07,Suburban,Cloudy,45.58,On-time
-SC-DEL-00096,2025-06-09 19:39:02,Monday,19,Extra Large,3.57,Suburban,Sunny,19.00,On-time
-SC-DEL-00097,2025-07-13 08:14:43,Sunday,8,Small,68.69,Industrial,Snowy,164.05,On-time
-SC-DEL-00098,2025-07-22 12:24:21,Tuesday,12,Extra Large,65.85,Suburban,Stormy,132.10,On-time
-SC-DEL-00099,2025-05-26 18:43:19,Monday,18,Extra Large,39.09,Urban,Snowy,114.00,On-time
-SC-DEL-00100,2025-07-12 18:20:12,Saturday,18,Small,40.6,Urban,Sunny,77.21,On-time
-SC-DEL-00101,2025-06-06 17:05:13,Friday,17,Small,29.85,Rural,Snowy,77.22,On-time
-SC-DEL-00102,2025-07-31 14:28:09,Thursday,14,Special,21.58,Suburban,Cloudy,90.52,On-time
-SC-DEL-00103,2025-06-28 11:12:29,Saturday,11,Small,21.15,Rural,Stormy,60.27,On-time
-SC-DEL-00104,2025-06-13 00:26:56,Friday,0,Small,56.72,Shopping Center,Cloudy,118.48,On-time
-SC-DEL-00105,2025-06-27 09:22:09,Friday,9,Large,27.7,Shopping Center,Rainy,82.58,On-time
-SC-DEL-00106,2025-06-17 00:23:41,Tuesday,0,Medium,44.14,Rural,Sunny,106.36,On-time
-SC-DEL-00107,2025-07-04 13:41:43,Friday,13,Extra Large,56.45,Rural,Sunny,115.04,On-time
-SC-DEL-00108,2025-05-26 06:00:54,Monday,6,Large,4.21,Urban,Rainy,48.37,On-time
-SC-DEL-00109,2025-08-08 20:56:28,Friday,20,Small,70.36,Shopping Center,Sunny,146.55,On-time
-SC-DEL-00110,2025-08-06 19:56:54,Wednesday,19,Medium,61.11,Rural,Stormy,128.10,On-time
-SC-DEL-00111,2025-08-06 20:46:12,Wednesday,20,Extra Large,12.57,Rural,Cloudy,33.27,On-time
-SC-DEL-00112,2025-07-29 09:53:20,Tuesday,9,Medium,64.02,Urban,Rainy,155.55,On-time
-SC-DEL-00113,2025-08-14 01:10:37,Thursday,1,Large,38.52,Industrial,Rainy,90.23,On-time
-SC-DEL-00114,2025-05-28 10:43:43,Wednesday,10,Special,58.06,Shopping Center,Sunny,130.05,On-time
-SC-DEL-00115,2025-08-07 07:38:45,Thursday,7,Small,16.49,Shopping Center,Rainy,43.58,On-time
-SC-DEL-00116,2025-06-03 12:58:15,Tuesday,12,Small,67.28,Urban,Cloudy,160.00,Delayed
-SC-DEL-00117,2025-05-30 19:50:08,Friday,19,Extra Large,41.52,Urban,Stormy,91.53,On-time
-SC-DEL-00118,2025-05-30 11:35:54,Friday,11,Large,34.36,Shopping Center,Rainy,96.20,On-time
-SC-DEL-00119,2025-07-07 04:46:59,Monday,4,Special,34.67,Industrial,Sunny,82.09,On-time
-SC-DEL-00120,2025-05-23 14:35:44,Friday,14,Large,28.16,Suburban,Snowy,91.39,On-time
-SC-DEL-00121,2025-06-20 05:06:03,Friday,5,Extra Large,11.43,Industrial,Rainy,33.19,On-time
-SC-DEL-00122,2025-08-11 05:38:22,Monday,5,Medium,8.6,Rural,Stormy,29.47,On-time
-SC-DEL-00123,2025-08-05 19:55:25,Tuesday,19,Extra Large,10.83,Suburban,Rainy,64.43,On-time
-SC-DEL-00124,2025-07-20 16:35:25,Sunday,16,Medium,11.81,Urban,Rainy,54.52,On-time
-SC-DEL-00125,2025-08-08 11:47:13,Friday,11,Small,52.44,Suburban,Sunny,127.30,Delayed
-SC-DEL-00126,2025-06-28 13:56:24,Saturday,13,Extra Large,13.54,Suburban,Rainy,46.45,On-time
-SC-DEL-00127,2025-06-20 01:46:28,Friday,1,Medium,63.83,Urban,Cloudy,126.57,On-time
-SC-DEL-00128,2025-08-02 06:06:51,Saturday,6,Special,70.49,Suburban,Stormy,150.31,On-time
-SC-DEL-00129,2025-07-27 10:58:25,Sunday,10,Small,22.89,Industrial,Cloudy,69.21,Delayed
-SC-DEL-00130,2025-05-28 16:35:13,Wednesday,16,Medium,19.64,Industrial,Cloudy,71.20,Delayed
-SC-DEL-00131,2025-06-18 15:34:05,Wednesday,15,Medium,38.02,Shopping Center,Stormy,85.34,On-time
-SC-DEL-00132,2025-07-23 08:32:05,Wednesday,8,Extra Large,64.61,Industrial,Snowy,161.29,On-time
-SC-DEL-00133,2025-08-13 06:38:57,Wednesday,6,Small,33.37,Rural,Snowy,93.17,On-time
-SC-DEL-00134,2025-06-23 07:48:29,Monday,7,Extra Large,15.53,Rural,Snowy,67.57,On-time
-SC-DEL-00135,2025-07-20 20:10:29,Sunday,20,Small,72.74,Urban,Cloudy,139.26,On-time
-SC-DEL-00136,2025-06-28 04:17:39,Saturday,4,Large,60.84,Urban,Rainy,139.20,On-time
-SC-DEL-00137,2025-08-06 17:13:46,Wednesday,17,Medium,32.02,Rural,Rainy,106.39,On-time
-SC-DEL-00138,2025-07-04 19:10:25,Friday,19,Extra Large,35.56,Rural,Rainy,116.17,On-time
-SC-DEL-00139,2025-07-29 06:08:09,Tuesday,6,Extra Large,60.32,Industrial,Sunny,107.21,On-time
-SC-DEL-00140,2025-06-01 14:32:35,Sunday,14,Special,69.21,Urban,Cloudy,168.20,On-time
-SC-DEL-00141,2025-08-01 06:50:45,Friday,6,Small,53.65,Rural,Sunny,121.33,On-time
-SC-DEL-00142,2025-06-04 17:36:50,Wednesday,17,Large,19.15,Industrial,Rainy,41.13,On-time
-SC-DEL-00143,2025-06-11 18:35:10,Wednesday,18,Extra Large,43.88,Urban,Snowy,125.55,On-time
-SC-DEL-00144,2025-06-25 19:42:23,Wednesday,19,Medium,50.22,Shopping Center,Stormy,89.40,On-time
-SC-DEL-00145,2025-06-09 16:00:28,Monday,16,Medium,70.75,Suburban,Stormy,118.09,On-time
-SC-DEL-00146,2025-06-22 23:27:54,Sunday,23,Large,37.47,Shopping Center,Snowy,77.02,On-time
-SC-DEL-00147,2025-05-31 16:03:27,Saturday,16,Special,32.79,Industrial,Snowy,84.31,On-time
-SC-DEL-00148,2025-07-07 23:21:29,Monday,23,Extra Large,55.05,Rural,Stormy,119.02,On-time
-SC-DEL-00149,2025-06-07 00:30:44,Saturday,0,Small,41.23,Suburban,Snowy,117.07,On-time
-SC-DEL-00150,2025-07-21 09:21:59,Monday,9,Medium,53.06,Urban,Sunny,95.15,On-time
-SC-DEL-00151,2025-06-14 16:16:06,Saturday,16,Large,70.52,Rural,Sunny,126.24,On-time
-SC-DEL-00152,2025-05-25 07:20:01,Sunday,7,Large,14.61,Rural,Rainy,34.45,On-time
-SC-DEL-00153,2025-07-10 11:06:08,Thursday,11,Special,74.2,Shopping Center,Stormy,159.12,On-time
-SC-DEL-00154,2025-06-08 19:53:06,Sunday,19,Small,12.5,Industrial,Sunny,37.04,On-time
-SC-DEL-00155,2025-08-02 14:51:23,Saturday,14,Large,52.77,Rural,Cloudy,102.22,On-time
-SC-DEL-00156,2025-07-17 19:20:53,Thursday,19,Small,24.15,Suburban,Sunny,71.55,On-time
-SC-DEL-00157,2025-08-14 12:02:50,Thursday,12,Small,71.74,Industrial,Snowy,171.03,On-time
-SC-DEL-00158,2025-06-24 15:45:32,Tuesday,15,Extra Large,50.23,Urban,Cloudy,95.25,On-time
-SC-DEL-00159,2025-08-15 06:11:03,Friday,6,Special,61.09,Industrial,Rainy,108.08,On-time
-SC-DEL-00160,2025-06-22 19:00:36,Sunday,19,Small,19.6,Urban,Sunny,53.45,On-time
-SC-DEL-00161,2025-07-03 14:11:42,Thursday,14,Small,9.25,Urban,Snowy,30.35,On-time
-SC-DEL-00162,2025-06-06 14:35:00,Friday,14,Extra Large,58.78,Rural,Rainy,112.10,On-time
-SC-DEL-00163,2025-06-28 11:15:14,Saturday,11,Large,60.51,Rural,Stormy,151.25,On-time
-SC-DEL-00164,2025-06-12 05:53:04,Thursday,5,Large,49.92,Rural,Snowy,137.46,On-time
-SC-DEL-00165,2025-07-02 13:32:58,Wednesday,13,Special,2.98,Rural,Snowy,35.01,On-time
-SC-DEL-00166,2025-08-01 13:52:39,Friday,13,Extra Large,33.13,Suburban,Cloudy,89.25,On-time
-SC-DEL-00167,2025-07-17 11:55:31,Thursday,11,Extra Large,11.51,Industrial,Sunny,55.31,On-time
-SC-DEL-00168,2025-06-21 15:12:47,Saturday,15,Large,57.7,Rural,Snowy,144.09,On-time
-SC-DEL-00169,2025-08-01 12:12:46,Friday,12,Special,18.15,Suburban,Rainy,52.30,On-time
-SC-DEL-00170,2025-07-16 08:53:47,Wednesday,8,Medium,58.0,Shopping Center,Stormy,131.53,On-time
-SC-DEL-00171,2025-07-08 02:02:50,Tuesday,2,Small,17.39,Suburban,Snowy,45.54,On-time
-SC-DEL-00172,2025-07-21 13:59:45,Monday,13,Extra Large,28.54,Shopping Center,Sunny,93.05,On-time
-SC-DEL-00173,2025-07-08 16:07:40,Tuesday,16,Small,45.29,Rural,Cloudy,93.43,On-time
-SC-DEL-00174,2025-08-04 01:33:12,Monday,1,Special,62.19,Rural,Sunny,116.35,On-time
-SC-DEL-00175,2025-08-09 11:12:20,Saturday,11,Small,61.55,Urban,Stormy,106.51,On-time
-SC-DEL-00176,2025-08-16 12:37:19,Saturday,12,Special,33.27,Rural,Cloudy,97.37,On-time
-SC-DEL-00177,2025-05-31 16:41:57,Saturday,16,Small,57.66,Rural,Snowy,111.16,On-time
-SC-DEL-00178,2025-08-13 10:20:41,Wednesday,10,Medium,24.77,Urban,Sunny,91.10,On-time
-SC-DEL-00179,2025-06-27 22:28:16,Friday,22,Medium,69.37,Urban,Stormy,163.46,On-time
-SC-DEL-00180,2025-06-04 13:47:42,Wednesday,13,Extra Large,12.14,Shopping Center,Rainy,37.37,On-time
-SC-DEL-00181,2025-07-17 00:10:41,Thursday,0,Large,53.65,Industrial,Stormy,119.03,On-time
-SC-DEL-00182,2025-06-05 21:46:06,Thursday,21,Extra Large,73.98,Suburban,Stormy,148.35,On-time
-SC-DEL-00183,2025-06-18 16:06:03,Wednesday,16,Small,56.02,Shopping Center,Rainy,109.51,On-time
-SC-DEL-00184,2025-07-30 21:20:55,Wednesday,21,Extra Large,5.67,Shopping Center,Snowy,63.17,On-time
-SC-DEL-00185,2025-07-21 15:32:25,Monday,15,Large,15.54,Rural,Cloudy,36.43,On-time
-SC-DEL-00186,2025-05-26 17:59:20,Monday,17,Extra Large,8.89,Urban,Rainy,78.11,On-time
-SC-DEL-00187,2025-07-07 15:17:02,Monday,15,Small,73.0,Rural,Stormy,168.43,On-time
-SC-DEL-00188,2025-06-22 14:53:33,Sunday,14,Small,54.35,Rural,Snowy,93.35,On-time
-SC-DEL-00189,2025-05-26 01:36:15,Monday,1,Special,36.22,Urban,Stormy,111.28,On-time
-SC-DEL-00190,2025-07-15 06:06:32,Tuesday,6,Large,7.15,Suburban,Cloudy,48.36,On-time
-SC-DEL-00191,2025-05-24 00:00:16,Saturday,0,Extra Large,61.89,Urban,Stormy,119.32,On-time
-SC-DEL-00192,2025-07-14 00:02:49,Monday,0,Extra Large,64.77,Industrial,Cloudy,120.39,On-time
-SC-DEL-00193,2025-07-12 04:09:25,Saturday,4,Medium,50.77,Suburban,Rainy,125.13,On-time
-SC-DEL-00194,2025-07-02 02:29:31,Wednesday,2,Small,24.09,Urban,Stormy,54.01,On-time
-SC-DEL-00195,2025-08-11 02:50:39,Monday,2,Special,7.46,Shopping Center,Rainy,64.52,On-time
-SC-DEL-00196,2025-07-16 17:39:22,Wednesday,17,Small,10.05,Suburban,Rainy,51.31,On-time
-SC-DEL-00197,2025-07-20 13:59:42,Sunday,13,Special,34.0,Suburban,Snowy,96.20,On-time
-SC-DEL-00198,2025-08-01 12:22:12,Friday,12,Extra Large,64.62,Industrial,Rainy,118.05,On-time
-SC-DEL-00199,2025-05-25 23:56:28,Sunday,23,Special,59.91,Urban,Stormy,145.53,On-time
-SC-DEL-00200,2025-06-10 16:00:42,Tuesday,16,Special,67.27,Rural,Snowy,139.16,On-time
-SC-DEL-00201,2025-08-16 08:13:07,Saturday,8,Medium,25.24,Rural,Stormy,73.59,On-time
-SC-DEL-00202,2025-08-17 12:35:50,Sunday,12,Medium,73.58,Urban,Snowy,172.42,On-time
-SC-DEL-00203,2025-06-06 10:25:16,Friday,10,Special,10.14,Industrial,Rainy,41.56,On-time
-SC-DEL-00204,2025-08-02 20:13:24,Saturday,20,Large,48.05,Rural,Rainy,121.38,On-time
-SC-DEL-00205,2025-07-08 19:58:40,Tuesday,19,Small,38.2,Rural,Rainy,94.06,On-time
-SC-DEL-00206,2025-07-13 03:01:50,Sunday,3,Large,17.07,Suburban,Sunny,64.40,On-time
-SC-DEL-00207,2025-05-21 12:19:55,Wednesday,12,Special,74.13,Rural,Rainy,137.19,On-time
-SC-DEL-00208,2025-06-10 19:02:26,Tuesday,19,Large,4.05,Urban,Cloudy,19.19,On-time
-SC-DEL-00209,2025-05-31 10:07:47,Saturday,10,Large,26.0,Industrial,Sunny,75.16,Delayed
-SC-DEL-00210,2025-08-05 05:54:24,Tuesday,5,Extra Large,29.62,Urban,Stormy,66.47,On-time
-SC-DEL-00211,2025-06-10 00:37:21,Tuesday,0,Extra Large,28.84,Suburban,Rainy,72.42,On-time
-SC-DEL-00212,2025-08-09 04:51:02,Saturday,4,Small,51.15,Industrial,Cloudy,141.36,Delayed
-SC-DEL-00213,2025-07-10 08:18:00,Thursday,8,Large,37.15,Rural,Sunny,115.34,On-time
-SC-DEL-00214,2025-07-01 04:33:40,Tuesday,4,Extra Large,53.99,Rural,Sunny,133.51,On-time
-SC-DEL-00215,2025-06-20 14:25:05,Friday,14,Large,72.39,Shopping Center,Stormy,168.15,On-time
-SC-DEL-00216,2025-07-03 09:52:14,Thursday,9,Special,16.35,Urban,Snowy,52.08,On-time
-SC-DEL-00217,2025-07-21 09:51:58,Monday,9,Extra Large,11.73,Industrial,Sunny,72.45,On-time
-SC-DEL-00218,2025-07-25 13:45:21,Friday,13,Extra Large,13.48,Urban,Cloudy,61.57,On-time
-SC-DEL-00219,2025-08-04 20:16:52,Monday,20,Small,54.19,Shopping Center,Sunny,93.45,On-time
-SC-DEL-00220,2025-08-10 18:21:24,Sunday,18,Large,39.69,Shopping Center,Rainy,123.50,On-time
-SC-DEL-00221,2025-07-04 16:13:22,Friday,16,Small,29.12,Rural,Sunny,104.52,Delayed
-SC-DEL-00222,2025-08-14 07:55:48,Thursday,7,Large,19.92,Industrial,Stormy,91.09,On-time
-SC-DEL-00223,2025-08-12 06:24:38,Tuesday,6,Large,44.37,Industrial,Cloudy,128.47,On-time
-SC-DEL-00224,2025-08-12 03:05:53,Tuesday,3,Medium,55.59,Urban,Rainy,140.35,On-time
-SC-DEL-00225,2025-07-30 22:26:58,Wednesday,22,Extra Large,67.23,Suburban,Rainy,152.43,On-time
-SC-DEL-00226,2025-06-21 08:50:40,Saturday,8,Special,65.94,Industrial,Stormy,147.34,On-time
-SC-DEL-00227,2025-06-28 12:48:34,Saturday,12,Extra Large,40.28,Suburban,Cloudy,92.03,On-time
-SC-DEL-00228,2025-07-04 22:32:47,Friday,22,Large,54.42,Urban,Sunny,131.20,On-time
-SC-DEL-00229,2025-07-02 20:45:44,Wednesday,20,Special,47.18,Urban,Stormy,109.43,On-time
-SC-DEL-00230,2025-07-21 07:31:26,Monday,7,Extra Large,27.51,Rural,Snowy,57.31,On-time
-SC-DEL-00231,2025-06-18 02:00:34,Wednesday,2,Small,6.34,Shopping Center,Stormy,31.24,On-time
-SC-DEL-00232,2025-07-25 04:45:36,Friday,4,Extra Large,30.51,Rural,Sunny,95.24,On-time
-SC-DEL-00233,2025-06-24 16:46:22,Tuesday,16,Special,43.04,Rural,Cloudy,103.05,On-time
-SC-DEL-00234,2025-06-17 21:33:24,Tuesday,21,Medium,21.59,Rural,Sunny,72.31,On-time
-SC-DEL-00235,2025-07-05 09:27:27,Saturday,9,Small,58.48,Rural,Rainy,118.04,On-time
-SC-DEL-00236,2025-06-01 01:49:33,Sunday,1,Large,43.11,Shopping Center,Stormy,101.22,On-time
-SC-DEL-00237,2025-06-05 00:53:57,Thursday,0,Extra Large,58.21,Urban,Sunny,147.31,On-time
-SC-DEL-00238,2025-05-26 16:25:37,Monday,16,Extra Large,55.18,Suburban,Cloudy,127.13,On-time
-SC-DEL-00239,2025-06-08 18:09:57,Sunday,18,Extra Large,51.11,Rural,Stormy,96.23,On-time
-SC-DEL-00240,2025-06-18 15:57:22,Wednesday,15,Small,15.35,Shopping Center,Stormy,38.05,On-time
-SC-DEL-00241,2025-07-16 14:11:22,Wednesday,14,Large,65.49,Industrial,Sunny,118.17,On-time
-SC-DEL-00242,2025-06-20 11:08:35,Friday,11,Special,4.94,Urban,Sunny,62.21,On-time
-SC-DEL-00243,2025-06-29 01:52:30,Sunday,1,Special,50.51,Rural,Rainy,117.12,On-time
-SC-DEL-00244,2025-08-04 16:27:54,Monday,16,Small,30.53,Rural,Cloudy,61.19,On-time
-SC-DEL-00245,2025-08-08 11:03:32,Friday,11,Small,54.4,Urban,Sunny,106.09,On-time
-SC-DEL-00246,2025-07-10 14:43:43,Thursday,14,Extra Large,41.74,Urban,Snowy,111.32,On-time
-SC-DEL-00247,2025-06-07 00:21:53,Saturday,0,Medium,35.49,Shopping Center,Snowy,66.04,On-time
-SC-DEL-00248,2025-05-30 00:45:40,Friday,0,Large,36.35,Shopping Center,Rainy,82.25,On-time
-SC-DEL-00249,2025-06-18 02:52:45,Wednesday,2,Medium,71.71,Suburban,Stormy,153.25,On-time
-SC-DEL-00250,2025-05-29 12:52:34,Thursday,12,Large,66.72,Suburban,Sunny,148.23,On-time
-SC-DEL-00251,2025-07-17 19:22:42,Thursday,19,Small,2.75,Shopping Center,Sunny,25.05,On-time
-SC-DEL-00252,2025-07-19 00:57:10,Saturday,0,Special,16.7,Urban,Rainy,89.35,On-time
-SC-DEL-00253,2025-06-29 10:03:04,Sunday,10,Extra Large,67.49,Urban,Stormy,164.58,On-time
-SC-DEL-00254,2025-06-25 14:57:26,Wednesday,14,Extra Large,8.81,Shopping Center,Rainy,54.13,On-time
-SC-DEL-00255,2025-06-11 12:32:49,Wednesday,12,Extra Large,16.68,Industrial,Stormy,81.42,On-time
-SC-DEL-00256,2025-06-07 08:20:33,Saturday,8,Small,20.17,Shopping Center,Snowy,86.55,On-time
-SC-DEL-00257,2025-07-07 15:45:50,Monday,15,Extra Large,59.69,Industrial,Stormy,146.31,On-time
-SC-DEL-00258,2025-08-07 12:24:34,Thursday,12,Special,41.81,Suburban,Rainy,114.31,On-time
-SC-DEL-00259,2025-06-23 20:53:59,Monday,20,Special,24.72,Shopping Center,Cloudy,54.34,On-time
-SC-DEL-00260,2025-06-20 20:17:17,Friday,20,Large,48.43,Industrial,Cloudy,120.19,On-time
-SC-DEL-00261,2025-07-08 21:25:13,Tuesday,21,Special,1.19,Suburban,Snowy,35.42,On-time
-SC-DEL-00262,2025-07-31 13:37:59,Thursday,13,Special,47.12,Shopping Center,Cloudy,105.34,On-time
-SC-DEL-00263,2025-06-02 08:56:28,Monday,8,Extra Large,43.21,Shopping Center,Sunny,109.01,On-time
-SC-DEL-00264,2025-06-07 04:30:28,Saturday,4,Extra Large,4.85,Industrial,Cloudy,46.51,On-time
-SC-DEL-00265,2025-07-03 05:01:51,Thursday,5,Large,1.94,Shopping Center,Snowy,58.06,On-time
-SC-DEL-00266,2025-07-04 20:25:22,Friday,20,Large,25.29,Shopping Center,Snowy,47.56,On-time
-SC-DEL-00267,2025-08-07 21:20:10,Thursday,21,Special,49.03,Industrial,Sunny,109.59,On-time
-SC-DEL-00268,2025-07-26 06:47:04,Saturday,6,Large,30.28,Rural,Snowy,59.13,On-time
-SC-DEL-00269,2025-07-03 18:58:22,Thursday,18,Extra Large,6.64,Industrial,Stormy,53.22,On-time
-SC-DEL-00270,2025-05-22 07:04:38,Thursday,7,Small,48.66,Suburban,Stormy,136.10,On-time
-SC-DEL-00271,2025-06-01 18:16:27,Sunday,18,Small,5.62,Urban,Cloudy,56.16,On-time
-SC-DEL-00272,2025-08-12 09:49:04,Tuesday,9,Large,57.4,Industrial,Sunny,124.42,On-time
-SC-DEL-00273,2025-07-27 21:33:37,Sunday,21,Extra Large,59.72,Rural,Snowy,148.24,On-time
-SC-DEL-00274,2025-08-02 16:35:54,Saturday,16,Small,48.0,Urban,Snowy,84.28,On-time
-SC-DEL-00275,2025-06-26 10:34:37,Thursday,10,Extra Large,57.44,Urban,Stormy,121.59,On-time
-SC-DEL-00276,2025-08-13 12:34:16,Wednesday,12,Small,2.75,Rural,Rainy,40.22,On-time
-SC-DEL-00277,2025-06-15 02:05:46,Sunday,2,Small,20.26,Suburban,Snowy,76.37,On-time
-SC-DEL-00278,2025-07-05 18:12:50,Saturday,18,Small,4.48,Industrial,Sunny,20.23,On-time
-SC-DEL-00279,2025-06-05 10:53:28,Thursday,10,Large,74.06,Industrial,Sunny,127.57,On-time
-SC-DEL-00280,2025-07-19 10:22:53,Saturday,10,Medium,57.8,Suburban,Cloudy,149.51,Delayed
-SC-DEL-00281,2025-08-04 08:55:17,Monday,8,Special,25.18,Suburban,Cloudy,61.28,On-time
-SC-DEL-00282,2025-06-25 20:40:24,Wednesday,20,Extra Large,4.16,Shopping Center,Stormy,48.08,On-time
-SC-DEL-00283,2025-06-12 03:53:56,Thursday,3,Small,31.02,Rural,Cloudy,102.20,On-time
-SC-DEL-00284,2025-07-26 21:04:03,Saturday,21,Small,71.84,Shopping Center,Stormy,139.23,On-time
-SC-DEL-00285,2025-08-16 15:46:18,Saturday,15,Small,73.65,Rural,Cloudy,154.11,Delayed
-SC-DEL-00286,2025-06-06 13:59:57,Friday,13,Extra Large,43.72,Rural,Sunny,130.29,On-time
-SC-DEL-00287,2025-07-12 03:14:58,Saturday,3,Small,33.58,Suburban,Rainy,95.35,Delayed
-SC-DEL-00288,2025-05-27 08:12:27,Tuesday,8,Medium,73.06,Urban,Rainy,157.34,On-time
-SC-DEL-00289,2025-06-23 00:06:20,Monday,0,Small,71.53,Rural,Cloudy,167.04,On-time
-SC-DEL-00290,2025-07-06 00:30:14,Sunday,0,Large,3.79,Industrial,Sunny,28.57,On-time
-SC-DEL-00291,2025-06-30 21:30:10,Monday,21,Medium,39.33,Industrial,Cloudy,95.27,On-time
-SC-DEL-00292,2025-05-30 12:31:08,Friday,12,Medium,19.99,Industrial,Sunny,74.01,Delayed
-SC-DEL-00293,2025-06-21 21:28:49,Saturday,21,Extra Large,9.99,Shopping Center,Snowy,31.19,On-time
-SC-DEL-00294,2025-06-14 19:12:45,Saturday,19,Extra Large,8.54,Urban,Rainy,65.06,On-time
-SC-DEL-00295,2025-06-21 11:58:41,Saturday,11,Medium,53.6,Rural,Rainy,122.49,On-time
-SC-DEL-00296,2025-07-27 12:44:49,Sunday,12,Medium,3.47,Shopping Center,Stormy,22.53,On-time
-SC-DEL-00297,2025-07-28 14:42:49,Monday,14,Extra Large,25.46,Urban,Cloudy,95.15,On-time
-SC-DEL-00298,2025-08-13 10:32:51,Wednesday,10,Extra Large,63.19,Rural,Sunny,149.48,On-time
-SC-DEL-00299,2025-05-21 21:46:39,Wednesday,21,Extra Large,6.55,Rural,Rainy,68.13,On-time
-SC-DEL-00300,2025-08-16 08:31:24,Saturday,8,Small,13.84,Shopping Center,Stormy,38.34,On-time
-SC-DEL-00301,2025-06-16 06:35:43,Monday,6,Extra Large,19.41,Rural,Rainy,57.11,On-time
-SC-DEL-00302,2025-07-07 02:41:13,Monday,2,Large,64.14,Suburban,Stormy,132.21,On-time
-SC-DEL-00303,2025-06-15 15:40:14,Sunday,15,Large,56.99,Rural,Stormy,140.18,On-time
-SC-DEL-00304,2025-05-31 01:26:28,Saturday,1,Extra Large,21.29,Rural,Cloudy,46.02,On-time
-SC-DEL-00305,2025-06-07 19:08:48,Saturday,19,Small,12.9,Industrial,Rainy,79.05,Delayed
-SC-DEL-00306,2025-07-20 16:46:38,Sunday,16,Extra Large,40.39,Industrial,Rainy,98.45,On-time
-SC-DEL-00307,2025-08-09 21:22:19,Saturday,21,Large,46.09,Urban,Rainy,129.28,On-time
-SC-DEL-00308,2025-08-13 05:22:18,Wednesday,5,Medium,26.63,Rural,Cloudy,59.51,On-time
-SC-DEL-00309,2025-08-16 18:48:33,Saturday,18,Medium,67.86,Rural,Cloudy,149.25,On-time
-SC-DEL-00310,2025-05-21 11:45:42,Wednesday,11,Medium,33.86,Shopping Center,Stormy,83.39,On-time
-SC-DEL-00311,2025-06-09 04:40:31,Monday,4,Special,54.03,Rural,Sunny,105.11,On-time
-SC-DEL-00312,2025-06-26 00:17:10,Thursday,0,Small,11.19,Rural,Stormy,81.21,On-time
-SC-DEL-00313,2025-05-31 10:25:12,Saturday,10,Extra Large,24.55,Industrial,Sunny,95.34,On-time
-SC-DEL-00314,2025-07-18 15:02:40,Friday,15,Extra Large,31.93,Industrial,Stormy,99.27,On-time
-SC-DEL-00315,2025-07-13 06:44:31,Sunday,6,Small,40.88,Rural,Snowy,89.47,On-time
-SC-DEL-00316,2025-05-27 03:53:15,Tuesday,3,Special,30.37,Suburban,Cloudy,92.56,On-time
-SC-DEL-00317,2025-05-29 09:17:46,Thursday,9,Special,61.93,Industrial,Cloudy,141.13,On-time
-SC-DEL-00318,2025-06-10 20:12:05,Tuesday,20,Special,55.88,Suburban,Stormy,112.46,On-time
-SC-DEL-00319,2025-06-23 10:57:38,Monday,10,Large,1.7,Suburban,Cloudy,63.19,On-time
-SC-DEL-00320,2025-06-28 21:15:58,Saturday,21,Special,57.57,Suburban,Cloudy,140.31,On-time
-SC-DEL-00321,2025-06-10 14:35:51,Tuesday,14,Medium,31.92,Industrial,Stormy,107.45,On-time
-SC-DEL-00322,2025-08-17 23:36:41,Sunday,23,Large,72.46,Urban,Cloudy,139.49,On-time
-SC-DEL-00323,2025-06-24 15:24:39,Tuesday,15,Small,46.83,Suburban,Cloudy,134.41,Delayed
-SC-DEL-00324,2025-08-02 21:14:32,Saturday,21,Medium,40.02,Suburban,Snowy,100.47,On-time
-SC-DEL-00325,2025-05-31 22:06:56,Saturday,22,Small,59.44,Urban,Snowy,126.49,On-time
-SC-DEL-00326,2025-07-08 15:48:36,Tuesday,15,Large,51.06,Industrial,Stormy,96.36,On-time
-SC-DEL-00327,2025-05-29 03:52:56,Thursday,3,Medium,25.71,Shopping Center,Rainy,102.30,On-time
-SC-DEL-00328,2025-08-09 05:49:01,Saturday,5,Extra Large,66.06,Shopping Center,Cloudy,119.28,On-time
-SC-DEL-00329,2025-07-11 19:32:06,Friday,19,Small,13.85,Suburban,Sunny,50.28,On-time
-SC-DEL-00330,2025-06-09 02:33:03,Monday,2,Medium,49.49,Suburban,Cloudy,123.38,On-time
-SC-DEL-00331,2025-07-17 06:17:05,Thursday,6,Medium,30.83,Shopping Center,Cloudy,63.10,On-time
-SC-DEL-00332,2025-08-14 05:13:21,Thursday,5,Medium,15.11,Industrial,Stormy,78.49,On-time
-SC-DEL-00333,2025-05-24 16:36:41,Saturday,16,Medium,46.72,Rural,Sunny,81.38,On-time
-SC-DEL-00334,2025-05-23 20:35:49,Friday,20,Extra Large,41.56,Urban,Rainy,105.22,On-time
-SC-DEL-00335,2025-05-26 15:29:57,Monday,15,Large,39.17,Rural,Stormy,70.46,On-time
-SC-DEL-00336,2025-08-12 10:41:04,Tuesday,10,Medium,17.17,Rural,Rainy,77.19,On-time
-SC-DEL-00337,2025-06-15 12:08:15,Sunday,12,Special,6.79,Industrial,Snowy,26.33,On-time
-SC-DEL-00338,2025-08-09 06:32:50,Saturday,6,Small,65.6,Urban,Snowy,156.43,On-time
-SC-DEL-00339,2025-08-08 21:07:38,Friday,21,Large,55.19,Urban,Cloudy,117.19,On-time
-SC-DEL-00340,2025-07-28 12:35:50,Monday,12,Extra Large,53.24,Suburban,Cloudy,103.31,On-time
-SC-DEL-00341,2025-06-12 02:52:41,Thursday,2,Small,69.52,Urban,Snowy,158.26,On-time
-SC-DEL-00342,2025-07-23 19:11:30,Wednesday,19,Large,31.69,Rural,Rainy,97.37,On-time
-SC-DEL-00343,2025-05-31 04:45:43,Saturday,4,Extra Large,57.23,Industrial,Rainy,104.43,On-time
-SC-DEL-00344,2025-07-03 18:51:33,Thursday,18,Small,9.66,Industrial,Stormy,25.53,On-time
-SC-DEL-00345,2025-08-13 19:57:04,Wednesday,19,Medium,49.93,Industrial,Sunny,110.26,On-time
-SC-DEL-00346,2025-07-04 01:41:26,Friday,1,Extra Large,51.31,Shopping Center,Stormy,119.16,On-time
-SC-DEL-00347,2025-05-24 03:28:47,Saturday,3,Large,59.68,Suburban,Rainy,119.32,On-time
-SC-DEL-00348,2025-06-23 21:52:20,Monday,21,Medium,33.24,Suburban,Snowy,81.48,On-time
-SC-DEL-00349,2025-08-13 09:27:55,Wednesday,9,Special,28.99,Industrial,Rainy,97.31,On-time
-SC-DEL-00350,2025-07-24 01:22:15,Thursday,1,Small,27.49,Shopping Center,Snowy,55.37,On-time
-SC-DEL-00351,2025-07-10 14:56:56,Thursday,14,Small,60.06,Suburban,Snowy,105.59,On-time
-SC-DEL-00352,2025-06-25 23:17:12,Wednesday,23,Extra Large,33.93,Urban,Cloudy,96.32,On-time
-SC-DEL-00353,2025-08-09 14:04:04,Saturday,14,Extra Large,8.13,Industrial,Snowy,67.47,On-time
-SC-DEL-00354,2025-05-26 15:44:35,Monday,15,Medium,23.18,Suburban,Stormy,57.16,On-time
-SC-DEL-00355,2025-07-03 01:06:25,Thursday,1,Small,74.94,Urban,Cloudy,160.15,On-time
-SC-DEL-00356,2025-05-31 04:50:16,Saturday,4,Small,69.05,Shopping Center,Rainy,124.25,On-time
-SC-DEL-00357,2025-06-21 22:46:35,Saturday,22,Small,53.34,Shopping Center,Snowy,127.59,On-time
-SC-DEL-00358,2025-06-22 21:08:08,Sunday,21,Large,47.95,Suburban,Rainy,123.00,On-time
-SC-DEL-00359,2025-07-03 02:32:18,Thursday,2,Extra Large,25.62,Shopping Center,Rainy,48.58,On-time
-SC-DEL-00360,2025-07-15 09:02:13,Tuesday,9,Small,39.42,Shopping Center,Snowy,105.57,On-time
-SC-DEL-00361,2025-06-20 14:40:09,Friday,14,Large,13.62,Suburban,Stormy,62.47,On-time
-SC-DEL-00362,2025-07-26 13:08:35,Saturday,13,Large,58.76,Suburban,Snowy,141.11,On-time
-SC-DEL-00363,2025-06-30 23:19:58,Monday,23,Medium,46.12,Industrial,Sunny,84.48,On-time
-SC-DEL-00364,2025-06-17 06:46:03,Tuesday,6,Large,72.5,Rural,Stormy,124.39,On-time
-SC-DEL-00365,2025-06-30 16:44:12,Monday,16,Extra Large,7.68,Industrial,Sunny,41.58,On-time
-SC-DEL-00366,2025-05-23 03:09:53,Friday,3,Extra Large,36.15,Urban,Snowy,64.51,On-time
-SC-DEL-00367,2025-06-28 02:49:35,Saturday,2,Special,47.56,Rural,Sunny,117.36,On-time
-SC-DEL-00368,2025-08-01 15:44:00,Friday,15,Small,23.3,Rural,Sunny,47.30,On-time
-SC-DEL-00369,2025-05-25 20:42:45,Sunday,20,Large,21.06,Shopping Center,Snowy,72.20,On-time
-SC-DEL-00370,2025-07-11 09:54:50,Friday,9,Special,73.63,Rural,Snowy,160.48,On-time
-SC-DEL-00371,2025-06-15 12:51:46,Sunday,12,Small,63.61,Rural,Snowy,111.25,On-time
-SC-DEL-00372,2025-08-02 11:32:58,Saturday,11,Extra Large,18.29,Rural,Rainy,66.40,On-time
-SC-DEL-00373,2025-07-17 17:45:56,Thursday,17,Small,45.52,Industrial,Cloudy,89.12,On-time
-SC-DEL-00374,2025-07-21 10:56:28,Monday,10,Extra Large,72.45,Industrial,Cloudy,144.26,On-time
-SC-DEL-00375,2025-06-16 19:08:21,Monday,19,Small,45.47,Suburban,Sunny,87.07,On-time
-SC-DEL-00376,2025-07-03 20:40:25,Thursday,20,Special,58.12,Suburban,Cloudy,135.41,On-time
-SC-DEL-00377,2025-06-10 22:22:03,Tuesday,22,Extra Large,30.53,Urban,Rainy,106.02,On-time
-SC-DEL-00378,2025-07-22 16:28:32,Tuesday,16,Extra Large,51.08,Shopping Center,Snowy,115.09,On-time
-SC-DEL-00379,2025-05-22 17:13:25,Thursday,17,Extra Large,61.24,Shopping Center,Sunny,110.30,On-time
-SC-DEL-00380,2025-06-13 14:25:41,Friday,14,Small,45.32,Suburban,Stormy,118.17,On-time
-SC-DEL-00381,2025-07-02 23:54:44,Wednesday,23,Special,24.69,Rural,Snowy,66.36,On-time
-SC-DEL-00382,2025-06-15 09:48:14,Sunday,9,Small,2.18,Shopping Center,Sunny,27.48,On-time
-SC-DEL-00383,2025-07-16 16:40:01,Wednesday,16,Small,3.25,Suburban,Stormy,16.53,On-time
-SC-DEL-00384,2025-07-06 23:55:23,Sunday,23,Extra Large,31.89,Shopping Center,Rainy,92.45,On-time
-SC-DEL-00385,2025-08-10 01:43:47,Sunday,1,Small,18.78,Suburban,Sunny,84.52,Delayed
-SC-DEL-00386,2025-08-18 02:43:50,Monday,2,Large,13.57,Urban,Snowy,66.13,On-time
-SC-DEL-00387,2025-08-03 17:46:16,Sunday,17,Small,55.85,Urban,Stormy,147.24,On-time
-SC-DEL-00388,2025-06-02 11:30:42,Monday,11,Special,58.79,Suburban,Snowy,123.40,On-time
-SC-DEL-00389,2025-08-07 05:31:45,Thursday,5,Small,49.61,Shopping Center,Stormy,121.22,On-time
-SC-DEL-00390,2025-05-29 15:36:48,Thursday,15,Medium,28.68,Urban,Stormy,87.46,On-time
-SC-DEL-00391,2025-07-06 11:11:19,Sunday,11,Large,50.61,Urban,Rainy,128.39,On-time
-SC-DEL-00392,2025-06-14 02:34:42,Saturday,2,Special,49.48,Urban,Stormy,117.31,On-time
-SC-DEL-00393,2025-07-11 05:06:36,Friday,5,Small,62.2,Shopping Center,Sunny,130.31,On-time
-SC-DEL-00394,2025-06-28 05:51:51,Saturday,5,Medium,43.06,Suburban,Sunny,76.48,On-time
-SC-DEL-00395,2025-07-29 14:10:42,Tuesday,14,Small,58.75,Industrial,Snowy,142.06,On-time
-SC-DEL-00396,2025-07-19 05:20:02,Saturday,5,Small,35.88,Urban,Snowy,93.15,On-time
-SC-DEL-00397,2025-07-24 12:15:03,Thursday,12,Large,41.15,Industrial,Cloudy,100.40,On-time
-SC-DEL-00398,2025-07-21 00:45:45,Monday,0,Large,9.15,Shopping Center,Sunny,30.03,On-time
-SC-DEL-00399,2025-06-18 00:42:55,Wednesday,0,Extra Large,59.79,Shopping Center,Cloudy,107.09,On-time
-SC-DEL-00400,2025-08-18 20:53:23,Monday,20,Small,48.8,Rural,Sunny,105.05,On-time
-SC-DEL-00401,2025-07-22 04:04:51,Tuesday,4,Large,48.79,Shopping Center,Sunny,111.49,On-time
-SC-DEL-00402,2025-08-01 00:08:34,Friday,0,Medium,27.0,Urban,Sunny,102.24,On-time
-SC-DEL-00403,2025-07-14 08:31:23,Monday,8,Medium,13.76,Suburban,Stormy,60.58,On-time
-SC-DEL-00404,2025-07-30 07:36:49,Wednesday,7,Extra Large,14.45,Shopping Center,Stormy,84.48,On-time
-SC-DEL-00405,2025-08-06 03:46:12,Wednesday,3,Medium,62.93,Rural,Snowy,126.16,On-time
-SC-DEL-00406,2025-07-31 18:20:46,Thursday,18,Large,10.69,Shopping Center,Sunny,45.16,On-time
-SC-DEL-00407,2025-06-04 19:45:54,Wednesday,19,Large,65.31,Industrial,Snowy,151.28,On-time
-SC-DEL-00408,2025-08-10 23:00:12,Sunday,23,Large,39.31,Rural,Cloudy,74.26,On-time
-SC-DEL-00409,2025-07-08 16:29:23,Tuesday,16,Small,27.16,Shopping Center,Cloudy,77.42,On-time
-SC-DEL-00410,2025-07-28 01:22:26,Monday,1,Small,46.24,Rural,Sunny,85.52,On-time
-SC-DEL-00411,2025-06-17 09:36:53,Tuesday,9,Large,40.04,Suburban,Sunny,97.00,On-time
-SC-DEL-00412,2025-06-17 20:42:35,Tuesday,20,Extra Large,9.94,Rural,Snowy,31.48,On-time
-SC-DEL-00413,2025-07-30 20:34:20,Wednesday,20,Medium,3.48,Rural,Snowy,34.14,On-time
-SC-DEL-00414,2025-06-28 01:13:32,Saturday,1,Extra Large,1.96,Urban,Cloudy,50.46,On-time
-SC-DEL-00415,2025-07-20 18:01:02,Sunday,18,Extra Large,17.53,Suburban,Snowy,76.12,On-time
-SC-DEL-00416,2025-08-06 02:12:15,Wednesday,2,Special,56.27,Industrial,Rainy,139.11,On-time
-SC-DEL-00417,2025-05-25 11:19:32,Sunday,11,Medium,6.57,Urban,Cloudy,23.17,On-time
-SC-DEL-00418,2025-08-05 05:42:25,Tuesday,5,Special,74.88,Shopping Center,Stormy,173.56,On-time
-SC-DEL-00419,2025-06-18 01:13:50,Wednesday,1,Small,34.51,Shopping Center,Stormy,102.10,On-time
-SC-DEL-00420,2025-07-19 22:17:01,Saturday,22,Large,18.72,Rural,Stormy,63.52,On-time
-SC-DEL-00421,2025-08-16 13:43:08,Saturday,13,Medium,15.28,Shopping Center,Rainy,59.48,On-time
-SC-DEL-00422,2025-08-12 15:15:03,Tuesday,15,Small,11.87,Rural,Snowy,53.28,On-time
-SC-DEL-00423,2025-07-22 02:38:48,Tuesday,2,Small,44.49,Shopping Center,Sunny,85.46,On-time
-SC-DEL-00424,2025-06-27 03:28:34,Friday,3,Extra Large,58.61,Shopping Center,Sunny,148.46,On-time
-SC-DEL-00425,2025-06-16 11:42:31,Monday,11,Medium,56.28,Industrial,Sunny,141.22,Delayed
-SC-DEL-00426,2025-08-02 22:45:22,Saturday,22,Extra Large,65.89,Suburban,Stormy,148.37,On-time
-SC-DEL-00427,2025-07-10 16:30:49,Thursday,16,Large,70.32,Industrial,Snowy,128.39,On-time
-SC-DEL-00428,2025-07-21 03:50:25,Monday,3,Extra Large,37.73,Suburban,Sunny,105.49,On-time
-SC-DEL-00429,2025-06-06 05:47:56,Friday,5,Extra Large,64.81,Rural,Cloudy,153.10,On-time
-SC-DEL-00430,2025-06-10 14:13:52,Tuesday,14,Large,7.11,Shopping Center,Stormy,35.28,On-time
-SC-DEL-00431,2025-06-30 17:35:36,Monday,17,Extra Large,66.17,Rural,Sunny,111.22,On-time
-SC-DEL-00432,2025-07-28 09:07:13,Monday,9,Medium,33.72,Industrial,Rainy,108.24,On-time
-SC-DEL-00433,2025-07-25 11:03:50,Friday,11,Medium,37.87,Industrial,Sunny,67.23,On-time
-SC-DEL-00434,2025-08-11 02:32:01,Monday,2,Special,73.29,Industrial,Rainy,135.52,On-time
-SC-DEL-00435,2025-08-02 14:02:49,Saturday,14,Large,64.87,Urban,Cloudy,160.24,On-time
-SC-DEL-00436,2025-07-31 10:00:33,Thursday,10,Medium,21.27,Suburban,Snowy,95.27,On-time
-SC-DEL-00437,2025-06-25 21:03:32,Wednesday,21,Special,2.65,Suburban,Rainy,45.47,On-time
-SC-DEL-00438,2025-07-26 06:25:48,Saturday,6,Special,74.99,Urban,Snowy,142.50,On-time
-SC-DEL-00439,2025-07-17 18:56:49,Thursday,18,Extra Large,53.26,Shopping Center,Snowy,120.46,On-time
-SC-DEL-00440,2025-06-20 10:48:29,Friday,10,Large,34.63,Shopping Center,Cloudy,82.52,On-time
-SC-DEL-00441,2025-06-30 02:58:16,Monday,2,Large,31.84,Urban,Cloudy,103.49,On-time
-SC-DEL-00442,2025-05-22 22:27:42,Thursday,22,Special,15.51,Suburban,Sunny,39.57,On-time
-SC-DEL-00443,2025-07-21 01:45:45,Monday,1,Special,18.31,Rural,Rainy,88.57,On-time
-SC-DEL-00444,2025-08-09 15:11:50,Saturday,15,Extra Large,42.15,Suburban,Cloudy,91.50,On-time
-SC-DEL-00445,2025-06-18 22:10:02,Wednesday,22,Small,43.86,Industrial,Snowy,80.46,On-time
-SC-DEL-00446,2025-05-31 06:18:29,Saturday,6,Extra Large,68.41,Shopping Center,Sunny,133.29,On-time
-SC-DEL-00447,2025-07-27 22:21:44,Sunday,22,Special,57.56,Shopping Center,Rainy,127.43,On-time
-SC-DEL-00448,2025-06-29 01:52:45,Sunday,1,Extra Large,51.33,Urban,Rainy,139.51,On-time
-SC-DEL-00449,2025-07-05 04:29:55,Saturday,4,Extra Large,66.36,Rural,Rainy,160.30,On-time
-SC-DEL-00450,2025-05-29 07:31:53,Thursday,7,Small,20.01,Urban,Rainy,72.51,On-time
-SC-DEL-00451,2025-06-04 15:49:45,Wednesday,15,Extra Large,51.21,Industrial,Rainy,116.29,On-time
-SC-DEL-00452,2025-06-02 01:18:30,Monday,1,Extra Large,60.65,Industrial,Snowy,126.07,On-time
-SC-DEL-00453,2025-08-18 18:12:44,Monday,18,Medium,12.93,Industrial,Cloudy,57.27,On-time
-SC-DEL-00454,2025-07-05 05:24:52,Saturday,5,Special,67.0,Shopping Center,Stormy,154.19,On-time
-SC-DEL-00455,2025-06-14 10:45:11,Saturday,10,Extra Large,23.29,Industrial,Stormy,56.05,On-time
-SC-DEL-00456,2025-05-31 08:30:27,Saturday,8,Large,12.24,Industrial,Sunny,78.54,Delayed
-SC-DEL-00457,2025-07-21 05:57:24,Monday,5,Medium,13.96,Urban,Snowy,69.00,On-time
-SC-DEL-00458,2025-06-08 01:32:23,Sunday,1,Extra Large,8.5,Industrial,Snowy,26.02,On-time
-SC-DEL-00459,2025-07-24 03:04:02,Thursday,3,Small,48.46,Urban,Sunny,124.54,On-time
-SC-DEL-00460,2025-08-07 06:44:27,Thursday,6,Large,10.18,Industrial,Cloudy,57.40,On-time
-SC-DEL-00461,2025-05-26 13:56:19,Monday,13,Large,65.74,Rural,Sunny,140.10,On-time
-SC-DEL-00462,2025-06-23 18:17:30,Monday,18,Special,22.42,Suburban,Rainy,82.16,On-time
-SC-DEL-00463,2025-06-25 00:10:16,Wednesday,0,Large,9.21,Suburban,Cloudy,32.06,On-time
-SC-DEL-00464,2025-06-03 20:20:49,Tuesday,20,Large,32.83,Rural,Rainy,103.57,On-time
-SC-DEL-00465,2025-06-27 00:11:34,Friday,0,Special,19.46,Rural,Cloudy,80.04,On-time
-SC-DEL-00466,2025-08-02 04:25:05,Saturday,4,Extra Large,68.8,Suburban,Cloudy,136.05,On-time
-SC-DEL-00467,2025-05-26 18:55:56,Monday,18,Small,59.36,Industrial,Snowy,151.19,On-time
-SC-DEL-00468,2025-06-28 09:01:40,Saturday,9,Special,24.25,Industrial,Sunny,75.05,On-time
-SC-DEL-00469,2025-08-17 09:02:45,Sunday,9,Extra Large,2.32,Rural,Rainy,28.45,On-time
-SC-DEL-00470,2025-08-06 19:12:08,Wednesday,19,Medium,36.62,Suburban,Stormy,69.42,On-time
-SC-DEL-00471,2025-07-30 09:33:53,Wednesday,9,Special,26.02,Suburban,Snowy,61.49,On-time
-SC-DEL-00472,2025-07-20 03:29:51,Sunday,3,Small,52.94,Suburban,Cloudy,127.42,Delayed
-SC-DEL-00473,2025-08-07 06:21:34,Thursday,6,Extra Large,34.46,Industrial,Cloudy,116.12,On-time
-SC-DEL-00474,2025-08-17 13:00:18,Sunday,13,Small,44.39,Urban,Snowy,109.10,On-time
-SC-DEL-00475,2025-05-24 05:11:37,Saturday,5,Extra Large,40.32,Urban,Sunny,70.42,On-time
-SC-DEL-00476,2025-06-05 14:59:02,Thursday,14,Large,60.98,Urban,Stormy,101.50,On-time
-SC-DEL-00477,2025-05-31 15:50:35,Saturday,15,Medium,42.15,Suburban,Rainy,122.55,Delayed
-SC-DEL-00478,2025-07-12 16:52:21,Saturday,16,Special,28.45,Shopping Center,Cloudy,89.58,On-time
-SC-DEL-00479,2025-06-18 13:05:00,Wednesday,13,Small,73.65,Urban,Cloudy,155.28,Delayed
-SC-DEL-00480,2025-08-10 18:20:43,Sunday,18,Medium,55.17,Suburban,Rainy,136.00,On-time
-SC-DEL-00481,2025-07-18 07:55:50,Friday,7,Small,15.52,Industrial,Cloudy,73.25,Delayed
-SC-DEL-00482,2025-05-24 05:39:02,Saturday,5,Extra Large,22.63,Industrial,Sunny,94.47,On-time
-SC-DEL-00483,2025-06-04 19:00:00,Wednesday,19,Large,18.52,Rural,Snowy,61.32,On-time
-SC-DEL-00484,2025-07-04 00:11:12,Friday,0,Small,29.61,Industrial,Snowy,81.54,On-time
-SC-DEL-00485,2025-06-30 20:29:48,Monday,20,Medium,48.3,Urban,Rainy,116.44,On-time
-SC-DEL-00486,2025-06-29 10:02:31,Sunday,10,Large,4.41,Rural,Stormy,44.47,On-time
-SC-DEL-00487,2025-07-12 02:13:37,Saturday,2,Medium,11.13,Industrial,Cloudy,40.53,On-time
-SC-DEL-00488,2025-07-27 23:10:59,Sunday,23,Medium,14.53,Rural,Sunny,37.42,On-time
-SC-DEL-00489,2025-06-30 08:59:17,Monday,8,Small,45.39,Shopping Center,Rainy,130.58,On-time
-SC-DEL-00490,2025-08-11 06:19:17,Monday,6,Extra Large,10.18,Industrial,Stormy,50.10,On-time
-SC-DEL-00491,2025-07-06 15:48:15,Sunday,15,Large,56.54,Industrial,Sunny,149.22,Delayed
-SC-DEL-00492,2025-06-20 04:51:36,Friday,4,Medium,44.9,Industrial,Stormy,126.25,On-time
-SC-DEL-00493,2025-05-29 01:15:27,Thursday,1,Large,33.38,Urban,Rainy,68.17,On-time
-SC-DEL-00494,2025-07-23 10:27:31,Wednesday,10,Small,30.62,Shopping Center,Cloudy,72.19,On-time
-SC-DEL-00495,2025-07-17 23:35:30,Thursday,23,Extra Large,47.66,Shopping Center,Stormy,91.34,On-time
-SC-DEL-00496,2025-08-04 21:45:45,Monday,21,Small,1.59,Rural,Cloudy,42.16,On-time
-SC-DEL-00497,2025-06-01 08:24:18,Sunday,8,Medium,20.55,Urban,Sunny,43.56,On-time
-SC-DEL-00498,2025-06-10 02:38:03,Tuesday,2,Medium,11.95,Rural,Snowy,40.54,On-time
-SC-DEL-00499,2025-06-30 08:25:42,Monday,8,Medium,74.24,Industrial,Rainy,171.07,On-time
-SC-DEL-00500,2025-07-13 00:54:04,Sunday,0,Small,28.63,Industrial,Rainy,82.29,Delayed
-SC-DEL-00501,2025-05-21 21:41:26,Wednesday,21,Extra Large,14.58,Urban,Rainy,75.32,On-time
-SC-DEL-00502,2025-06-13 03:56:44,Friday,3,Medium,47.92,Rural,Snowy,131.58,On-time
-SC-DEL-00503,2025-06-14 03:03:33,Saturday,3,Special,22.52,Rural,Snowy,89.46,On-time
-SC-DEL-00504,2025-06-19 20:38:29,Thursday,20,Medium,54.89,Suburban,Sunny,101.03,On-time
-SC-DEL-00505,2025-08-05 08:23:07,Tuesday,8,Medium,47.82,Industrial,Stormy,107.13,On-time
-SC-DEL-00506,2025-07-22 19:30:17,Tuesday,19,Special,5.99,Rural,Stormy,53.45,On-time
-SC-DEL-00507,2025-07-13 13:48:11,Sunday,13,Large,39.78,Rural,Cloudy,76.35,On-time
-SC-DEL-00508,2025-06-09 06:26:57,Monday,6,Medium,51.17,Shopping Center,Stormy,130.16,On-time
-SC-DEL-00509,2025-07-06 22:55:13,Sunday,22,Extra Large,17.01,Shopping Center,Snowy,50.22,On-time
-SC-DEL-00510,2025-07-12 14:57:44,Saturday,14,Extra Large,40.14,Industrial,Rainy,76.19,On-time
-SC-DEL-00511,2025-06-22 09:05:10,Sunday,9,Medium,69.81,Shopping Center,Snowy,138.39,On-time
-SC-DEL-00512,2025-06-27 00:12:22,Friday,0,Large,24.06,Suburban,Cloudy,82.57,On-time
-SC-DEL-00513,2025-06-21 08:16:44,Saturday,8,Special,65.43,Urban,Stormy,120.06,On-time
-SC-DEL-00514,2025-06-25 08:19:18,Wednesday,8,Large,53.54,Shopping Center,Snowy,98.29,On-time
-SC-DEL-00515,2025-08-13 01:51:00,Wednesday,1,Medium,43.58,Rural,Sunny,125.24,On-time
-SC-DEL-00516,2025-08-11 19:42:16,Monday,19,Medium,65.56,Urban,Stormy,149.14,On-time
-SC-DEL-00517,2025-07-06 02:52:14,Sunday,2,Special,48.48,Rural,Stormy,84.20,On-time
-SC-DEL-00518,2025-06-24 22:51:34,Tuesday,22,Extra Large,68.92,Shopping Center,Snowy,148.34,On-time
-SC-DEL-00519,2025-08-10 11:22:12,Sunday,11,Small,73.5,Suburban,Rainy,167.40,Delayed
-SC-DEL-00520,2025-07-20 23:09:33,Sunday,23,Small,19.0,Shopping Center,Sunny,66.00,On-time
-SC-DEL-00521,2025-07-29 07:09:56,Tuesday,7,Large,28.95,Industrial,Rainy,69.51,On-time
-SC-DEL-00522,2025-08-10 02:37:23,Sunday,2,Large,41.65,Urban,Cloudy,87.34,On-time
-SC-DEL-00523,2025-06-15 00:53:33,Sunday,0,Extra Large,36.32,Urban,Stormy,115.05,On-time
-SC-DEL-00524,2025-06-17 13:02:56,Tuesday,13,Extra Large,16.91,Urban,Cloudy,58.45,On-time
-SC-DEL-00525,2025-06-28 02:11:04,Saturday,2,Small,14.76,Urban,Sunny,78.36,Delayed
-SC-DEL-00526,2025-06-16 05:17:23,Monday,5,Large,19.72,Rural,Snowy,44.59,On-time
-SC-DEL-00527,2025-06-01 02:57:48,Sunday,2,Small,7.11,Industrial,Stormy,58.14,On-time
-SC-DEL-00528,2025-06-26 03:22:23,Thursday,3,Extra Large,40.84,Shopping Center,Sunny,120.48,On-time
-SC-DEL-00529,2025-08-03 04:58:54,Sunday,4,Medium,62.61,Shopping Center,Rainy,105.24,On-time
-SC-DEL-00530,2025-06-17 06:01:13,Tuesday,6,Special,65.75,Rural,Stormy,136.49,On-time
-SC-DEL-00531,2025-08-12 13:11:08,Tuesday,13,Small,59.74,Industrial,Rainy,116.08,Delayed
-SC-DEL-00532,2025-08-16 08:56:53,Saturday,8,Large,43.77,Suburban,Stormy,94.39,On-time
-SC-DEL-00533,2025-07-30 11:03:50,Wednesday,11,Extra Large,55.88,Industrial,Sunny,109.25,On-time
-SC-DEL-00534,2025-07-27 19:45:33,Sunday,19,Small,2.24,Urban,Stormy,37.09,On-time
-SC-DEL-00535,2025-06-04 09:35:38,Wednesday,9,Extra Large,56.51,Shopping Center,Rainy,95.13,On-time
-SC-DEL-00536,2025-06-04 04:49:41,Wednesday,4,Small,21.89,Shopping Center,Cloudy,76.38,On-time
-SC-DEL-00537,2025-08-03 00:37:14,Sunday,0,Medium,63.36,Suburban,Snowy,130.59,On-time
-SC-DEL-00538,2025-06-28 09:30:41,Saturday,9,Special,58.04,Urban,Sunny,133.37,On-time
-SC-DEL-00539,2025-08-11 13:45:28,Monday,13,Medium,72.73,Urban,Cloudy,133.37,On-time
-SC-DEL-00540,2025-07-17 22:26:41,Thursday,22,Small,24.39,Industrial,Snowy,47.23,On-time
-SC-DEL-00541,2025-07-25 03:31:56,Friday,3,Special,66.71,Rural,Rainy,141.05,On-time
-SC-DEL-00542,2025-07-26 17:28:33,Saturday,17,Large,34.03,Industrial,Cloudy,114.12,On-time
-SC-DEL-00543,2025-07-05 02:55:16,Saturday,2,Large,43.92,Suburban,Sunny,84.10,On-time
-SC-DEL-00544,2025-05-26 11:26:25,Monday,11,Special,13.84,Shopping Center,Stormy,66.57,On-time
-SC-DEL-00545,2025-06-07 04:27:19,Saturday,4,Special,71.25,Urban,Cloudy,131.46,On-time
-SC-DEL-00546,2025-08-04 08:16:03,Monday,8,Extra Large,65.57,Shopping Center,Cloudy,158.26,On-time
-SC-DEL-00547,2025-08-15 04:45:38,Friday,4,Extra Large,48.32,Rural,Cloudy,132.40,On-time
-SC-DEL-00548,2025-07-31 10:38:55,Thursday,10,Small,16.84,Urban,Snowy,62.58,On-time
-SC-DEL-00549,2025-06-13 11:34:51,Friday,11,Small,51.55,Shopping Center,Sunny,100.09,On-time
-SC-DEL-00550,2025-08-11 19:01:28,Monday,19,Extra Large,58.53,Industrial,Stormy,104.30,On-time
-SC-DEL-00551,2025-07-13 08:15:23,Sunday,8,Extra Large,43.53,Suburban,Snowy,113.00,On-time
-SC-DEL-00552,2025-08-09 01:07:17,Saturday,1,Medium,15.35,Suburban,Sunny,54.35,On-time
-SC-DEL-00553,2025-06-17 19:53:39,Tuesday,19,Large,26.83,Shopping Center,Cloudy,62.52,On-time
-SC-DEL-00554,2025-06-14 08:54:13,Saturday,8,Large,65.57,Rural,Stormy,120.49,On-time
-SC-DEL-00555,2025-06-07 12:08:56,Saturday,12,Small,62.56,Rural,Rainy,124.30,On-time
-SC-DEL-00556,2025-05-30 23:36:47,Friday,23,Large,1.39,Urban,Rainy,18.30,On-time
-SC-DEL-00557,2025-05-24 01:50:38,Saturday,1,Special,54.44,Urban,Cloudy,110.15,On-time
-SC-DEL-00558,2025-06-04 16:34:50,Wednesday,16,Large,3.49,Suburban,Sunny,44.16,On-time
-SC-DEL-00559,2025-07-01 22:54:53,Tuesday,22,Large,5.31,Industrial,Rainy,41.52,On-time
-SC-DEL-00560,2025-06-30 18:00:24,Monday,18,Extra Large,34.13,Rural,Cloudy,63.27,On-time
-SC-DEL-00561,2025-07-08 17:46:42,Tuesday,17,Medium,52.35,Shopping Center,Cloudy,111.42,On-time
-SC-DEL-00562,2025-07-05 21:21:02,Saturday,21,Medium,44.72,Rural,Snowy,110.15,On-time
-SC-DEL-00563,2025-07-07 01:12:43,Monday,1,Special,22.93,Shopping Center,Rainy,74.21,On-time
-SC-DEL-00564,2025-06-12 06:53:20,Thursday,6,Extra Large,3.73,Shopping Center,Rainy,63.04,On-time
-SC-DEL-00565,2025-06-17 18:55:17,Tuesday,18,Special,64.31,Suburban,Sunny,150.03,On-time
-SC-DEL-00566,2025-06-09 22:12:50,Monday,22,Large,9.29,Industrial,Cloudy,43.27,On-time
-SC-DEL-00567,2025-07-27 00:53:04,Sunday,0,Medium,55.08,Rural,Cloudy,141.23,On-time
-SC-DEL-00568,2025-07-22 00:47:37,Tuesday,0,Special,37.41,Rural,Stormy,115.47,On-time
-SC-DEL-00569,2025-05-21 17:40:57,Wednesday,17,Medium,66.36,Shopping Center,Rainy,121.29,On-time
-SC-DEL-00570,2025-07-15 02:27:19,Tuesday,2,Large,4.62,Industrial,Stormy,69.49,On-time
-SC-DEL-00571,2025-08-05 13:25:16,Tuesday,13,Special,18.31,Urban,Sunny,83.32,On-time
-SC-DEL-00572,2025-07-16 10:48:25,Wednesday,10,Medium,5.88,Industrial,Sunny,51.24,Delayed
-SC-DEL-00573,2025-06-09 15:12:10,Monday,15,Extra Large,30.85,Rural,Rainy,65.44,On-time
-SC-DEL-00574,2025-06-01 02:02:14,Sunday,2,Extra Large,51.97,Industrial,Stormy,99.00,On-time
-SC-DEL-00575,2025-06-15 08:33:16,Sunday,8,Extra Large,16.19,Shopping Center,Sunny,42.35,On-time
-SC-DEL-00576,2025-06-19 21:17:52,Thursday,21,Small,70.41,Suburban,Sunny,149.18,Delayed
-SC-DEL-00577,2025-08-11 04:23:30,Monday,4,Small,58.48,Suburban,Stormy,117.17,On-time
-SC-DEL-00578,2025-07-26 04:04:00,Saturday,4,Small,22.49,Suburban,Rainy,98.27,Delayed
-SC-DEL-00579,2025-08-12 03:18:59,Tuesday,3,Small,27.54,Shopping Center,Rainy,103.55,On-time
-SC-DEL-00580,2025-07-07 03:10:34,Monday,3,Large,5.68,Urban,Rainy,51.42,On-time
-SC-DEL-00581,2025-07-15 03:12:42,Tuesday,3,Special,41.13,Industrial,Stormy,93.54,On-time
-SC-DEL-00582,2025-07-12 08:47:40,Saturday,8,Special,8.19,Suburban,Snowy,56.58,On-time
-SC-DEL-00583,2025-07-31 19:52:25,Thursday,19,Large,73.29,Suburban,Snowy,169.17,On-time
-SC-DEL-00584,2025-08-18 05:35:25,Monday,5,Extra Large,27.44,Industrial,Snowy,102.43,On-time
-SC-DEL-00585,2025-06-24 22:37:22,Tuesday,22,Large,22.53,Suburban,Snowy,76.48,On-time
-SC-DEL-00586,2025-07-23 16:37:09,Wednesday,16,Small,43.92,Rural,Cloudy,103.15,On-time
-SC-DEL-00587,2025-06-05 01:04:41,Thursday,1,Special,20.88,Rural,Cloudy,50.54,On-time
-SC-DEL-00588,2025-06-26 08:43:27,Thursday,8,Special,59.67,Shopping Center,Sunny,129.10,On-time
-SC-DEL-00589,2025-07-09 12:42:29,Wednesday,12,Small,32.38,Suburban,Snowy,69.44,On-time
-SC-DEL-00590,2025-06-14 05:57:37,Saturday,5,Medium,34.38,Shopping Center,Cloudy,84.22,On-time
-SC-DEL-00591,2025-08-18 08:35:33,Monday,8,Extra Large,25.63,Industrial,Sunny,79.56,On-time
-SC-DEL-00592,2025-05-26 21:47:51,Monday,21,Large,33.34,Shopping Center,Stormy,61.58,On-time
-SC-DEL-00593,2025-06-29 18:27:32,Sunday,18,Small,66.84,Shopping Center,Cloudy,125.07,On-time
-SC-DEL-00594,2025-07-12 21:27:56,Saturday,21,Extra Large,38.36,Rural,Cloudy,95.10,On-time
-SC-DEL-00595,2025-07-08 08:11:18,Tuesday,8,Small,22.27,Suburban,Cloudy,72.00,On-time
-SC-DEL-00596,2025-07-18 15:29:25,Friday,15,Medium,63.76,Urban,Stormy,135.07,On-time
-SC-DEL-00597,2025-07-18 07:43:27,Friday,7,Small,32.3,Rural,Cloudy,60.23,On-time
-SC-DEL-00598,2025-06-22 20:00:24,Sunday,20,Special,71.71,Rural,Stormy,165.40,On-time
-SC-DEL-00599,2025-07-25 09:11:46,Friday,9,Small,17.0,Shopping Center,Stormy,49.48,On-time
-SC-DEL-00600,2025-06-23 09:22:09,Monday,9,Extra Large,17.23,Industrial,Stormy,72.21,On-time
-SC-DEL-00601,2025-06-04 07:42:12,Wednesday,7,Large,32.01,Suburban,Cloudy,106.32,On-time
-SC-DEL-00602,2025-06-19 07:25:55,Thursday,7,Small,13.66,Industrial,Stormy,67.04,On-time
-SC-DEL-00603,2025-06-16 23:42:22,Monday,23,Small,53.49,Suburban,Sunny,102.40,On-time
-SC-DEL-00604,2025-07-29 11:32:54,Tuesday,11,Special,31.95,Urban,Rainy,73.02,On-time
-SC-DEL-00605,2025-06-24 10:40:24,Tuesday,10,Large,41.37,Shopping Center,Rainy,108.19,On-time
-SC-DEL-00606,2025-06-18 11:27:26,Wednesday,11,Large,65.4,Urban,Snowy,142.28,On-time
-SC-DEL-00607,2025-06-02 11:46:04,Monday,11,Large,67.34,Urban,Snowy,145.31,On-time
-SC-DEL-00608,2025-06-07 03:31:27,Saturday,3,Special,68.1,Rural,Sunny,140.39,On-time
-SC-DEL-00609,2025-07-05 15:40:37,Saturday,15,Large,10.24,Rural,Cloudy,62.00,On-time
-SC-DEL-00610,2025-06-13 02:07:16,Friday,2,Medium,52.1,Suburban,Cloudy,135.10,On-time
-SC-DEL-00611,2025-06-19 11:36:01,Thursday,11,Special,58.73,Suburban,Cloudy,151.47,On-time
-SC-DEL-00612,2025-06-07 07:28:32,Saturday,7,Extra Large,24.16,Suburban,Sunny,84.07,On-time
-SC-DEL-00613,2025-06-22 20:53:09,Sunday,20,Medium,30.0,Rural,Stormy,96.09,On-time
-SC-DEL-00614,2025-06-06 07:46:32,Friday,7,Medium,13.31,Suburban,Cloudy,61.39,On-time
-SC-DEL-00615,2025-07-11 21:44:52,Friday,21,Small,25.1,Industrial,Stormy,58.47,On-time
-SC-DEL-00616,2025-05-27 08:19:38,Tuesday,8,Medium,47.24,Suburban,Rainy,110.55,On-time
-SC-DEL-00617,2025-07-30 03:04:31,Wednesday,3,Small,63.07,Shopping Center,Sunny,122.27,On-time
-SC-DEL-00618,2025-07-08 12:58:36,Tuesday,12,Special,41.36,Shopping Center,Rainy,116.04,On-time
-SC-DEL-00619,2025-07-19 16:37:36,Saturday,16,Extra Large,26.7,Industrial,Stormy,57.32,On-time
-SC-DEL-00620,2025-06-23 15:14:42,Monday,15,Special,60.62,Urban,Stormy,104.30,On-time
-SC-DEL-00621,2025-08-12 22:16:53,Tuesday,22,Extra Large,17.08,Suburban,Cloudy,66.03,On-time
-SC-DEL-00622,2025-06-15 10:56:33,Sunday,10,Large,4.6,Suburban,Rainy,54.22,On-time
-SC-DEL-00623,2025-07-20 13:11:30,Sunday,13,Small,35.51,Industrial,Snowy,76.43,On-time
-SC-DEL-00624,2025-08-16 21:49:33,Saturday,21,Medium,61.21,Urban,Stormy,104.03,On-time
-SC-DEL-00625,2025-07-07 20:36:00,Monday,20,Medium,21.92,Rural,Cloudy,76.42,On-time
-SC-DEL-00626,2025-07-25 12:32:12,Friday,12,Special,34.57,Rural,Rainy,68.56,On-time
-SC-DEL-00627,2025-07-27 03:47:31,Sunday,3,Extra Large,37.23,Rural,Rainy,95.57,On-time
-SC-DEL-00628,2025-08-05 01:55:24,Tuesday,1,Medium,20.25,Shopping Center,Sunny,50.57,On-time
-SC-DEL-00629,2025-07-03 01:46:44,Thursday,1,Small,8.09,Shopping Center,Cloudy,38.56,On-time
-SC-DEL-00630,2025-07-15 17:50:40,Tuesday,17,Special,34.95,Industrial,Rainy,66.32,On-time
-SC-DEL-00631,2025-06-15 23:21:36,Sunday,23,Medium,47.21,Shopping Center,Rainy,110.29,On-time
-SC-DEL-00632,2025-06-18 13:58:16,Wednesday,13,Large,58.47,Suburban,Cloudy,131.28,On-time
-SC-DEL-00633,2025-05-29 06:35:27,Thursday,6,Large,43.21,Suburban,Stormy,112.06,On-time
-SC-DEL-00634,2025-07-22 15:47:46,Tuesday,15,Extra Large,49.47,Rural,Rainy,94.19,On-time
-SC-DEL-00635,2025-06-22 04:51:35,Sunday,4,Extra Large,56.49,Shopping Center,Cloudy,99.51,On-time
-SC-DEL-00636,2025-07-18 12:09:37,Friday,12,Extra Large,58.24,Urban,Stormy,127.51,On-time
-SC-DEL-00637,2025-06-24 10:50:04,Tuesday,10,Extra Large,66.2,Suburban,Rainy,129.29,On-time
-SC-DEL-00638,2025-07-20 10:56:34,Sunday,10,Large,34.84,Industrial,Rainy,99.37,On-time
-SC-DEL-00639,2025-06-18 10:35:29,Wednesday,10,Special,31.76,Urban,Stormy,59.48,On-time
-SC-DEL-00640,2025-08-18 18:07:10,Monday,18,Extra Large,73.49,Rural,Cloudy,155.57,On-time
-SC-DEL-00641,2025-07-06 05:36:20,Sunday,5,Small,55.39,Suburban,Snowy,124.07,On-time
-SC-DEL-00642,2025-06-11 12:34:25,Wednesday,12,Large,42.41,Suburban,Stormy,113.13,On-time
-SC-DEL-00643,2025-08-03 08:37:54,Sunday,8,Large,39.14,Shopping Center,Stormy,86.15,On-time
-SC-DEL-00644,2025-06-16 10:01:01,Monday,10,Small,57.22,Rural,Sunny,143.37,Delayed
-SC-DEL-00645,2025-07-30 18:41:58,Wednesday,18,Special,23.94,Rural,Sunny,82.40,On-time
-SC-DEL-00646,2025-07-26 21:40:12,Saturday,21,Large,51.78,Rural,Stormy,124.49,On-time
-SC-DEL-00647,2025-06-02 23:36:52,Monday,23,Large,56.81,Suburban,Sunny,149.02,On-time
-SC-DEL-00648,2025-06-19 13:37:46,Thursday,13,Special,31.64,Rural,Stormy,101.06,On-time
-SC-DEL-00649,2025-06-26 07:19:52,Thursday,7,Small,46.16,Shopping Center,Rainy,134.03,On-time
-SC-DEL-00650,2025-06-10 05:43:14,Tuesday,5,Small,23.29,Suburban,Rainy,71.09,On-time
-SC-DEL-00651,2025-06-20 15:13:42,Friday,15,Small,11.53,Urban,Cloudy,73.19,Delayed
-SC-DEL-00652,2025-07-23 04:17:31,Wednesday,4,Medium,59.45,Rural,Snowy,129.39,On-time
-SC-DEL-00653,2025-05-31 07:38:36,Saturday,7,Medium,73.4,Industrial,Stormy,142.56,On-time
-SC-DEL-00654,2025-07-27 07:17:21,Sunday,7,Extra Large,14.54,Suburban,Snowy,66.01,On-time
-SC-DEL-00655,2025-07-09 09:38:48,Wednesday,9,Extra Large,17.05,Suburban,Snowy,44.30,On-time
-SC-DEL-00656,2025-07-26 14:10:16,Saturday,14,Special,12.23,Suburban,Stormy,39.57,On-time
-SC-DEL-00657,2025-05-26 05:52:28,Monday,5,Medium,19.85,Rural,Stormy,53.13,On-time
-SC-DEL-00658,2025-08-07 09:26:29,Thursday,9,Small,73.52,Industrial,Snowy,174.34,On-time
-SC-DEL-00659,2025-06-10 08:23:36,Tuesday,8,Medium,7.61,Shopping Center,Snowy,48.42,On-time
-SC-DEL-00660,2025-07-31 15:57:35,Thursday,15,Large,72.43,Industrial,Cloudy,134.40,On-time
-SC-DEL-00661,2025-06-03 12:11:39,Tuesday,12,Small,25.66,Industrial,Cloudy,86.11,Delayed
-SC-DEL-00662,2025-06-11 20:54:18,Wednesday,20,Extra Large,60.62,Shopping Center,Cloudy,115.34,On-time
-SC-DEL-00663,2025-07-22 00:30:09,Tuesday,0,Small,68.31,Rural,Stormy,126.31,On-time
-SC-DEL-00664,2025-07-30 14:05:28,Wednesday,14,Medium,70.04,Suburban,Stormy,134.27,On-time
-SC-DEL-00665,2025-07-22 14:07:28,Tuesday,14,Special,40.72,Rural,Rainy,82.46,On-time
-SC-DEL-00666,2025-07-23 07:53:58,Wednesday,7,Medium,39.55,Rural,Sunny,81.59,On-time
-SC-DEL-00667,2025-08-06 16:17:10,Wednesday,16,Extra Large,16.94,Suburban,Sunny,68.20,On-time
-SC-DEL-00668,2025-07-27 08:15:43,Sunday,8,Medium,63.77,Industrial,Snowy,125.04,On-time
-SC-DEL-00669,2025-06-12 17:40:15,Thursday,17,Special,8.1,Rural,Sunny,32.34,On-time
-SC-DEL-00670,2025-05-21 14:55:58,Wednesday,14,Large,61.79,Shopping Center,Cloudy,126.13,On-time
-SC-DEL-00671,2025-05-26 21:44:32,Monday,21,Extra Large,38.17,Suburban,Stormy,89.58,On-time
-SC-DEL-00672,2025-05-28 04:07:51,Wednesday,4,Special,66.21,Rural,Snowy,137.30,On-time
-SC-DEL-00673,2025-07-25 16:56:54,Friday,16,Large,57.33,Shopping Center,Cloudy,135.31,On-time
-SC-DEL-00674,2025-07-09 07:42:19,Wednesday,7,Large,51.96,Shopping Center,Snowy,111.37,On-time
-SC-DEL-00675,2025-07-16 01:46:57,Wednesday,1,Special,32.21,Rural,Snowy,99.21,On-time
-SC-DEL-00676,2025-07-30 20:09:59,Wednesday,20,Extra Large,43.35,Suburban,Snowy,109.59,On-time
-SC-DEL-00677,2025-06-23 17:55:37,Monday,17,Small,43.33,Shopping Center,Snowy,100.04,On-time
-SC-DEL-00678,2025-06-23 13:53:56,Monday,13,Large,58.5,Suburban,Sunny,125.22,On-time
-SC-DEL-00679,2025-06-15 00:38:00,Sunday,0,Medium,47.07,Industrial,Stormy,101.57,On-time
-SC-DEL-00680,2025-08-02 10:38:36,Saturday,10,Small,25.81,Urban,Sunny,101.08,Delayed
-SC-DEL-00681,2025-08-14 08:49:21,Thursday,8,Special,48.61,Industrial,Snowy,91.28,On-time
-SC-DEL-00682,2025-06-30 08:39:11,Monday,8,Small,27.66,Urban,Rainy,62.15,On-time
-SC-DEL-00683,2025-07-23 13:11:51,Wednesday,13,Medium,67.48,Urban,Rainy,152.28,On-time
-SC-DEL-00684,2025-06-28 05:46:42,Saturday,5,Small,19.0,Suburban,Sunny,61.02,Delayed
-SC-DEL-00685,2025-07-29 02:45:17,Tuesday,2,Small,13.14,Urban,Snowy,31.19,On-time
-SC-DEL-00686,2025-07-09 05:02:23,Wednesday,5,Special,2.83,Shopping Center,Rainy,37.51,On-time
-SC-DEL-00687,2025-08-13 19:35:40,Wednesday,19,Small,29.97,Suburban,Sunny,58.04,On-time
-SC-DEL-00688,2025-05-24 16:24:52,Saturday,16,Large,65.42,Industrial,Sunny,126.13,Delayed
-SC-DEL-00689,2025-08-07 16:54:27,Thursday,16,Special,70.26,Industrial,Stormy,146.26,On-time
-SC-DEL-00690,2025-06-30 15:35:57,Monday,15,Special,52.16,Urban,Cloudy,105.16,On-time
-SC-DEL-00691,2025-06-07 23:37:09,Saturday,23,Small,64.57,Shopping Center,Sunny,110.16,On-time
-SC-DEL-00692,2025-07-21 12:22:17,Monday,12,Special,21.26,Shopping Center,Stormy,43.02,On-time
-SC-DEL-00693,2025-08-12 01:58:38,Tuesday,1,Small,65.11,Suburban,Rainy,107.49,On-time
-SC-DEL-00694,2025-07-05 14:09:29,Saturday,14,Medium,13.85,Suburban,Cloudy,53.26,On-time
-SC-DEL-00695,2025-06-23 15:35:29,Monday,15,Large,4.45,Industrial,Stormy,53.57,On-time
-SC-DEL-00696,2025-07-03 11:24:24,Thursday,11,Small,47.77,Shopping Center,Stormy,101.24,On-time
-SC-DEL-00697,2025-06-24 21:24:18,Tuesday,21,Extra Large,42.44,Industrial,Cloudy,109.04,On-time
-SC-DEL-00698,2025-08-14 16:41:16,Thursday,16,Medium,51.87,Urban,Stormy,92.10,On-time
-SC-DEL-00699,2025-06-04 04:31:49,Wednesday,4,Extra Large,51.96,Suburban,Cloudy,133.59,On-time
-SC-DEL-00700,2025-07-09 23:44:49,Wednesday,23,Special,33.81,Shopping Center,Sunny,62.31,On-time
-SC-DEL-00701,2025-08-02 10:14:34,Saturday,10,Large,24.84,Industrial,Sunny,100.54,Delayed
-SC-DEL-00702,2025-06-15 12:42:35,Sunday,12,Medium,59.76,Rural,Snowy,128.07,On-time
-SC-DEL-00703,2025-05-25 05:59:23,Sunday,5,Special,17.76,Shopping Center,Stormy,84.11,On-time
-SC-DEL-00704,2025-08-05 04:15:33,Tuesday,4,Small,39.67,Shopping Center,Stormy,86.53,On-time
-SC-DEL-00705,2025-07-05 19:47:46,Saturday,19,Special,7.23,Suburban,Rainy,68.08,On-time
-SC-DEL-00706,2025-05-30 14:56:54,Friday,14,Medium,68.49,Rural,Snowy,113.32,On-time
-SC-DEL-00707,2025-06-16 02:53:44,Monday,2,Medium,24.33,Urban,Rainy,73.59,On-time
-SC-DEL-00708,2025-08-13 14:27:46,Wednesday,14,Medium,32.05,Urban,Cloudy,69.37,On-time
-SC-DEL-00709,2025-06-11 13:06:04,Wednesday,13,Small,56.15,Suburban,Cloudy,95.10,On-time
-SC-DEL-00710,2025-08-09 09:46:39,Saturday,9,Medium,11.79,Rural,Sunny,76.01,On-time
-SC-DEL-00711,2025-07-31 11:25:04,Thursday,11,Small,37.34,Industrial,Snowy,112.10,On-time
-SC-DEL-00712,2025-06-16 10:54:05,Monday,10,Special,5.43,Industrial,Sunny,58.02,On-time
-SC-DEL-00713,2025-05-24 19:26:50,Saturday,19,Large,49.47,Shopping Center,Stormy,120.34,On-time
-SC-DEL-00714,2025-08-09 03:47:52,Saturday,3,Special,66.91,Shopping Center,Snowy,132.41,On-time
-SC-DEL-00715,2025-07-05 07:33:10,Saturday,7,Extra Large,38.09,Industrial,Cloudy,102.31,On-time
-SC-DEL-00716,2025-08-04 14:10:13,Monday,14,Small,65.52,Suburban,Stormy,149.37,On-time
-SC-DEL-00717,2025-06-10 23:24:35,Tuesday,23,Small,59.9,Urban,Sunny,138.16,On-time
-SC-DEL-00718,2025-06-14 02:08:53,Saturday,2,Small,64.18,Urban,Stormy,128.19,On-time
-SC-DEL-00719,2025-06-25 13:13:28,Wednesday,13,Large,6.9,Industrial,Rainy,33.34,On-time
-SC-DEL-00720,2025-06-18 18:00:30,Wednesday,18,Medium,7.26,Industrial,Sunny,64.20,On-time
-SC-DEL-00721,2025-07-22 09:58:48,Tuesday,9,Small,70.35,Urban,Snowy,137.58,On-time
-SC-DEL-00722,2025-08-18 08:31:22,Monday,8,Special,47.82,Industrial,Sunny,135.19,On-time
-SC-DEL-00723,2025-07-06 07:28:31,Sunday,7,Extra Large,17.88,Rural,Rainy,78.00,On-time
-SC-DEL-00724,2025-06-08 23:15:43,Sunday,23,Special,60.6,Suburban,Stormy,104.01,On-time
-SC-DEL-00725,2025-05-29 21:05:32,Thursday,21,Small,6.28,Rural,Sunny,63.38,On-time
-SC-DEL-00726,2025-08-14 11:45:27,Thursday,11,Medium,29.16,Urban,Sunny,66.33,On-time
-SC-DEL-00727,2025-05-28 00:14:16,Wednesday,0,Extra Large,8.43,Suburban,Sunny,50.05,On-time
-SC-DEL-00728,2025-06-26 09:41:01,Thursday,9,Special,21.39,Urban,Sunny,70.06,On-time
-SC-DEL-00729,2025-07-16 21:50:30,Wednesday,21,Special,37.85,Shopping Center,Cloudy,111.49,On-time
-SC-DEL-00730,2025-08-15 11:15:59,Friday,11,Small,12.15,Rural,Cloudy,58.14,On-time
-SC-DEL-00731,2025-08-16 03:09:16,Saturday,3,Special,58.67,Rural,Cloudy,147.10,On-time
-SC-DEL-00732,2025-06-29 10:28:15,Sunday,10,Medium,49.26,Shopping Center,Stormy,89.40,On-time
-SC-DEL-00733,2025-07-13 09:12:00,Sunday,9,Special,20.6,Urban,Sunny,51.57,On-time
-SC-DEL-00734,2025-05-22 17:16:06,Thursday,17,Small,30.88,Urban,Sunny,85.07,On-time
-SC-DEL-00735,2025-06-25 13:32:43,Wednesday,13,Small,32.56,Industrial,Rainy,62.38,On-time
-SC-DEL-00736,2025-07-02 00:56:48,Wednesday,0,Medium,20.7,Shopping Center,Stormy,92.13,On-time
-SC-DEL-00737,2025-07-09 20:03:37,Wednesday,20,Special,73.87,Shopping Center,Snowy,125.28,On-time
-SC-DEL-00738,2025-07-23 03:43:05,Wednesday,3,Small,62.11,Shopping Center,Stormy,107.20,On-time
-SC-DEL-00739,2025-07-23 15:06:16,Wednesday,15,Extra Large,17.61,Industrial,Snowy,51.07,On-time
-SC-DEL-00740,2025-07-21 17:43:51,Monday,17,Extra Large,63.62,Shopping Center,Sunny,140.25,On-time
-SC-DEL-00741,2025-05-24 23:22:07,Saturday,23,Small,58.03,Shopping Center,Rainy,132.16,On-time
-SC-DEL-00742,2025-06-23 10:36:21,Monday,10,Large,28.68,Shopping Center,Cloudy,105.44,On-time
-SC-DEL-00743,2025-07-12 19:21:16,Saturday,19,Extra Large,61.45,Urban,Snowy,151.55,On-time
-SC-DEL-00744,2025-07-24 22:07:42,Thursday,22,Special,15.15,Industrial,Sunny,65.36,On-time
-SC-DEL-00745,2025-08-05 12:15:18,Tuesday,12,Large,33.58,Suburban,Stormy,112.03,On-time
-SC-DEL-00746,2025-06-03 00:11:18,Tuesday,0,Special,45.39,Urban,Snowy,110.47,On-time
-SC-DEL-00747,2025-06-08 05:20:02,Sunday,5,Extra Large,61.29,Shopping Center,Sunny,113.54,On-time
-SC-DEL-00748,2025-07-05 09:20:16,Saturday,9,Medium,35.38,Rural,Rainy,108.45,On-time
-SC-DEL-00749,2025-07-17 02:06:29,Thursday,2,Special,72.11,Suburban,Stormy,169.20,On-time
-SC-DEL-00750,2025-05-23 08:47:11,Friday,8,Medium,56.77,Rural,Rainy,123.52,On-time
-SC-DEL-00751,2025-08-04 07:48:26,Monday,7,Small,51.81,Industrial,Snowy,115.21,On-time
-SC-DEL-00752,2025-05-31 06:17:46,Saturday,6,Extra Large,12.41,Industrial,Sunny,76.29,On-time
-SC-DEL-00753,2025-07-29 17:57:26,Tuesday,17,Special,29.98,Industrial,Snowy,69.58,On-time
-SC-DEL-00754,2025-07-21 09:15:34,Monday,9,Extra Large,12.45,Suburban,Sunny,77.16,On-time
-SC-DEL-00755,2025-08-16 08:25:26,Saturday,8,Special,62.44,Shopping Center,Stormy,117.52,On-time
-SC-DEL-00756,2025-07-30 11:32:11,Wednesday,11,Large,14.04,Urban,Sunny,85.39,On-time
-SC-DEL-00757,2025-07-20 18:43:41,Sunday,18,Small,39.4,Industrial,Snowy,114.10,On-time
-SC-DEL-00758,2025-05-22 04:31:18,Thursday,4,Small,17.2,Rural,Sunny,90.42,Delayed
-SC-DEL-00759,2025-08-07 09:09:42,Thursday,9,Extra Large,54.1,Urban,Snowy,108.47,On-time
-SC-DEL-00760,2025-06-29 18:54:40,Sunday,18,Special,63.59,Urban,Cloudy,136.00,On-time
-SC-DEL-00761,2025-06-17 11:23:03,Tuesday,11,Small,10.77,Suburban,Sunny,30.41,On-time
-SC-DEL-00762,2025-07-06 04:37:07,Sunday,4,Medium,16.87,Industrial,Rainy,83.43,Delayed
-SC-DEL-00763,2025-07-06 20:26:06,Sunday,20,Medium,31.29,Rural,Sunny,60.34,On-time
-SC-DEL-00764,2025-06-08 02:46:06,Sunday,2,Special,34.26,Industrial,Sunny,81.16,On-time
-SC-DEL-00765,2025-07-25 07:56:24,Friday,7,Extra Large,56.92,Urban,Sunny,134.30,On-time
-SC-DEL-00766,2025-07-26 08:09:29,Saturday,8,Medium,72.19,Suburban,Rainy,118.42,On-time
-SC-DEL-00767,2025-05-24 13:39:20,Saturday,13,Small,57.69,Industrial,Stormy,123.16,Delayed
-SC-DEL-00768,2025-07-22 19:18:44,Tuesday,19,Small,58.43,Rural,Stormy,98.18,On-time
-SC-DEL-00769,2025-08-18 08:59:33,Monday,8,Extra Large,61.54,Shopping Center,Sunny,118.41,On-time
-SC-DEL-00770,2025-08-05 13:58:06,Tuesday,13,Medium,30.81,Suburban,Sunny,88.46,Delayed
-SC-DEL-00771,2025-08-18 00:15:04,Monday,0,Large,47.55,Industrial,Cloudy,123.15,On-time
-SC-DEL-00772,2025-06-19 06:23:38,Thursday,6,Small,45.24,Shopping Center,Snowy,124.35,On-time
-SC-DEL-00773,2025-07-05 23:23:53,Saturday,23,Large,65.33,Shopping Center,Sunny,152.30,On-time
-SC-DEL-00774,2025-05-25 23:14:04,Sunday,23,Large,25.75,Rural,Stormy,61.18,On-time
-SC-DEL-00775,2025-06-13 00:31:32,Friday,0,Medium,4.28,Shopping Center,Cloudy,56.42,On-time
-SC-DEL-00776,2025-06-03 19:59:37,Tuesday,19,Extra Large,24.13,Shopping Center,Rainy,92.25,On-time
-SC-DEL-00777,2025-07-08 09:56:32,Tuesday,9,Special,37.92,Urban,Sunny,104.55,On-time
-SC-DEL-00778,2025-05-21 10:21:18,Wednesday,10,Extra Large,17.96,Shopping Center,Cloudy,90.28,On-time
-SC-DEL-00779,2025-07-17 23:19:36,Thursday,23,Medium,29.02,Shopping Center,Stormy,83.15,On-time
-SC-DEL-00780,2025-08-17 06:13:35,Sunday,6,Extra Large,62.56,Industrial,Sunny,141.58,On-time
-SC-DEL-00781,2025-05-29 19:09:04,Thursday,19,Large,37.86,Industrial,Sunny,91.27,On-time
-SC-DEL-00782,2025-06-04 23:59:53,Wednesday,23,Small,52.66,Shopping Center,Snowy,111.32,On-time
-SC-DEL-00783,2025-08-05 12:25:31,Tuesday,12,Extra Large,50.45,Rural,Stormy,88.50,On-time
-SC-DEL-00784,2025-06-13 15:21:46,Friday,15,Small,12.78,Shopping Center,Snowy,42.51,On-time
-SC-DEL-00785,2025-07-22 00:54:13,Tuesday,0,Small,34.71,Industrial,Stormy,72.47,On-time
-SC-DEL-00786,2025-08-11 13:45:34,Monday,13,Large,21.25,Urban,Cloudy,93.19,On-time
-SC-DEL-00787,2025-05-27 11:00:00,Tuesday,11,Small,31.95,Industrial,Snowy,76.26,On-time
-SC-DEL-00788,2025-05-26 09:32:34,Monday,9,Special,20.63,Rural,Sunny,81.37,On-time
-SC-DEL-00789,2025-08-12 05:43:56,Tuesday,5,Large,63.76,Rural,Sunny,120.02,On-time
-SC-DEL-00790,2025-05-31 09:06:14,Saturday,9,Medium,15.39,Shopping Center,Sunny,37.01,On-time
-SC-DEL-00791,2025-06-09 01:13:15,Monday,1,Medium,5.45,Industrial,Snowy,63.42,On-time
-SC-DEL-00792,2025-08-16 05:07:08,Saturday,5,Special,61.61,Industrial,Stormy,118.12,On-time
-SC-DEL-00793,2025-07-26 12:37:49,Saturday,12,Special,21.77,Urban,Rainy,67.09,On-time
-SC-DEL-00794,2025-05-28 17:04:57,Wednesday,17,Medium,64.18,Rural,Cloudy,141.25,On-time
-SC-DEL-00795,2025-06-05 01:37:13,Thursday,1,Small,31.23,Rural,Cloudy,108.54,On-time
-SC-DEL-00796,2025-08-07 21:28:53,Thursday,21,Small,19.61,Urban,Sunny,62.16,On-time
-SC-DEL-00797,2025-08-16 23:08:38,Saturday,23,Medium,11.43,Rural,Rainy,48.58,On-time
-SC-DEL-00798,2025-07-24 22:35:57,Thursday,22,Extra Large,18.13,Shopping Center,Sunny,49.39,On-time
-SC-DEL-00799,2025-06-19 21:07:38,Thursday,21,Extra Large,72.25,Rural,Sunny,153.31,On-time
-SC-DEL-00800,2025-05-26 17:25:19,Monday,17,Large,21.71,Industrial,Rainy,89.27,On-time
-SC-DEL-00801,2025-07-17 23:06:16,Thursday,23,Special,32.01,Shopping Center,Stormy,89.49,On-time
-SC-DEL-00802,2025-07-02 17:10:56,Wednesday,17,Medium,13.17,Shopping Center,Cloudy,76.35,On-time
-SC-DEL-00803,2025-06-17 09:29:05,Tuesday,9,Large,21.2,Industrial,Sunny,74.06,On-time
-SC-DEL-00804,2025-06-27 12:26:51,Friday,12,Extra Large,6.82,Industrial,Cloudy,20.51,On-time
-SC-DEL-00805,2025-07-17 19:21:37,Thursday,19,Small,38.06,Rural,Sunny,117.54,On-time
-SC-DEL-00806,2025-07-18 15:04:33,Friday,15,Extra Large,68.49,Industrial,Stormy,115.07,On-time
-SC-DEL-00807,2025-08-16 22:39:42,Saturday,22,Extra Large,18.94,Industrial,Stormy,43.25,On-time
-SC-DEL-00808,2025-08-06 18:28:10,Wednesday,18,Extra Large,32.69,Industrial,Rainy,111.13,On-time
-SC-DEL-00809,2025-07-30 06:03:52,Wednesday,6,Extra Large,74.95,Urban,Stormy,126.07,On-time
-SC-DEL-00810,2025-08-02 18:50:43,Saturday,18,Extra Large,62.12,Urban,Sunny,122.32,On-time
-SC-DEL-00811,2025-07-18 15:14:04,Friday,15,Small,39.66,Rural,Stormy,95.06,On-time
-SC-DEL-00812,2025-05-23 17:54:14,Friday,17,Large,51.61,Urban,Sunny,118.14,On-time
-SC-DEL-00813,2025-06-11 03:40:14,Wednesday,3,Special,36.38,Suburban,Rainy,117.03,On-time
-SC-DEL-00814,2025-08-18 20:11:30,Monday,20,Extra Large,64.19,Rural,Sunny,124.57,On-time
-SC-DEL-00815,2025-07-17 05:25:38,Thursday,5,Special,74.96,Industrial,Sunny,170.09,On-time
-SC-DEL-00816,2025-08-16 03:56:22,Saturday,3,Medium,54.08,Rural,Cloudy,139.05,On-time
-SC-DEL-00817,2025-07-01 08:31:50,Tuesday,8,Small,19.92,Industrial,Sunny,93.02,Delayed
-SC-DEL-00818,2025-07-17 20:30:27,Thursday,20,Small,29.69,Shopping Center,Stormy,73.35,On-time
-SC-DEL-00819,2025-06-18 13:08:26,Wednesday,13,Large,71.33,Industrial,Cloudy,171.56,Delayed
-SC-DEL-00820,2025-06-22 16:22:59,Sunday,16,Extra Large,62.54,Rural,Cloudy,114.33,On-time
-SC-DEL-00821,2025-07-11 13:13:20,Friday,13,Large,57.22,Urban,Stormy,136.11,On-time
-SC-DEL-00822,2025-06-22 13:08:31,Sunday,13,Medium,57.69,Industrial,Stormy,149.37,Delayed
-SC-DEL-00823,2025-05-21 16:47:16,Wednesday,16,Large,9.03,Rural,Sunny,48.01,On-time
-SC-DEL-00824,2025-08-01 06:49:27,Friday,6,Extra Large,30.76,Suburban,Sunny,79.40,On-time
-SC-DEL-00825,2025-07-03 05:09:43,Thursday,5,Small,5.15,Industrial,Snowy,52.02,On-time
-SC-DEL-00826,2025-07-14 22:32:26,Monday,22,Large,42.71,Rural,Cloudy,124.32,On-time
-SC-DEL-00827,2025-08-03 03:58:50,Sunday,3,Medium,5.29,Shopping Center,Rainy,52.27,On-time
-SC-DEL-00828,2025-08-04 02:53:12,Monday,2,Medium,20.18,Suburban,Stormy,72.57,On-time
-SC-DEL-00829,2025-06-13 07:16:50,Friday,7,Large,43.17,Urban,Cloudy,113.22,On-time
-SC-DEL-00830,2025-07-24 08:03:11,Thursday,8,Small,74.41,Industrial,Snowy,138.28,On-time
-SC-DEL-00831,2025-06-18 06:22:24,Wednesday,6,Medium,62.04,Urban,Stormy,131.16,On-time
-SC-DEL-00832,2025-07-04 10:41:40,Friday,10,Medium,62.86,Suburban,Cloudy,114.31,On-time
-SC-DEL-00833,2025-07-14 19:42:09,Monday,19,Extra Large,29.5,Urban,Snowy,64.36,On-time
-SC-DEL-00834,2025-05-29 15:36:00,Thursday,15,Medium,35.72,Urban,Stormy,82.30,On-time
-SC-DEL-00835,2025-07-14 03:36:47,Monday,3,Special,70.25,Industrial,Stormy,163.46,On-time
-SC-DEL-00836,2025-06-30 07:41:56,Monday,7,Large,47.54,Suburban,Stormy,100.23,On-time
-SC-DEL-00837,2025-07-14 11:01:16,Monday,11,Large,57.72,Shopping Center,Snowy,127.52,On-time
-SC-DEL-00838,2025-08-15 22:45:08,Friday,22,Special,23.78,Urban,Stormy,77.53,On-time
-SC-DEL-00839,2025-08-02 21:55:06,Saturday,21,Special,57.17,Industrial,Snowy,103.25,On-time
-SC-DEL-00840,2025-05-28 18:54:42,Wednesday,18,Special,36.71,Rural,Stormy,86.10,On-time
-SC-DEL-00841,2025-08-13 15:19:05,Wednesday,15,Medium,59.42,Suburban,Rainy,112.19,On-time
-SC-DEL-00842,2025-06-13 12:51:04,Friday,12,Medium,1.88,Suburban,Rainy,18.00,On-time
-SC-DEL-00843,2025-07-19 02:51:24,Saturday,2,Small,70.71,Urban,Sunny,126.10,On-time
-SC-DEL-00844,2025-06-06 17:07:47,Friday,17,Large,19.21,Urban,Snowy,52.18,On-time
-SC-DEL-00845,2025-08-10 04:17:12,Sunday,4,Small,44.52,Urban,Cloudy,125.55,Delayed
-SC-DEL-00846,2025-07-14 05:41:37,Monday,5,Large,68.53,Shopping Center,Snowy,151.17,On-time
-SC-DEL-00847,2025-06-21 11:46:22,Saturday,11,Small,9.84,Industrial,Rainy,73.58,Delayed
-SC-DEL-00848,2025-08-15 20:13:10,Friday,20,Medium,5.47,Suburban,Snowy,21.53,On-time
-SC-DEL-00849,2025-08-14 20:20:21,Thursday,20,Medium,32.26,Suburban,Stormy,96.16,On-time
-SC-DEL-00850,2025-06-02 23:11:57,Monday,23,Small,73.15,Shopping Center,Sunny,138.41,On-time
-SC-DEL-00851,2025-06-06 06:44:02,Friday,6,Large,48.0,Rural,Rainy,116.34,On-time
-SC-DEL-00852,2025-08-12 03:51:28,Tuesday,3,Special,23.14,Suburban,Rainy,54.39,On-time
-SC-DEL-00853,2025-07-20 08:36:21,Sunday,8,Extra Large,49.75,Urban,Rainy,115.46,On-time
-SC-DEL-00854,2025-08-02 05:25:18,Saturday,5,Special,27.93,Industrial,Sunny,68.07,On-time
-SC-DEL-00855,2025-07-11 05:18:49,Friday,5,Medium,62.61,Rural,Sunny,146.02,On-time
-SC-DEL-00856,2025-07-02 18:43:28,Wednesday,18,Large,56.01,Suburban,Rainy,134.16,On-time
-SC-DEL-00857,2025-06-16 01:45:29,Monday,1,Medium,19.96,Urban,Rainy,55.13,On-time
-SC-DEL-00858,2025-05-28 10:24:48,Wednesday,10,Large,69.6,Suburban,Sunny,136.27,On-time
-SC-DEL-00859,2025-06-12 20:35:59,Thursday,20,Small,50.91,Shopping Center,Rainy,130.24,On-time
-SC-DEL-00860,2025-07-31 01:35:24,Thursday,1,Special,70.7,Suburban,Sunny,158.01,On-time
-SC-DEL-00861,2025-08-10 08:02:19,Sunday,8,Small,5.94,Industrial,Rainy,71.48,Delayed
-SC-DEL-00862,2025-06-28 17:11:15,Saturday,17,Medium,47.23,Urban,Snowy,92.20,On-time
-SC-DEL-00863,2025-07-10 14:11:06,Thursday,14,Extra Large,34.53,Industrial,Snowy,89.45,On-time
-SC-DEL-00864,2025-08-04 11:29:46,Monday,11,Large,35.64,Suburban,Cloudy,103.31,On-time
-SC-DEL-00865,2025-08-07 18:45:16,Thursday,18,Large,16.68,Urban,Snowy,77.39,On-time
-SC-DEL-00866,2025-05-21 22:14:45,Wednesday,22,Medium,18.73,Urban,Cloudy,53.23,On-time
-SC-DEL-00867,2025-06-23 14:49:05,Monday,14,Special,66.12,Urban,Sunny,149.18,On-time
-SC-DEL-00868,2025-08-09 23:42:59,Saturday,23,Special,73.92,Suburban,Rainy,157.34,On-time
-SC-DEL-00869,2025-08-05 20:05:51,Tuesday,20,Special,4.54,Suburban,Stormy,69.13,On-time
-SC-DEL-00870,2025-07-31 09:01:14,Thursday,9,Large,73.68,Shopping Center,Sunny,135.21,On-time
-SC-DEL-00871,2025-08-06 20:16:34,Wednesday,20,Extra Large,44.58,Shopping Center,Cloudy,84.16,On-time
-SC-DEL-00872,2025-07-27 13:06:16,Sunday,13,Medium,5.48,Urban,Snowy,58.53,On-time
-SC-DEL-00873,2025-07-22 10:12:04,Tuesday,10,Small,46.31,Urban,Stormy,81.47,On-time
-SC-DEL-00874,2025-08-06 10:57:43,Wednesday,10,Small,49.91,Industrial,Rainy,123.28,Delayed
-SC-DEL-00875,2025-07-28 05:38:06,Monday,5,Small,43.15,Urban,Stormy,90.12,On-time
-SC-DEL-00876,2025-05-31 04:06:01,Saturday,4,Medium,31.94,Industrial,Rainy,82.47,On-time
-SC-DEL-00877,2025-06-03 11:48:49,Tuesday,11,Medium,1.95,Shopping Center,Snowy,41.00,On-time
-SC-DEL-00878,2025-07-04 19:03:29,Friday,19,Extra Large,22.5,Suburban,Rainy,80.22,On-time
-SC-DEL-00879,2025-06-05 12:17:56,Thursday,12,Medium,53.32,Suburban,Snowy,111.09,On-time
-SC-DEL-00880,2025-07-14 23:13:50,Monday,23,Medium,7.77,Urban,Sunny,54.45,On-time
-SC-DEL-00881,2025-08-09 06:16:05,Saturday,6,Large,26.01,Suburban,Snowy,103.25,On-time
-SC-DEL-00882,2025-08-14 12:48:51,Thursday,12,Medium,8.26,Suburban,Snowy,25.14,On-time
-SC-DEL-00883,2025-06-09 07:52:08,Monday,7,Large,67.43,Industrial,Cloudy,122.16,On-time
-SC-DEL-00884,2025-06-11 18:04:37,Wednesday,18,Small,1.24,Urban,Snowy,38.57,On-time
-SC-DEL-00885,2025-05-31 12:41:29,Saturday,12,Medium,40.3,Suburban,Stormy,108.07,On-time
-SC-DEL-00886,2025-05-26 01:57:17,Monday,1,Medium,10.41,Rural,Stormy,55.50,On-time
-SC-DEL-00887,2025-07-26 14:15:04,Saturday,14,Special,5.27,Industrial,Stormy,37.24,On-time
-SC-DEL-00888,2025-07-01 17:11:28,Tuesday,17,Large,51.58,Industrial,Stormy,127.54,On-time
-SC-DEL-00889,2025-07-02 19:15:59,Wednesday,19,Special,16.43,Shopping Center,Rainy,38.03,On-time
-SC-DEL-00890,2025-07-26 17:08:10,Saturday,17,Small,66.17,Industrial,Cloudy,145.50,Delayed
-SC-DEL-00891,2025-06-18 11:49:19,Wednesday,11,Medium,45.75,Urban,Snowy,124.19,On-time
-SC-DEL-00892,2025-06-03 00:11:34,Tuesday,0,Large,19.97,Urban,Snowy,82.35,On-time
-SC-DEL-00893,2025-07-15 03:51:08,Tuesday,3,Extra Large,34.61,Suburban,Stormy,99.55,On-time
-SC-DEL-00894,2025-06-27 14:31:37,Friday,14,Extra Large,22.7,Rural,Snowy,68.10,On-time
-SC-DEL-00895,2025-07-04 04:49:51,Friday,4,Extra Large,16.4,Shopping Center,Rainy,59.17,On-time
-SC-DEL-00896,2025-06-30 07:35:41,Monday,7,Extra Large,47.85,Industrial,Stormy,126.34,On-time
-SC-DEL-00897,2025-06-27 20:50:58,Friday,20,Special,41.37,Suburban,Stormy,116.04,On-time
-SC-DEL-00898,2025-06-03 19:22:53,Tuesday,19,Small,52.79,Shopping Center,Rainy,122.18,On-time
-SC-DEL-00899,2025-07-04 13:05:22,Friday,13,Medium,60.37,Rural,Sunny,117.12,On-time
-SC-DEL-00900,2025-08-07 06:18:28,Thursday,6,Special,45.9,Shopping Center,Cloudy,125.47,On-time
-SC-DEL-00901,2025-06-01 00:21:53,Sunday,0,Medium,17.33,Urban,Sunny,77.39,On-time
-SC-DEL-00902,2025-05-24 14:14:27,Saturday,14,Small,63.52,Rural,Cloudy,114.19,On-time
-SC-DEL-00903,2025-08-08 13:38:28,Friday,13,Medium,57.47,Urban,Cloudy,138.03,On-time
-SC-DEL-00904,2025-07-18 09:38:31,Friday,9,Special,28.89,Rural,Rainy,95.54,On-time
-SC-DEL-00905,2025-07-10 18:46:25,Thursday,18,Extra Large,57.81,Urban,Rainy,141.53,On-time
-SC-DEL-00906,2025-08-16 21:38:31,Saturday,21,Special,60.16,Urban,Stormy,132.21,On-time
-SC-DEL-00907,2025-06-05 05:24:42,Thursday,5,Medium,21.06,Industrial,Snowy,47.17,On-time
-SC-DEL-00908,2025-07-24 15:52:22,Thursday,15,Small,26.55,Urban,Stormy,65.56,On-time
-SC-DEL-00909,2025-06-14 14:40:27,Saturday,14,Special,22.38,Industrial,Rainy,79.49,On-time
-SC-DEL-00910,2025-06-16 17:14:09,Monday,17,Extra Large,17.57,Urban,Cloudy,84.12,On-time
-SC-DEL-00911,2025-07-11 06:08:46,Friday,6,Extra Large,63.0,Shopping Center,Cloudy,135.10,On-time
-SC-DEL-00912,2025-08-17 14:52:42,Sunday,14,Medium,42.01,Industrial,Cloudy,75.10,On-time
-SC-DEL-00913,2025-08-02 22:28:13,Saturday,22,Extra Large,19.19,Urban,Stormy,58.53,On-time
-SC-DEL-00914,2025-06-28 16:44:43,Saturday,16,Small,51.86,Shopping Center,Cloudy,98.17,On-time
-SC-DEL-00915,2025-07-25 08:54:43,Friday,8,Large,16.36,Urban,Sunny,62.45,On-time
-SC-DEL-00916,2025-06-13 07:32:34,Friday,7,Large,23.16,Rural,Cloudy,51.20,On-time
-SC-DEL-00917,2025-05-26 08:14:38,Monday,8,Medium,47.65,Shopping Center,Rainy,105.27,On-time
-SC-DEL-00918,2025-08-18 13:44:59,Monday,13,Large,53.58,Suburban,Snowy,96.52,On-time
-SC-DEL-00919,2025-08-18 04:04:54,Monday,4,Special,63.92,Suburban,Sunny,158.07,On-time
-SC-DEL-00920,2025-06-06 06:47:43,Friday,6,Small,11.92,Rural,Rainy,63.16,On-time
-SC-DEL-00921,2025-06-13 09:01:40,Friday,9,Extra Large,18.54,Shopping Center,Snowy,66.47,On-time
-SC-DEL-00922,2025-08-07 04:03:46,Thursday,4,Special,28.29,Shopping Center,Stormy,66.19,On-time
-SC-DEL-00923,2025-06-21 12:13:06,Saturday,12,Small,43.88,Urban,Snowy,122.49,On-time
-SC-DEL-00924,2025-06-27 02:41:16,Friday,2,Special,64.9,Urban,Rainy,114.03,On-time
-SC-DEL-00925,2025-06-21 14:35:06,Saturday,14,Medium,13.04,Suburban,Rainy,50.12,On-time
-SC-DEL-00926,2025-08-04 18:42:25,Monday,18,Extra Large,53.34,Urban,Rainy,141.47,On-time
-SC-DEL-00927,2025-05-21 21:21:33,Wednesday,21,Large,56.29,Shopping Center,Rainy,131.15,On-time
-SC-DEL-00928,2025-06-06 09:21:51,Friday,9,Large,53.74,Industrial,Snowy,100.49,On-time
-SC-DEL-00929,2025-06-11 15:46:02,Wednesday,15,Extra Large,57.14,Shopping Center,Rainy,115.30,On-time
-SC-DEL-00930,2025-08-07 22:41:24,Thursday,22,Special,63.78,Industrial,Snowy,134.37,On-time
-SC-DEL-00931,2025-05-31 08:43:58,Saturday,8,Small,60.04,Rural,Sunny,129.48,On-time
-SC-DEL-00932,2025-07-31 18:40:43,Thursday,18,Special,32.71,Shopping Center,Sunny,69.45,On-time
-SC-DEL-00933,2025-08-17 20:15:14,Sunday,20,Medium,60.63,Urban,Sunny,146.24,On-time
-SC-DEL-00934,2025-07-25 07:17:28,Friday,7,Extra Large,41.42,Suburban,Sunny,90.25,On-time
-SC-DEL-00935,2025-06-18 21:54:51,Wednesday,21,Special,25.83,Urban,Stormy,101.54,On-time
-SC-DEL-00936,2025-07-24 13:38:41,Thursday,13,Extra Large,19.18,Suburban,Snowy,70.15,On-time
-SC-DEL-00937,2025-05-30 21:34:03,Friday,21,Large,52.33,Rural,Sunny,113.40,On-time
-SC-DEL-00938,2025-06-12 20:27:04,Thursday,20,Medium,52.43,Shopping Center,Rainy,88.45,On-time
-SC-DEL-00939,2025-06-22 21:49:06,Sunday,21,Extra Large,41.17,Rural,Rainy,89.07,On-time
-SC-DEL-00940,2025-07-17 17:59:53,Thursday,17,Extra Large,12.65,Rural,Cloudy,79.08,On-time
-SC-DEL-00941,2025-06-25 14:46:34,Wednesday,14,Medium,70.57,Urban,Rainy,131.56,On-time
-SC-DEL-00942,2025-05-24 20:02:21,Saturday,20,Special,24.95,Rural,Sunny,96.04,On-time
-SC-DEL-00943,2025-06-22 14:03:34,Sunday,14,Medium,3.46,Industrial,Snowy,40.50,On-time
-SC-DEL-00944,2025-08-12 15:30:55,Tuesday,15,Medium,73.8,Urban,Snowy,171.44,On-time
-SC-DEL-00945,2025-07-17 20:32:11,Thursday,20,Large,9.73,Industrial,Stormy,43.31,On-time
-SC-DEL-00946,2025-05-21 16:16:34,Wednesday,16,Small,30.47,Industrial,Sunny,109.02,Delayed
-SC-DEL-00947,2025-05-24 01:37:47,Saturday,1,Special,48.11,Suburban,Cloudy,95.48,On-time
-SC-DEL-00948,2025-06-03 10:08:25,Tuesday,10,Extra Large,45.41,Industrial,Rainy,107.45,On-time
-SC-DEL-00949,2025-07-09 06:55:11,Wednesday,6,Extra Large,12.88,Suburban,Sunny,53.46,On-time
-SC-DEL-00950,2025-05-27 13:59:03,Tuesday,13,Extra Large,25.93,Rural,Sunny,53.13,On-time
-SC-DEL-00951,2025-07-04 13:03:06,Friday,13,Special,20.87,Rural,Sunny,58.42,On-time
-SC-DEL-00952,2025-05-28 18:55:01,Wednesday,18,Large,40.02,Urban,Stormy,121.21,On-time
-SC-DEL-00953,2025-08-19 00:33:02,Tuesday,0,Special,60.06,Suburban,Unknown,145.35,On-time
-SC-DEL-00954,2025-06-11 09:59:28,Wednesday,9,Special,12.17,Suburban,Sunny,39.04,On-time
-SC-DEL-00955,2025-08-09 16:19:43,Saturday,16,Special,39.79,Urban,Cloudy,104.22,On-time
-SC-DEL-00956,2025-05-31 01:13:38,Saturday,1,Large,10.57,Shopping Center,Cloudy,45.32,On-time
-SC-DEL-00957,2025-05-30 05:36:08,Friday,5,Small,11.34,Industrial,Rainy,55.34,On-time
-SC-DEL-00958,2025-08-02 03:31:20,Saturday,3,Large,14.68,Urban,Sunny,86.36,On-time
-SC-DEL-00959,2025-06-30 13:42:01,Monday,13,Special,21.47,Suburban,Rainy,56.44,On-time
-SC-DEL-00960,2025-08-03 14:20:20,Sunday,14,Special,8.43,Rural,Stormy,75.17,On-time
-SC-DEL-00961,2025-07-28 14:29:44,Monday,14,Medium,24.61,Suburban,Cloudy,65.53,On-time
-SC-DEL-00962,2025-07-24 15:29:34,Thursday,15,Small,14.53,Rural,Stormy,35.30,On-time
-SC-DEL-00963,2025-06-22 03:05:26,Sunday,3,Extra Large,18.37,Rural,Sunny,59.19,On-time
-SC-DEL-00964,2025-06-02 11:50:23,Monday,11,Large,3.31,Suburban,Snowy,28.13,On-time
-SC-DEL-00965,2025-06-25 20:08:58,Wednesday,20,Extra Large,48.76,Urban,Stormy,86.10,On-time
-SC-DEL-00966,2025-06-17 21:49:46,Tuesday,21,Small,33.34,Shopping Center,Sunny,105.33,On-time
-SC-DEL-00967,2025-06-15 17:44:42,Sunday,17,Extra Large,53.24,Rural,Sunny,97.43,On-time
-SC-DEL-00968,2025-07-15 00:05:52,Tuesday,0,Special,20.2,Suburban,Stormy,44.29,On-time
-SC-DEL-00969,2025-07-06 07:36:49,Sunday,7,Small,6.35,Shopping Center,Rainy,49.49,On-time
-SC-DEL-00970,2025-07-14 07:20:54,Monday,7,Large,72.9,Rural,Sunny,135.05,On-time
-SC-DEL-00971,2025-05-24 11:40:13,Saturday,11,Special,37.77,Shopping Center,Rainy,92.39,On-time
-SC-DEL-00972,2025-07-06 20:36:25,Sunday,20,Medium,55.83,Suburban,Sunny,112.50,On-time
-SC-DEL-00973,2025-07-16 16:21:53,Wednesday,16,Large,14.85,Suburban,Stormy,53.23,On-time
-SC-DEL-00974,2025-08-01 03:46:15,Friday,3,Large,35.44,Industrial,Rainy,90.24,On-time
-SC-DEL-00975,2025-08-15 06:47:08,Friday,6,Medium,57.32,Suburban,Rainy,122.50,On-time
-SC-DEL-00976,2025-06-28 07:23:42,Saturday,7,Large,2.13,Industrial,Cloudy,53.51,On-time
-SC-DEL-00977,2025-07-09 10:48:26,Wednesday,10,Large,52.98,Suburban,Snowy,140.14,On-time
-SC-DEL-00978,2025-05-27 17:28:34,Tuesday,17,Special,60.42,Industrial,Rainy,141.03,On-time
-SC-DEL-00979,2025-06-22 11:05:07,Sunday,11,Extra Large,24.71,Industrial,Cloudy,83.32,On-time
-SC-DEL-00980,2025-05-29 12:04:55,Thursday,12,Medium,66.62,Industrial,Sunny,148.45,Delayed
-SC-DEL-00981,2025-06-14 06:44:47,Saturday,6,Medium,9.57,Suburban,Cloudy,39.43,On-time
-SC-DEL-00982,2025-07-28 02:50:25,Monday,2,Extra Large,72.21,Industrial,Rainy,134.20,On-time
-SC-DEL-00983,2025-06-18 14:28:58,Wednesday,14,Medium,19.57,Urban,Sunny,57.16,On-time
-SC-DEL-00984,2025-06-13 21:50:29,Friday,21,Medium,9.41,Shopping Center,Rainy,71.48,On-time
-SC-DEL-00985,2025-06-03 13:14:16,Tuesday,13,Medium,41.51,Shopping Center,Sunny,77.45,On-time
-SC-DEL-00986,2025-07-26 02:49:58,Saturday,2,Extra Large,60.31,Industrial,Sunny,154.54,On-time
-SC-DEL-00987,2025-06-22 08:08:30,Sunday,8,Medium,58.37,Industrial,Cloudy,126.57,Delayed
-SC-DEL-00988,2025-05-23 22:16:12,Friday,22,Large,45.48,Shopping Center,Rainy,127.21,On-time
-SC-DEL-00989,2025-05-30 18:50:40,Friday,18,Large,56.12,Shopping Center,Snowy,136.59,On-time
-SC-DEL-00990,2025-07-04 02:42:04,Friday,2,Special,1.84,Shopping Center,Rainy,20.52,On-time
-SC-DEL-00991,2025-08-02 11:21:15,Saturday,11,Special,28.23,Suburban,Rainy,76.39,On-time
-SC-DEL-00992,2025-07-28 16:48:12,Monday,16,Medium,72.87,Urban,Snowy,136.31,On-time
-SC-DEL-00993,2025-06-19 12:42:38,Thursday,12,Large,53.37,Shopping Center,Snowy,135.03,On-time
-SC-DEL-00994,2025-06-13 01:27:52,Friday,1,Medium,30.6,Urban,Cloudy,81.53,On-time
-SC-DEL-00995,2025-08-11 21:44:17,Monday,21,Small,52.2,Urban,Sunny,103.05,On-time
-SC-DEL-00996,2025-07-10 08:23:02,Thursday,8,Special,56.13,Industrial,Sunny,149.05,On-time
-SC-DEL-00997,2025-07-22 03:35:02,Tuesday,3,Large,43.63,Urban,Stormy,76.44,On-time
-SC-DEL-00998,2025-07-09 19:54:09,Wednesday,19,Large,44.78,Shopping Center,Rainy,84.32,On-time
-SC-DEL-00999,2025-06-13 14:28:34,Friday,14,Special,73.69,Rural,Stormy,124.50,On-time
-SC-DEL-01000,2025-08-01 11:43:04,Friday,11,Special,68.05,Urban,Snowy,138.18,On-time
+SC-DEL-00001,2025-06-08 20:43:46,Sunday,20,Extra Large,2.12,Shopping Center,Rainy,54.59,On-time
+SC-DEL-00002,2025-06-01 20:04:52,Sunday,20,Small,31.05,Rural,Stormy,61.03,On-time
+SC-DEL-00003,2025-05-22 18:04:36,Thursday,18,Special,11.38,Rural,Stormy,73.16,On-time
+SC-DEL-00004,2025-06-16 06:40:42,Monday,6,Extra Large,44.23,Industrial,Rainy,105.41,On-time
+SC-DEL-00005,2025-07-10 15:54:46,Thursday,15,Medium,19.58,Shopping Center,Sunny,67.06,On-time
+SC-DEL-00006,2025-07-03 10:08:36,Thursday,10,Large,23.17,Rural,Rainy,90.22,On-time
+SC-DEL-00007,2025-07-10 17:05:14,Thursday,17,Small,2.13,Industrial,Cloudy,51.30,On-time
+SC-DEL-00008,2025-06-18 07:29:55,Wednesday,7,Medium,40.07,Suburban,Cloudy,108.29,On-time
+SC-DEL-00009,2025-06-15 21:13:30,Sunday,21,Small,39.5,Urban,Stormy,113.16,On-time
+SC-DEL-00010,2025-06-23 07:51:52,Monday,7,Small,66.11,Shopping Center,Cloudy,125.42,On-time
+SC-DEL-00011,2025-07-28 14:38:06,Monday,14,Small,73.38,Urban,Snowy,130.04,On-time
+SC-DEL-00012,2025-08-19 13:31:44,Tuesday,13,Medium,26.06,Suburban,Snowy,49.57,On-time
+SC-DEL-00013,2025-05-30 16:41:04,Friday,16,Small,13.18,Urban,Stormy,60.49,On-time
+SC-DEL-00014,2025-06-20 10:41:20,Friday,10,Extra Large,49.96,Urban,Cloudy,106.44,On-time
+SC-DEL-00015,2025-06-22 07:04:07,Sunday,7,Special,72.87,Industrial,Snowy,135.13,On-time
+SC-DEL-00016,2025-06-14 07:39:30,Saturday,7,Small,4.94,Suburban,Stormy,19.33,On-time
+SC-DEL-00017,2025-06-08 13:39:52,Sunday,13,Large,55.92,Industrial,Rainy,117.22,On-time
+SC-DEL-00018,2025-07-08 09:04:30,Tuesday,9,Special,45.18,Industrial,Rainy,87.56,On-time
+SC-DEL-00019,2025-08-14 12:42:45,Thursday,12,Special,51.93,Suburban,Sunny,89.32,On-time
+SC-DEL-00020,2025-07-31 23:30:12,Thursday,23,Extra Large,46.62,Urban,Snowy,128.08,On-time
+SC-DEL-00021,2025-06-21 15:28:48,Saturday,15,Extra Large,51.4,Suburban,Rainy,125.54,On-time
+SC-DEL-00022,2025-06-19 02:06:42,Thursday,2,Medium,71.28,Suburban,Rainy,129.13,On-time
+SC-DEL-00023,2025-05-22 20:58:35,Thursday,20,Medium,9.69,Rural,Stormy,49.35,On-time
+SC-DEL-00024,2025-05-28 15:53:38,Wednesday,15,Special,41.24,Industrial,Stormy,111.31,On-time
+SC-DEL-00025,2025-06-27 17:20:29,Friday,17,Special,45.54,Rural,Stormy,122.10,On-time
+SC-DEL-00026,2025-07-30 21:57:41,Wednesday,21,Medium,58.04,Urban,Cloudy,120.47,On-time
+SC-DEL-00027,2025-08-17 22:53:44,Sunday,22,Large,8.12,Shopping Center,Rainy,42.43,On-time
+SC-DEL-00028,2025-07-29 23:36:18,Tuesday,23,Small,17.11,Industrial,Sunny,42.43,On-time
+SC-DEL-00029,2025-08-17 04:13:18,Sunday,4,Large,45.64,Industrial,Rainy,91.33,On-time
+SC-DEL-00030,2025-06-22 13:07:00,Sunday,13,Special,70.62,Rural,Rainy,120.52,On-time
+SC-DEL-00031,2025-08-10 07:54:32,Sunday,7,Small,35.89,Suburban,Cloudy,99.50,Delayed
+SC-DEL-00032,2025-05-30 05:11:11,Friday,5,Medium,14.15,Shopping Center,Cloudy,47.06,On-time
+SC-DEL-00033,2025-08-01 22:06:42,Friday,22,Special,41.48,Urban,Sunny,114.10,On-time
+SC-DEL-00034,2025-08-04 05:55:28,Monday,5,Small,2.65,Suburban,Sunny,67.31,Delayed
+SC-DEL-00035,2025-07-01 20:01:39,Tuesday,20,Medium,27.51,Industrial,Cloudy,81.29,On-time
+SC-DEL-00036,2025-08-14 12:51:07,Thursday,12,Special,36.71,Shopping Center,Sunny,103.13,On-time
+SC-DEL-00037,2025-08-02 18:20:23,Saturday,18,Small,14.65,Industrial,Sunny,47.06,On-time
+SC-DEL-00038,2025-08-02 10:30:49,Saturday,10,Large,26.58,Industrial,Stormy,99.31,On-time
+SC-DEL-00039,2025-07-14 23:08:36,Monday,23,Large,10.4,Industrial,Rainy,73.27,On-time
+SC-DEL-00040,2025-06-10 05:59:23,Tuesday,5,Special,70.2,Industrial,Stormy,163.35,On-time
+SC-DEL-00041,2025-06-28 10:52:28,Saturday,10,Large,56.45,Shopping Center,Sunny,96.15,On-time
+SC-DEL-00042,2025-07-13 07:41:08,Sunday,7,Medium,16.85,Urban,Sunny,66.50,On-time
+SC-DEL-00043,2025-06-23 10:59:17,Monday,10,Medium,18.11,Urban,Cloudy,71.52,On-time
+SC-DEL-00044,2025-07-03 17:59:30,Thursday,17,Extra Large,62.03,Rural,Stormy,139.30,On-time
+SC-DEL-00045,2025-06-13 05:12:59,Friday,5,Medium,20.37,Shopping Center,Sunny,65.06,On-time
+SC-DEL-00046,2025-07-20 11:03:51,Sunday,11,Medium,74.46,Urban,Snowy,121.53,On-time
+SC-DEL-00047,2025-07-12 08:23:56,Saturday,8,Special,59.11,Industrial,Rainy,152.06,On-time
+SC-DEL-00048,2025-08-20 05:44:56,Wednesday,5,Small,63.83,Suburban,Sunny,131.23,Delayed
+SC-DEL-00049,2025-08-18 08:54:45,Monday,8,Large,26.86,Shopping Center,Snowy,64.33,On-time
+SC-DEL-00050,2025-06-24 01:26:29,Tuesday,1,Medium,40.18,Shopping Center,Sunny,117.47,On-time
+SC-DEL-00051,2025-06-25 11:49:39,Wednesday,11,Small,28.34,Urban,Cloudy,82.52,On-time
+SC-DEL-00052,2025-08-04 17:20:03,Monday,17,Large,37.53,Urban,Rainy,77.49,On-time
+SC-DEL-00053,2025-07-26 20:51:37,Saturday,20,Small,17.96,Rural,Rainy,60.48,On-time
+SC-DEL-00054,2025-08-16 23:26:27,Saturday,23,Large,50.25,Suburban,Snowy,110.56,On-time
+SC-DEL-00055,2025-07-08 22:52:21,Tuesday,22,Large,52.6,Urban,Rainy,103.23,On-time
+SC-DEL-00056,2025-06-20 12:34:07,Friday,12,Large,6.59,Urban,Sunny,56.36,On-time
+SC-DEL-00057,2025-06-01 19:25:19,Sunday,19,Extra Large,41.2,Industrial,Rainy,108.02,On-time
+SC-DEL-00058,2025-07-19 06:02:39,Saturday,6,Medium,60.79,Urban,Stormy,139.46,On-time
+SC-DEL-00059,2025-07-30 19:47:09,Wednesday,19,Extra Large,47.56,Suburban,Rainy,116.28,On-time
+SC-DEL-00060,2025-05-29 18:48:10,Thursday,18,Extra Large,2.51,Urban,Stormy,18.18,On-time
+SC-DEL-00061,2025-08-09 03:26:07,Saturday,3,Small,26.26,Shopping Center,Snowy,96.44,On-time
+SC-DEL-00062,2025-07-17 19:55:41,Thursday,19,Special,54.14,Rural,Stormy,110.29,On-time
+SC-DEL-00063,2025-07-01 10:59:04,Tuesday,10,Special,54.76,Suburban,Snowy,116.43,On-time
+SC-DEL-00064,2025-08-08 00:28:51,Friday,0,Medium,72.89,Suburban,Snowy,125.37,On-time
+SC-DEL-00065,2025-08-06 20:35:46,Wednesday,20,Medium,54.59,Rural,Sunny,94.43,On-time
+SC-DEL-00066,2025-06-30 12:17:24,Monday,12,Large,9.8,Urban,Rainy,64.20,On-time
+SC-DEL-00067,2025-08-16 16:21:01,Saturday,16,Special,33.52,Shopping Center,Stormy,75.39,On-time
+SC-DEL-00068,2025-07-01 19:29:20,Tuesday,19,Special,21.48,Suburban,Stormy,95.21,On-time
+SC-DEL-00069,2025-07-29 05:52:28,Tuesday,5,Special,2.44,Rural,Stormy,39.58,On-time
+SC-DEL-00070,2025-08-09 15:25:07,Saturday,15,Special,6.81,Rural,Rainy,60.27,On-time
+SC-DEL-00071,2025-06-17 19:51:01,Tuesday,19,Special,53.93,Suburban,Sunny,131.25,On-time
+SC-DEL-00072,2025-06-04 02:15:24,Wednesday,2,Special,4.28,Rural,Snowy,55.08,On-time
+SC-DEL-00073,2025-06-11 23:40:58,Wednesday,23,Special,8.31,Urban,Snowy,41.34,On-time
+SC-DEL-00074,2025-06-03 04:53:55,Tuesday,4,Special,52.63,Urban,Cloudy,126.59,On-time
+SC-DEL-00075,2025-05-29 14:35:56,Thursday,14,Medium,43.43,Shopping Center,Sunny,78.56,On-time
+SC-DEL-00076,2025-07-07 15:33:23,Monday,15,Small,4.69,Urban,Sunny,24.50,On-time
+SC-DEL-00077,2025-08-12 00:36:03,Tuesday,0,Special,66.98,Industrial,Stormy,157.31,On-time
+SC-DEL-00078,2025-07-08 10:13:09,Tuesday,10,Extra Large,73.0,Suburban,Stormy,167.34,On-time
+SC-DEL-00079,2025-08-08 18:55:55,Friday,18,Medium,29.54,Suburban,Cloudy,82.52,On-time
+SC-DEL-00080,2025-07-08 13:54:07,Tuesday,13,Large,68.01,Rural,Rainy,122.56,On-time
+SC-DEL-00081,2025-06-27 15:35:12,Friday,15,Special,27.0,Rural,Stormy,85.42,On-time
+SC-DEL-00082,2025-06-05 10:36:32,Thursday,10,Small,74.63,Shopping Center,Stormy,148.30,On-time
+SC-DEL-00083,2025-06-17 09:59:05,Tuesday,9,Extra Large,7.59,Urban,Cloudy,38.04,On-time
+SC-DEL-00084,2025-07-12 21:17:48,Saturday,21,Medium,37.01,Suburban,Stormy,84.30,On-time
+SC-DEL-00085,2025-07-01 16:35:09,Tuesday,16,Medium,14.49,Urban,Snowy,76.43,On-time
+SC-DEL-00086,2025-08-02 05:34:54,Saturday,5,Medium,38.93,Suburban,Rainy,92.32,On-time
+SC-DEL-00087,2025-06-15 09:35:20,Sunday,9,Large,34.26,Rural,Stormy,64.59,On-time
+SC-DEL-00088,2025-07-10 11:26:13,Thursday,11,Small,73.64,Suburban,Cloudy,128.20,Delayed
+SC-DEL-00089,2025-06-20 00:26:43,Friday,0,Extra Large,27.04,Rural,Snowy,50.40,On-time
+SC-DEL-00090,2025-07-16 14:58:38,Wednesday,14,Special,37.05,Urban,Sunny,72.34,On-time
+SC-DEL-00091,2025-07-30 17:48:37,Wednesday,17,Special,33.95,Shopping Center,Stormy,102.13,On-time
+SC-DEL-00092,2025-08-07 03:38:40,Thursday,3,Large,27.9,Shopping Center,Cloudy,90.33,On-time
+SC-DEL-00093,2025-07-30 08:36:08,Wednesday,8,Small,15.34,Urban,Sunny,85.43,On-time
+SC-DEL-00094,2025-06-07 06:07:42,Saturday,6,Small,61.5,Rural,Cloudy,133.25,On-time
+SC-DEL-00095,2025-07-27 04:07:23,Sunday,4,Small,3.23,Rural,Sunny,19.44,On-time
+SC-DEL-00096,2025-08-16 14:48:49,Saturday,14,Medium,61.63,Suburban,Cloudy,120.40,Delayed
+SC-DEL-00097,2025-07-09 07:03:48,Wednesday,7,Small,50.09,Rural,Cloudy,118.32,On-time
+SC-DEL-00098,2025-06-17 10:01:36,Tuesday,10,Large,30.73,Suburban,Cloudy,88.12,On-time
+SC-DEL-00099,2025-05-26 16:58:57,Monday,16,Medium,29.72,Shopping Center,Stormy,89.31,On-time
+SC-DEL-00100,2025-06-21 14:00:08,Saturday,14,Special,20.96,Rural,Cloudy,93.42,On-time
+SC-DEL-00101,2025-08-11 13:43:14,Monday,13,Special,23.61,Shopping Center,Snowy,62.09,On-time
+SC-DEL-00102,2025-06-07 23:55:49,Saturday,23,Special,61.75,Industrial,Sunny,108.35,On-time
+SC-DEL-00103,2025-06-18 22:07:19,Wednesday,22,Medium,3.59,Suburban,Stormy,39.41,On-time
+SC-DEL-00104,2025-08-05 11:38:48,Tuesday,11,Extra Large,8.8,Rural,Cloudy,75.55,On-time
+SC-DEL-00105,2025-07-23 01:39:49,Wednesday,1,Medium,38.45,Suburban,Rainy,119.36,On-time
+SC-DEL-00106,2025-08-05 19:44:27,Tuesday,19,Large,31.81,Suburban,Snowy,98.10,On-time
+SC-DEL-00107,2025-06-09 03:37:12,Monday,3,Large,40.8,Suburban,Rainy,72.00,On-time
+SC-DEL-00108,2025-06-13 02:16:46,Friday,2,Special,26.16,Suburban,Stormy,52.12,On-time
+SC-DEL-00109,2025-08-17 20:12:41,Sunday,20,Small,57.17,Shopping Center,Stormy,146.31,On-time
+SC-DEL-00110,2025-05-23 01:20:15,Friday,1,Large,15.42,Suburban,Snowy,44.05,On-time
+SC-DEL-00111,2025-07-18 08:42:21,Friday,8,Small,37.97,Rural,Cloudy,67.42,On-time
+SC-DEL-00112,2025-07-14 01:45:34,Monday,1,Medium,42.82,Shopping Center,Stormy,94.29,On-time
+SC-DEL-00113,2025-06-20 12:04:38,Friday,12,Medium,40.6,Rural,Sunny,99.57,On-time
+SC-DEL-00114,2025-07-23 02:07:13,Wednesday,2,Large,65.82,Shopping Center,Snowy,153.03,On-time
+SC-DEL-00115,2025-08-18 14:06:59,Monday,14,Extra Large,71.5,Industrial,Rainy,121.00,On-time
+SC-DEL-00116,2025-07-07 16:58:39,Monday,16,Small,40.89,Industrial,Sunny,84.10,Delayed
+SC-DEL-00117,2025-07-30 23:37:17,Wednesday,23,Small,9.34,Suburban,Sunny,62.02,Delayed
+SC-DEL-00118,2025-08-03 02:02:53,Sunday,2,Medium,50.69,Shopping Center,Rainy,98.55,On-time
+SC-DEL-00119,2025-08-08 09:30:55,Friday,9,Large,18.26,Suburban,Cloudy,86.59,On-time
+SC-DEL-00120,2025-07-26 21:56:02,Saturday,21,Medium,66.99,Suburban,Sunny,114.50,On-time
+SC-DEL-00121,2025-06-08 06:03:42,Sunday,6,Small,1.19,Suburban,Rainy,63.28,Delayed
+SC-DEL-00122,2025-06-03 09:12:31,Tuesday,9,Extra Large,39.56,Urban,Cloudy,85.52,On-time
+SC-DEL-00123,2025-07-20 10:52:09,Sunday,10,Medium,29.44,Rural,Cloudy,70.01,On-time
+SC-DEL-00124,2025-06-14 08:41:18,Saturday,8,Special,65.46,Shopping Center,Sunny,111.52,On-time
+SC-DEL-00125,2025-07-20 12:57:02,Sunday,12,Special,40.69,Urban,Stormy,72.33,On-time
+SC-DEL-00126,2025-07-18 10:05:23,Friday,10,Large,37.48,Suburban,Snowy,107.23,On-time
+SC-DEL-00127,2025-06-13 09:07:09,Friday,9,Large,73.65,Shopping Center,Snowy,148.47,On-time
+SC-DEL-00128,2025-07-31 06:01:33,Thursday,6,Medium,59.67,Rural,Snowy,116.49,On-time
+SC-DEL-00129,2025-06-19 23:32:59,Thursday,23,Large,47.01,Rural,Sunny,99.27,On-time
+SC-DEL-00130,2025-07-26 11:55:09,Saturday,11,Special,8.14,Shopping Center,Snowy,48.36,On-time
+SC-DEL-00131,2025-05-23 18:21:06,Friday,18,Special,67.59,Urban,Stormy,124.55,On-time
+SC-DEL-00132,2025-05-22 20:53:29,Thursday,20,Small,65.05,Shopping Center,Stormy,119.39,On-time
+SC-DEL-00133,2025-07-19 00:18:17,Saturday,0,Medium,65.87,Urban,Rainy,112.17,On-time
+SC-DEL-00134,2025-07-28 20:51:16,Monday,20,Large,52.3,Urban,Stormy,103.45,On-time
+SC-DEL-00135,2025-08-14 10:19:54,Thursday,10,Small,4.64,Suburban,Stormy,63.55,On-time
+SC-DEL-00136,2025-05-26 18:23:53,Monday,18,Medium,44.45,Industrial,Stormy,99.01,On-time
+SC-DEL-00137,2025-05-25 15:33:55,Sunday,15,Medium,35.68,Industrial,Stormy,100.15,On-time
+SC-DEL-00138,2025-06-29 04:44:00,Sunday,4,Large,67.43,Industrial,Cloudy,115.46,On-time
+SC-DEL-00139,2025-05-30 04:53:46,Friday,4,Medium,58.77,Urban,Stormy,125.30,On-time
+SC-DEL-00140,2025-08-08 20:56:41,Friday,20,Small,68.69,Industrial,Sunny,143.05,Delayed
+SC-DEL-00141,2025-06-19 23:07:55,Thursday,23,Medium,55.87,Suburban,Sunny,127.00,On-time
+SC-DEL-00142,2025-07-19 05:51:18,Saturday,5,Medium,24.09,Rural,Cloudy,80.51,On-time
+SC-DEL-00143,2025-07-29 03:09:29,Tuesday,3,Small,3.77,Industrial,Cloudy,61.45,Delayed
+SC-DEL-00144,2025-08-10 03:29:52,Sunday,3,Small,1.63,Suburban,Sunny,32.28,On-time
+SC-DEL-00145,2025-06-30 02:09:58,Monday,2,Large,23.17,Suburban,Cloudy,46.02,On-time
+SC-DEL-00146,2025-06-04 05:45:29,Wednesday,5,Extra Large,2.0,Urban,Rainy,18.22,On-time
+SC-DEL-00147,2025-05-27 22:05:22,Tuesday,22,Medium,35.96,Rural,Cloudy,98.20,On-time
+SC-DEL-00148,2025-07-12 11:00:32,Saturday,11,Small,70.85,Urban,Rainy,153.04,Delayed
+SC-DEL-00149,2025-07-22 12:58:32,Tuesday,12,Extra Large,24.14,Urban,Sunny,81.20,On-time
+SC-DEL-00150,2025-07-07 02:53:20,Monday,2,Special,61.65,Rural,Snowy,124.04,On-time
+SC-DEL-00151,2025-07-13 02:11:47,Sunday,2,Extra Large,62.66,Rural,Stormy,153.47,On-time
+SC-DEL-00152,2025-07-04 09:56:05,Friday,9,Large,44.01,Industrial,Cloudy,93.50,On-time
+SC-DEL-00153,2025-06-19 06:46:31,Thursday,6,Small,3.54,Industrial,Rainy,62.02,Delayed
+SC-DEL-00154,2025-07-11 02:52:07,Friday,2,Special,41.41,Urban,Rainy,114.59,On-time
+SC-DEL-00155,2025-07-16 12:38:33,Wednesday,12,Large,46.89,Rural,Snowy,85.53,On-time
+SC-DEL-00156,2025-08-11 05:11:37,Monday,5,Medium,36.74,Rural,Snowy,92.10,On-time
+SC-DEL-00157,2025-07-30 07:28:24,Wednesday,7,Special,65.57,Suburban,Snowy,124.38,On-time
+SC-DEL-00158,2025-06-21 20:08:14,Saturday,20,Extra Large,7.79,Rural,Sunny,28.07,On-time
+SC-DEL-00159,2025-06-06 02:14:51,Friday,2,Small,47.0,Rural,Stormy,116.01,On-time
+SC-DEL-00160,2025-08-06 02:58:08,Wednesday,2,Extra Large,38.35,Urban,Sunny,116.46,On-time
+SC-DEL-00161,2025-07-22 07:24:54,Tuesday,7,Small,21.84,Urban,Cloudy,56.31,On-time
+SC-DEL-00162,2025-05-27 03:15:59,Tuesday,3,Medium,63.76,Rural,Sunny,117.51,On-time
+SC-DEL-00163,2025-05-28 16:37:28,Wednesday,16,Extra Large,31.64,Urban,Cloudy,97.28,On-time
+SC-DEL-00164,2025-06-11 03:50:08,Wednesday,3,Small,58.4,Rural,Sunny,136.46,On-time
+SC-DEL-00165,2025-06-23 21:48:46,Monday,21,Special,54.79,Rural,Sunny,143.06,On-time
+SC-DEL-00166,2025-07-10 12:26:26,Thursday,12,Small,53.95,Urban,Sunny,142.13,Delayed
+SC-DEL-00167,2025-06-23 01:04:25,Monday,1,Large,15.05,Suburban,Cloudy,85.49,On-time
+SC-DEL-00168,2025-06-03 08:07:44,Tuesday,8,Medium,18.84,Rural,Stormy,86.18,On-time
+SC-DEL-00169,2025-07-20 23:00:16,Sunday,23,Medium,9.97,Suburban,Sunny,52.16,On-time
+SC-DEL-00170,2025-07-05 12:12:41,Saturday,12,Special,57.34,Industrial,Rainy,130.57,On-time
+SC-DEL-00171,2025-06-16 11:36:47,Monday,11,Medium,73.54,Shopping Center,Rainy,143.31,On-time
+SC-DEL-00172,2025-08-16 19:04:39,Saturday,19,Large,36.86,Urban,Rainy,120.16,On-time
+SC-DEL-00173,2025-07-21 22:52:27,Monday,22,Medium,43.92,Rural,Stormy,92.58,On-time
+SC-DEL-00174,2025-08-16 20:11:35,Saturday,20,Special,46.78,Rural,Cloudy,86.25,On-time
+SC-DEL-00175,2025-06-16 00:38:29,Monday,0,Small,41.76,Shopping Center,Sunny,114.13,On-time
+SC-DEL-00176,2025-07-06 21:00:06,Sunday,21,Special,59.62,Shopping Center,Rainy,140.09,On-time
+SC-DEL-00177,2025-07-06 06:20:56,Sunday,6,Small,43.47,Shopping Center,Sunny,119.50,Delayed
+SC-DEL-00178,2025-07-19 15:58:15,Saturday,15,Special,42.28,Suburban,Cloudy,117.28,On-time
+SC-DEL-00179,2025-07-17 07:28:01,Thursday,7,Small,15.42,Urban,Rainy,38.15,On-time
+SC-DEL-00180,2025-06-08 15:22:54,Sunday,15,Special,55.14,Urban,Snowy,116.09,On-time
+SC-DEL-00181,2025-06-23 23:26:39,Monday,23,Medium,55.7,Rural,Cloudy,131.22,On-time
+SC-DEL-00182,2025-07-11 22:16:15,Friday,22,Small,39.37,Industrial,Snowy,123.06,On-time
+SC-DEL-00183,2025-06-02 09:37:39,Monday,9,Medium,25.22,Urban,Stormy,65.47,On-time
+SC-DEL-00184,2025-08-19 04:44:52,Tuesday,4,Medium,14.81,Rural,Stormy,54.49,On-time
+SC-DEL-00185,2025-06-03 09:56:18,Tuesday,9,Small,52.11,Shopping Center,Cloudy,121.09,On-time
+SC-DEL-00186,2025-06-22 20:39:29,Sunday,20,Small,1.17,Rural,Snowy,16.05,On-time
+SC-DEL-00187,2025-08-06 18:04:33,Wednesday,18,Special,63.36,Shopping Center,Stormy,147.04,On-time
+SC-DEL-00188,2025-07-09 18:33:45,Wednesday,18,Medium,23.38,Shopping Center,Stormy,87.27,On-time
+SC-DEL-00189,2025-06-25 03:37:27,Wednesday,3,Small,48.75,Rural,Sunny,85.37,On-time
+SC-DEL-00190,2025-07-08 05:13:03,Tuesday,5,Medium,15.07,Suburban,Sunny,56.40,On-time
+SC-DEL-00191,2025-06-24 00:16:49,Tuesday,0,Medium,2.24,Industrial,Rainy,42.15,On-time
+SC-DEL-00192,2025-08-16 01:03:27,Saturday,1,Special,19.39,Rural,Stormy,54.42,On-time
+SC-DEL-00193,2025-06-30 01:41:47,Monday,1,Large,67.45,Suburban,Cloudy,166.04,On-time
+SC-DEL-00194,2025-05-30 08:24:54,Friday,8,Medium,22.58,Rural,Stormy,59.37,On-time
+SC-DEL-00195,2025-06-29 05:02:51,Sunday,5,Medium,41.21,Industrial,Rainy,73.15,On-time
+SC-DEL-00196,2025-05-31 11:17:52,Saturday,11,Extra Large,20.44,Suburban,Sunny,68.31,On-time
+SC-DEL-00197,2025-07-21 20:31:46,Monday,20,Special,18.22,Suburban,Snowy,78.40,On-time
+SC-DEL-00198,2025-07-25 02:42:28,Friday,2,Extra Large,32.0,Urban,Cloudy,84.21,On-time
+SC-DEL-00199,2025-08-02 00:39:42,Saturday,0,Special,39.32,Rural,Snowy,101.26,On-time
+SC-DEL-00200,2025-07-12 17:19:13,Saturday,17,Special,34.85,Shopping Center,Snowy,111.02,On-time
+SC-DEL-00201,2025-07-17 07:56:22,Thursday,7,Extra Large,14.98,Industrial,Rainy,63.07,On-time
+SC-DEL-00202,2025-06-03 14:18:50,Tuesday,14,Medium,16.18,Urban,Cloudy,75.44,On-time
+SC-DEL-00203,2025-08-06 18:11:05,Wednesday,18,Extra Large,22.96,Suburban,Stormy,98.44,On-time
+SC-DEL-00204,2025-06-09 15:39:20,Monday,15,Medium,21.51,Suburban,Cloudy,52.54,On-time
+SC-DEL-00205,2025-06-26 18:46:48,Thursday,18,Large,39.41,Urban,Stormy,83.19,On-time
+SC-DEL-00206,2025-08-03 17:59:16,Sunday,17,Extra Large,5.12,Industrial,Cloudy,57.39,On-time
+SC-DEL-00207,2025-07-26 22:09:37,Saturday,22,Special,52.47,Shopping Center,Rainy,100.22,On-time
+SC-DEL-00208,2025-08-17 05:10:29,Sunday,5,Special,7.97,Rural,Rainy,60.58,On-time
+SC-DEL-00209,2025-08-09 02:35:20,Saturday,2,Medium,69.74,Urban,Sunny,117.58,On-time
+SC-DEL-00210,2025-05-28 03:35:35,Wednesday,3,Medium,6.29,Rural,Sunny,28.11,On-time
+SC-DEL-00211,2025-08-04 20:00:28,Monday,20,Small,61.71,Suburban,Sunny,151.47,Delayed
+SC-DEL-00212,2025-06-17 04:38:33,Tuesday,4,Medium,2.47,Urban,Cloudy,42.08,On-time
+SC-DEL-00213,2025-05-28 18:44:25,Wednesday,18,Extra Large,29.36,Urban,Sunny,83.36,On-time
+SC-DEL-00214,2025-06-13 07:18:44,Friday,7,Extra Large,6.17,Urban,Snowy,31.01,On-time
+SC-DEL-00215,2025-08-11 06:18:37,Monday,6,Large,37.58,Rural,Cloudy,90.47,On-time
+SC-DEL-00216,2025-07-21 10:29:36,Monday,10,Special,43.56,Suburban,Cloudy,112.33,On-time
+SC-DEL-00217,2025-05-25 02:01:42,Sunday,2,Special,44.18,Urban,Rainy,86.50,On-time
+SC-DEL-00218,2025-07-28 05:55:04,Monday,5,Extra Large,58.15,Industrial,Stormy,136.15,On-time
+SC-DEL-00219,2025-06-19 13:30:34,Thursday,13,Special,31.66,Urban,Snowy,79.54,On-time
+SC-DEL-00220,2025-06-08 00:41:39,Sunday,0,Medium,1.22,Suburban,Stormy,23.01,On-time
+SC-DEL-00221,2025-08-09 15:31:59,Saturday,15,Large,31.8,Shopping Center,Rainy,62.40,On-time
+SC-DEL-00222,2025-06-18 19:42:15,Wednesday,19,Large,7.9,Rural,Stormy,38.15,On-time
+SC-DEL-00223,2025-06-26 06:38:25,Thursday,6,Extra Large,9.54,Shopping Center,Sunny,52.24,On-time
+SC-DEL-00224,2025-08-02 15:10:34,Saturday,15,Large,22.94,Shopping Center,Rainy,60.17,On-time
+SC-DEL-00225,2025-08-07 00:06:51,Thursday,0,Medium,33.03,Shopping Center,Rainy,98.00,On-time
+SC-DEL-00226,2025-07-11 16:48:08,Friday,16,Extra Large,39.72,Urban,Rainy,110.33,On-time
+SC-DEL-00227,2025-07-16 14:36:41,Wednesday,14,Medium,11.79,Urban,Sunny,30.40,On-time
+SC-DEL-00228,2025-06-01 10:35:35,Sunday,10,Medium,6.8,Urban,Stormy,35.42,On-time
+SC-DEL-00229,2025-07-17 05:06:36,Thursday,5,Medium,5.93,Rural,Stormy,33.43,On-time
+SC-DEL-00230,2025-08-02 09:51:43,Saturday,9,Extra Large,46.44,Industrial,Sunny,105.29,On-time
+SC-DEL-00231,2025-06-11 12:38:15,Wednesday,12,Extra Large,42.68,Suburban,Stormy,126.18,On-time
+SC-DEL-00232,2025-06-01 06:15:42,Sunday,6,Special,48.3,Shopping Center,Rainy,110.12,On-time
+SC-DEL-00233,2025-06-29 05:03:55,Sunday,5,Extra Large,31.45,Shopping Center,Rainy,91.47,On-time
+SC-DEL-00234,2025-07-12 15:50:31,Saturday,15,Special,20.55,Industrial,Cloudy,51.34,On-time
+SC-DEL-00235,2025-08-06 00:26:41,Wednesday,0,Special,25.68,Shopping Center,Sunny,56.13,On-time
+SC-DEL-00236,2025-08-07 04:20:28,Thursday,4,Special,52.51,Shopping Center,Sunny,125.01,On-time
+SC-DEL-00237,2025-06-26 07:42:55,Thursday,7,Small,30.51,Shopping Center,Sunny,107.32,On-time
+SC-DEL-00238,2025-06-18 15:39:54,Wednesday,15,Special,50.12,Suburban,Snowy,108.42,On-time
+SC-DEL-00239,2025-07-05 15:23:03,Saturday,15,Special,45.3,Industrial,Sunny,119.35,On-time
+SC-DEL-00240,2025-07-24 23:55:05,Thursday,23,Small,59.56,Shopping Center,Rainy,134.07,On-time
+SC-DEL-00241,2025-08-04 17:57:07,Monday,17,Special,33.97,Suburban,Rainy,101.33,On-time
+SC-DEL-00242,2025-08-10 23:13:07,Sunday,23,Extra Large,6.3,Rural,Cloudy,60.21,On-time
+SC-DEL-00243,2025-08-12 03:30:33,Tuesday,3,Medium,32.32,Suburban,Snowy,84.43,On-time
+SC-DEL-00244,2025-07-08 11:35:20,Tuesday,11,Extra Large,46.5,Urban,Cloudy,81.02,On-time
+SC-DEL-00245,2025-07-01 06:31:06,Tuesday,6,Small,34.52,Suburban,Snowy,66.28,On-time
+SC-DEL-00246,2025-07-14 11:14:54,Monday,11,Extra Large,31.08,Urban,Cloudy,107.41,On-time
+SC-DEL-00247,2025-06-11 03:31:46,Wednesday,3,Large,42.85,Rural,Sunny,113.24,On-time
+SC-DEL-00248,2025-07-01 21:48:27,Tuesday,21,Large,18.78,Urban,Rainy,46.15,On-time
+SC-DEL-00249,2025-08-15 11:21:27,Friday,11,Medium,54.49,Urban,Snowy,99.28,On-time
+SC-DEL-00250,2025-08-06 15:51:20,Wednesday,15,Medium,72.75,Urban,Cloudy,137.04,On-time
+SC-DEL-00251,2025-07-02 14:17:12,Wednesday,14,Medium,40.84,Suburban,Sunny,101.24,Delayed
+SC-DEL-00252,2025-06-17 14:58:47,Tuesday,14,Large,37.69,Shopping Center,Snowy,71.02,On-time
+SC-DEL-00253,2025-06-19 18:39:38,Thursday,18,Medium,7.66,Rural,Snowy,37.34,On-time
+SC-DEL-00254,2025-06-09 16:26:51,Monday,16,Extra Large,50.8,Industrial,Sunny,129.14,On-time
+SC-DEL-00255,2025-07-12 11:50:06,Saturday,11,Small,44.58,Urban,Rainy,116.39,Delayed
+SC-DEL-00256,2025-06-15 08:26:33,Sunday,8,Small,9.97,Rural,Stormy,33.46,On-time
+SC-DEL-00257,2025-07-10 17:57:57,Thursday,17,Large,25.02,Suburban,Cloudy,58.32,On-time
+SC-DEL-00258,2025-08-03 11:57:37,Sunday,11,Special,30.6,Urban,Snowy,82.27,On-time
+SC-DEL-00259,2025-05-29 08:16:51,Thursday,8,Large,67.08,Shopping Center,Cloudy,160.13,On-time
+SC-DEL-00260,2025-06-07 09:51:45,Saturday,9,Large,54.7,Urban,Cloudy,120.27,On-time
+SC-DEL-00261,2025-07-21 06:35:25,Monday,6,Extra Large,4.14,Shopping Center,Sunny,31.06,On-time
+SC-DEL-00262,2025-08-19 16:14:23,Tuesday,16,Special,62.53,Shopping Center,Sunny,154.31,On-time
+SC-DEL-00263,2025-07-29 08:05:52,Tuesday,8,Large,73.7,Urban,Snowy,123.53,On-time
+SC-DEL-00264,2025-06-11 14:15:46,Wednesday,14,Extra Large,46.74,Shopping Center,Stormy,103.22,On-time
+SC-DEL-00265,2025-06-10 03:58:47,Tuesday,3,Extra Large,71.88,Urban,Stormy,166.05,On-time
+SC-DEL-00266,2025-07-18 13:48:39,Friday,13,Special,32.08,Shopping Center,Snowy,86.20,On-time
+SC-DEL-00267,2025-08-06 17:46:49,Wednesday,17,Small,26.07,Rural,Cloudy,59.13,On-time
+SC-DEL-00268,2025-06-27 11:21:18,Friday,11,Large,59.05,Urban,Sunny,148.10,On-time
+SC-DEL-00269,2025-07-29 21:06:04,Tuesday,21,Large,29.18,Shopping Center,Sunny,65.21,On-time
+SC-DEL-00270,2025-06-04 12:33:45,Wednesday,12,Large,12.33,Suburban,Snowy,77.15,On-time
+SC-DEL-00271,2025-06-01 08:31:47,Sunday,8,Small,43.09,Rural,Stormy,106.10,On-time
+SC-DEL-00272,2025-08-04 22:52:47,Monday,22,Small,48.89,Suburban,Stormy,96.44,On-time
+SC-DEL-00273,2025-05-30 06:09:42,Friday,6,Extra Large,45.31,Rural,Snowy,115.06,On-time
+SC-DEL-00274,2025-07-08 19:17:17,Tuesday,19,Special,18.58,Suburban,Snowy,68.12,On-time
+SC-DEL-00275,2025-08-10 23:29:42,Sunday,23,Medium,1.08,Industrial,Cloudy,19.22,On-time
+SC-DEL-00276,2025-07-08 07:25:31,Tuesday,7,Large,14.27,Suburban,Rainy,45.05,On-time
+SC-DEL-00277,2025-08-04 02:01:37,Monday,2,Extra Large,4.56,Shopping Center,Rainy,25.43,On-time
+SC-DEL-00278,2025-07-10 07:12:45,Thursday,7,Small,11.38,Suburban,Cloudy,33.35,On-time
+SC-DEL-00279,2025-06-16 20:45:44,Monday,20,Extra Large,62.54,Industrial,Cloudy,109.08,On-time
+SC-DEL-00280,2025-07-28 10:18:42,Monday,10,Large,74.95,Urban,Sunny,167.33,On-time
+SC-DEL-00281,2025-08-19 08:06:29,Tuesday,8,Large,60.97,Shopping Center,Snowy,136.24,On-time
+SC-DEL-00282,2025-06-21 20:48:26,Saturday,20,Large,44.14,Rural,Sunny,107.27,On-time
+SC-DEL-00283,2025-05-24 00:40:29,Saturday,0,Special,54.4,Industrial,Snowy,130.00,On-time
+SC-DEL-00284,2025-07-04 19:07:29,Friday,19,Special,1.13,Rural,Stormy,65.56,On-time
+SC-DEL-00285,2025-06-28 10:16:16,Saturday,10,Extra Large,43.57,Suburban,Sunny,125.55,On-time
+SC-DEL-00286,2025-06-15 23:19:16,Sunday,23,Medium,58.95,Urban,Stormy,131.34,On-time
+SC-DEL-00287,2025-07-06 14:38:09,Sunday,14,Extra Large,61.88,Rural,Sunny,139.20,On-time
+SC-DEL-00288,2025-07-08 10:48:26,Tuesday,10,Special,67.01,Industrial,Stormy,135.00,On-time
+SC-DEL-00289,2025-06-21 02:26:22,Saturday,2,Extra Large,54.82,Rural,Cloudy,94.01,On-time
+SC-DEL-00290,2025-07-27 02:31:49,Sunday,2,Small,13.97,Suburban,Stormy,52.13,On-time
+SC-DEL-00291,2025-07-17 10:59:35,Thursday,10,Medium,7.35,Urban,Rainy,55.17,On-time
+SC-DEL-00292,2025-06-03 02:11:29,Tuesday,2,Large,31.59,Urban,Sunny,101.47,On-time
+SC-DEL-00293,2025-08-13 02:30:17,Wednesday,2,Special,52.25,Shopping Center,Stormy,130.14,On-time
+SC-DEL-00294,2025-05-25 02:52:15,Sunday,2,Large,13.64,Suburban,Rainy,55.36,On-time
+SC-DEL-00295,2025-06-27 02:06:54,Friday,2,Extra Large,50.88,Industrial,Stormy,93.46,On-time
+SC-DEL-00296,2025-07-03 00:23:37,Thursday,0,Large,58.77,Industrial,Stormy,148.48,On-time
+SC-DEL-00297,2025-06-24 07:58:37,Tuesday,7,Extra Large,5.11,Rural,Stormy,22.07,On-time
+SC-DEL-00298,2025-06-16 15:32:32,Monday,15,Medium,71.21,Suburban,Sunny,150.08,Delayed
+SC-DEL-00299,2025-08-02 04:32:03,Saturday,4,Extra Large,11.79,Industrial,Cloudy,40.33,On-time
+SC-DEL-00300,2025-06-29 06:06:35,Sunday,6,Special,51.05,Suburban,Cloudy,92.45,On-time
+SC-DEL-00301,2025-08-11 20:01:58,Monday,20,Large,47.78,Industrial,Cloudy,119.13,On-time
+SC-DEL-00302,2025-07-31 19:58:33,Thursday,19,Medium,15.26,Urban,Sunny,76.01,On-time
+SC-DEL-00303,2025-08-11 17:35:14,Monday,17,Large,17.64,Shopping Center,Stormy,64.24,On-time
+SC-DEL-00304,2025-05-30 16:35:15,Friday,16,Extra Large,18.2,Shopping Center,Stormy,85.07,On-time
+SC-DEL-00305,2025-08-18 22:04:59,Monday,22,Medium,33.48,Industrial,Sunny,63.43,On-time
+SC-DEL-00306,2025-07-20 14:33:21,Sunday,14,Medium,18.53,Urban,Rainy,84.33,Delayed
+SC-DEL-00307,2025-06-19 07:08:53,Thursday,7,Extra Large,25.19,Suburban,Stormy,77.09,On-time
+SC-DEL-00308,2025-06-20 15:00:11,Friday,15,Large,10.52,Shopping Center,Sunny,66.38,On-time
+SC-DEL-00309,2025-05-29 02:36:23,Thursday,2,Extra Large,64.22,Rural,Cloudy,159.48,On-time
+SC-DEL-00310,2025-08-19 01:51:16,Tuesday,1,Special,7.77,Urban,Cloudy,64.35,On-time
+SC-DEL-00311,2025-08-03 01:14:23,Sunday,1,Extra Large,31.93,Industrial,Rainy,67.34,On-time
+SC-DEL-00312,2025-07-11 03:47:09,Friday,3,Large,70.58,Urban,Rainy,157.54,On-time
+SC-DEL-00313,2025-06-14 10:19:06,Saturday,10,Small,36.05,Urban,Cloudy,108.37,Delayed
+SC-DEL-00314,2025-06-08 00:23:36,Sunday,0,Extra Large,11.58,Urban,Stormy,53.21,On-time
+SC-DEL-00315,2025-08-04 19:50:43,Monday,19,Extra Large,69.95,Suburban,Stormy,160.56,On-time
+SC-DEL-00316,2025-07-24 22:48:55,Thursday,22,Large,34.54,Shopping Center,Stormy,77.12,On-time
+SC-DEL-00317,2025-07-12 06:49:57,Saturday,6,Medium,70.69,Shopping Center,Stormy,159.16,On-time
+SC-DEL-00318,2025-08-17 04:23:10,Sunday,4,Large,51.15,Suburban,Rainy,87.00,On-time
+SC-DEL-00319,2025-07-16 19:14:19,Wednesday,19,Special,2.31,Rural,Rainy,25.01,On-time
+SC-DEL-00320,2025-07-16 11:20:38,Wednesday,11,Special,57.08,Suburban,Rainy,137.08,On-time
+SC-DEL-00321,2025-08-16 07:56:05,Saturday,7,Extra Large,39.63,Urban,Rainy,74.49,On-time
+SC-DEL-00322,2025-06-14 02:24:47,Saturday,2,Medium,38.9,Rural,Rainy,78.22,On-time
+SC-DEL-00323,2025-07-14 12:12:40,Monday,12,Special,53.4,Industrial,Sunny,98.13,On-time
+SC-DEL-00324,2025-06-16 21:02:39,Monday,21,Extra Large,11.37,Rural,Stormy,52.08,On-time
+SC-DEL-00325,2025-06-15 22:41:13,Sunday,22,Extra Large,18.77,Rural,Cloudy,64.01,On-time
+SC-DEL-00326,2025-08-11 21:26:51,Monday,21,Extra Large,58.27,Shopping Center,Rainy,143.37,On-time
+SC-DEL-00327,2025-06-18 10:51:44,Wednesday,10,Small,25.03,Shopping Center,Rainy,92.22,On-time
+SC-DEL-00328,2025-07-13 01:35:45,Sunday,1,Large,61.14,Industrial,Snowy,142.00,On-time
+SC-DEL-00329,2025-06-02 07:25:10,Monday,7,Special,66.28,Shopping Center,Stormy,145.28,On-time
+SC-DEL-00330,2025-05-24 11:09:04,Saturday,11,Extra Large,10.57,Shopping Center,Cloudy,51.28,On-time
+SC-DEL-00331,2025-06-22 21:17:54,Sunday,21,Special,71.26,Shopping Center,Rainy,123.30,On-time
+SC-DEL-00332,2025-05-24 12:01:43,Saturday,12,Medium,19.89,Suburban,Stormy,59.19,On-time
+SC-DEL-00333,2025-05-25 11:49:31,Sunday,11,Large,5.23,Rural,Cloudy,22.01,On-time
+SC-DEL-00334,2025-07-09 14:48:56,Wednesday,14,Medium,10.65,Suburban,Sunny,33.58,On-time
+SC-DEL-00335,2025-06-14 07:35:14,Saturday,7,Large,37.33,Shopping Center,Stormy,88.22,On-time
+SC-DEL-00336,2025-07-06 19:47:07,Sunday,19,Special,50.4,Industrial,Stormy,92.33,On-time
+SC-DEL-00337,2025-08-09 20:26:29,Saturday,20,Special,74.06,Industrial,Stormy,170.14,On-time
+SC-DEL-00338,2025-07-13 15:34:54,Sunday,15,Extra Large,5.85,Rural,Sunny,68.30,On-time
+SC-DEL-00339,2025-07-17 17:32:22,Thursday,17,Special,54.3,Shopping Center,Stormy,98.48,On-time
+SC-DEL-00340,2025-06-09 09:16:24,Monday,9,Medium,29.34,Industrial,Stormy,82.42,On-time
+SC-DEL-00341,2025-08-11 07:33:57,Monday,7,Small,44.19,Urban,Stormy,93.05,On-time
+SC-DEL-00342,2025-08-01 06:45:16,Friday,6,Small,14.03,Shopping Center,Sunny,40.10,On-time
+SC-DEL-00343,2025-08-17 19:00:12,Sunday,19,Special,70.46,Suburban,Cloudy,117.02,On-time
+SC-DEL-00344,2025-05-23 04:22:18,Friday,4,Small,54.21,Urban,Stormy,99.04,On-time
+SC-DEL-00345,2025-05-29 10:53:52,Thursday,10,Large,20.37,Suburban,Sunny,79.52,On-time
+SC-DEL-00346,2025-07-28 14:05:00,Monday,14,Small,12.53,Industrial,Snowy,39.52,On-time
+SC-DEL-00347,2025-06-16 08:55:58,Monday,8,Extra Large,31.48,Urban,Snowy,68.35,On-time
+SC-DEL-00348,2025-07-11 13:13:02,Friday,13,Large,11.44,Urban,Snowy,72.34,On-time
+SC-DEL-00349,2025-07-26 01:58:24,Saturday,1,Medium,54.09,Urban,Rainy,105.02,On-time
+SC-DEL-00350,2025-08-06 08:12:10,Wednesday,8,Special,26.69,Suburban,Cloudy,61.31,On-time
+SC-DEL-00351,2025-07-19 03:43:10,Saturday,3,Large,63.24,Urban,Rainy,150.20,On-time
+SC-DEL-00352,2025-07-11 21:45:24,Friday,21,Medium,62.0,Suburban,Rainy,128.31,On-time
+SC-DEL-00353,2025-07-05 06:00:06,Saturday,6,Special,52.95,Suburban,Stormy,126.09,On-time
+SC-DEL-00354,2025-08-12 02:06:22,Tuesday,2,Medium,24.03,Shopping Center,Sunny,81.29,On-time
+SC-DEL-00355,2025-08-14 02:14:36,Thursday,2,Large,29.05,Industrial,Snowy,90.19,On-time
+SC-DEL-00356,2025-05-29 17:19:36,Thursday,17,Medium,33.3,Industrial,Stormy,65.43,On-time
+SC-DEL-00357,2025-08-02 01:44:49,Saturday,1,Medium,4.62,Suburban,Cloudy,30.54,On-time
+SC-DEL-00358,2025-08-09 11:43:05,Saturday,11,Special,13.4,Industrial,Sunny,68.49,On-time
+SC-DEL-00359,2025-07-22 22:41:58,Tuesday,22,Special,61.92,Rural,Cloudy,116.47,On-time
+SC-DEL-00360,2025-06-09 05:45:46,Monday,5,Extra Large,33.02,Urban,Sunny,65.48,On-time
+SC-DEL-00361,2025-06-16 19:31:19,Monday,19,Special,5.83,Shopping Center,Rainy,43.08,On-time
+SC-DEL-00362,2025-07-05 04:57:29,Saturday,4,Special,5.37,Urban,Rainy,19.14,On-time
+SC-DEL-00363,2025-06-13 21:33:32,Friday,21,Small,60.95,Suburban,Sunny,135.15,Delayed
+SC-DEL-00364,2025-05-31 07:15:37,Saturday,7,Small,71.66,Urban,Stormy,164.10,On-time
+SC-DEL-00365,2025-08-07 15:55:29,Thursday,15,Small,66.36,Industrial,Sunny,132.36,Delayed
+SC-DEL-00366,2025-06-13 11:22:23,Friday,11,Extra Large,48.88,Rural,Rainy,109.59,On-time
+SC-DEL-00367,2025-07-20 04:10:33,Sunday,4,Extra Large,71.36,Industrial,Sunny,163.00,On-time
+SC-DEL-00368,2025-07-29 00:31:47,Tuesday,0,Medium,5.01,Shopping Center,Snowy,59.25,On-time
+SC-DEL-00369,2025-07-24 18:46:22,Thursday,18,Small,16.1,Suburban,Cloudy,73.43,On-time
+SC-DEL-00370,2025-06-16 09:36:27,Monday,9,Special,72.56,Shopping Center,Cloudy,151.59,On-time
+SC-DEL-00371,2025-08-20 01:36:15,Wednesday,1,Small,34.44,Suburban,Cloudy,109.43,Delayed
+SC-DEL-00372,2025-08-02 21:25:04,Saturday,21,Special,70.53,Industrial,Snowy,135.12,On-time
+SC-DEL-00373,2025-05-26 01:23:34,Monday,1,Extra Large,20.26,Shopping Center,Cloudy,81.22,On-time
+SC-DEL-00374,2025-06-17 04:55:43,Tuesday,4,Medium,62.88,Shopping Center,Cloudy,122.34,On-time
+SC-DEL-00375,2025-06-10 00:48:39,Tuesday,0,Large,11.09,Urban,Cloudy,61.43,On-time
+SC-DEL-00376,2025-06-12 21:24:04,Thursday,21,Large,52.86,Industrial,Cloudy,101.03,On-time
+SC-DEL-00377,2025-07-05 06:01:26,Saturday,6,Medium,22.59,Rural,Stormy,94.25,On-time
+SC-DEL-00378,2025-06-20 21:24:57,Friday,21,Large,51.54,Urban,Sunny,105.25,On-time
+SC-DEL-00379,2025-06-13 14:06:37,Friday,14,Medium,2.06,Industrial,Stormy,33.57,On-time
+SC-DEL-00380,2025-05-26 21:36:21,Monday,21,Large,4.24,Urban,Cloudy,34.10,On-time
+SC-DEL-00381,2025-06-12 21:56:43,Thursday,21,Extra Large,2.29,Suburban,Cloudy,58.19,On-time
+SC-DEL-00382,2025-06-27 07:13:15,Friday,7,Special,15.82,Suburban,Sunny,42.22,On-time
+SC-DEL-00383,2025-06-07 13:16:10,Saturday,13,Small,61.36,Suburban,Snowy,137.10,On-time
+SC-DEL-00384,2025-05-31 07:47:56,Saturday,7,Small,9.62,Suburban,Stormy,60.42,On-time
+SC-DEL-00385,2025-08-10 22:54:24,Sunday,22,Small,66.01,Suburban,Rainy,153.39,Delayed
+SC-DEL-00386,2025-07-18 12:47:52,Friday,12,Large,35.69,Urban,Snowy,79.46,On-time
+SC-DEL-00387,2025-07-28 04:22:23,Monday,4,Extra Large,59.46,Industrial,Rainy,107.07,On-time
+SC-DEL-00388,2025-07-08 12:49:22,Tuesday,12,Special,30.34,Suburban,Snowy,104.05,On-time
+SC-DEL-00389,2025-06-25 18:52:41,Wednesday,18,Extra Large,33.45,Industrial,Rainy,108.30,On-time
+SC-DEL-00390,2025-07-27 01:27:13,Sunday,1,Special,72.51,Rural,Stormy,131.22,On-time
+SC-DEL-00391,2025-06-27 06:48:21,Friday,6,Extra Large,28.27,Suburban,Sunny,105.06,On-time
+SC-DEL-00392,2025-07-23 15:42:04,Wednesday,15,Medium,34.15,Urban,Stormy,94.03,On-time
+SC-DEL-00393,2025-08-16 08:46:48,Saturday,8,Large,38.07,Industrial,Sunny,69.40,On-time
+SC-DEL-00394,2025-06-23 07:40:11,Monday,7,Small,55.66,Industrial,Cloudy,120.12,On-time
+SC-DEL-00395,2025-06-30 21:47:22,Monday,21,Special,68.56,Suburban,Stormy,118.03,On-time
+SC-DEL-00396,2025-08-07 07:48:46,Thursday,7,Small,8.96,Rural,Stormy,37.41,On-time
+SC-DEL-00397,2025-07-03 02:06:43,Thursday,2,Large,17.0,Shopping Center,Rainy,36.19,On-time
+SC-DEL-00398,2025-06-06 23:27:51,Friday,23,Small,21.8,Suburban,Snowy,55.00,On-time
+SC-DEL-00399,2025-07-18 03:07:52,Friday,3,Medium,32.09,Suburban,Rainy,112.53,On-time
+SC-DEL-00400,2025-08-14 17:24:15,Thursday,17,Special,17.21,Suburban,Rainy,70.01,On-time
+SC-DEL-00401,2025-07-26 23:28:51,Saturday,23,Medium,50.5,Shopping Center,Rainy,113.17,On-time
+SC-DEL-00402,2025-07-23 10:34:43,Wednesday,10,Large,46.72,Industrial,Rainy,127.13,On-time
+SC-DEL-00403,2025-07-10 17:00:31,Thursday,17,Special,19.88,Urban,Cloudy,43.23,On-time
+SC-DEL-00404,2025-06-07 14:11:11,Saturday,14,Extra Large,43.61,Suburban,Sunny,78.26,On-time
+SC-DEL-00405,2025-05-27 20:20:48,Tuesday,20,Large,8.63,Rural,Rainy,67.24,On-time
+SC-DEL-00406,2025-05-24 18:21:30,Saturday,18,Large,62.86,Shopping Center,Stormy,111.49,On-time
+SC-DEL-00407,2025-05-29 11:32:49,Thursday,11,Medium,53.2,Suburban,Cloudy,103.49,On-time
+SC-DEL-00408,2025-08-17 01:53:48,Sunday,1,Small,74.03,Shopping Center,Snowy,171.31,On-time
+SC-DEL-00409,2025-07-05 22:09:23,Saturday,22,Extra Large,5.24,Rural,Stormy,50.08,On-time
+SC-DEL-00410,2025-08-09 07:12:02,Saturday,7,Large,42.3,Urban,Rainy,109.12,On-time
+SC-DEL-00411,2025-05-29 02:50:53,Thursday,2,Large,65.03,Rural,Cloudy,110.30,On-time
+SC-DEL-00412,2025-06-19 23:22:33,Thursday,23,Medium,55.35,Suburban,Sunny,141.48,Delayed
+SC-DEL-00413,2025-06-25 16:17:04,Wednesday,16,Special,74.4,Shopping Center,Sunny,134.52,On-time
+SC-DEL-00414,2025-07-15 23:13:50,Tuesday,23,Small,24.65,Rural,Rainy,81.17,On-time
+SC-DEL-00415,2025-06-23 14:09:04,Monday,14,Large,30.68,Shopping Center,Cloudy,69.54,On-time
+SC-DEL-00416,2025-06-07 18:38:24,Saturday,18,Extra Large,29.06,Shopping Center,Sunny,60.43,On-time
+SC-DEL-00417,2025-05-22 18:10:47,Thursday,18,Large,49.86,Industrial,Stormy,118.30,On-time
+SC-DEL-00418,2025-07-26 14:20:20,Saturday,14,Extra Large,6.01,Rural,Rainy,56.05,On-time
+SC-DEL-00419,2025-05-31 21:56:32,Saturday,21,Special,24.61,Industrial,Rainy,67.47,On-time
+SC-DEL-00420,2025-08-09 11:13:24,Saturday,11,Extra Large,57.05,Suburban,Sunny,103.45,On-time
+SC-DEL-00421,2025-07-17 16:04:51,Thursday,16,Extra Large,32.18,Suburban,Sunny,63.06,On-time
+SC-DEL-00422,2025-08-10 00:38:03,Sunday,0,Large,42.71,Rural,Sunny,116.34,On-time
+SC-DEL-00423,2025-08-09 04:55:57,Saturday,4,Medium,33.25,Suburban,Snowy,76.29,On-time
+SC-DEL-00424,2025-07-03 04:25:51,Thursday,4,Large,16.05,Shopping Center,Sunny,72.38,On-time
+SC-DEL-00425,2025-07-03 19:38:56,Thursday,19,Small,5.42,Rural,Sunny,52.06,On-time
+SC-DEL-00426,2025-07-20 20:53:03,Sunday,20,Small,73.79,Suburban,Stormy,174.45,Delayed
+SC-DEL-00427,2025-06-04 03:22:47,Wednesday,3,Extra Large,47.36,Suburban,Stormy,120.28,On-time
+SC-DEL-00428,2025-08-12 23:22:10,Tuesday,23,Special,17.68,Rural,Rainy,39.36,On-time
+SC-DEL-00429,2025-07-19 05:52:24,Saturday,5,Large,44.39,Suburban,Cloudy,128.25,On-time
+SC-DEL-00430,2025-06-07 14:41:12,Saturday,14,Extra Large,31.34,Shopping Center,Sunny,69.59,On-time
+SC-DEL-00431,2025-08-11 17:00:52,Monday,17,Extra Large,40.66,Urban,Stormy,108.43,On-time
+SC-DEL-00432,2025-06-01 23:56:13,Sunday,23,Extra Large,26.02,Shopping Center,Rainy,55.11,On-time
+SC-DEL-00433,2025-08-15 17:58:09,Friday,17,Special,7.67,Shopping Center,Sunny,34.54,On-time
+SC-DEL-00434,2025-07-27 17:00:08,Sunday,17,Special,63.65,Shopping Center,Sunny,154.13,On-time
+SC-DEL-00435,2025-06-21 18:51:02,Saturday,18,Special,55.83,Shopping Center,Rainy,147.14,On-time
+SC-DEL-00436,2025-07-15 18:38:04,Tuesday,18,Special,5.78,Urban,Sunny,20.22,On-time
+SC-DEL-00437,2025-07-12 10:51:33,Saturday,10,Medium,63.38,Industrial,Stormy,141.10,On-time
+SC-DEL-00438,2025-08-13 15:48:04,Wednesday,15,Small,17.3,Suburban,Sunny,49.15,On-time
+SC-DEL-00439,2025-08-12 12:19:52,Tuesday,12,Medium,33.61,Industrial,Rainy,86.57,On-time
+SC-DEL-00440,2025-07-31 16:22:39,Thursday,16,Small,40.06,Suburban,Cloudy,94.35,Delayed
+SC-DEL-00441,2025-05-27 01:11:51,Tuesday,1,Special,58.65,Suburban,Cloudy,100.55,On-time
+SC-DEL-00442,2025-07-28 02:02:38,Monday,2,Large,55.73,Industrial,Snowy,146.04,On-time
+SC-DEL-00443,2025-06-19 14:18:01,Thursday,14,Medium,44.37,Suburban,Sunny,106.56,Delayed
+SC-DEL-00444,2025-08-16 00:29:01,Saturday,0,Special,58.62,Rural,Sunny,137.10,On-time
+SC-DEL-00445,2025-07-29 09:32:56,Tuesday,9,Large,49.29,Industrial,Snowy,124.45,On-time
+SC-DEL-00446,2025-08-02 05:16:07,Saturday,5,Extra Large,1.11,Rural,Rainy,65.01,On-time
+SC-DEL-00447,2025-08-02 23:10:29,Saturday,23,Extra Large,74.81,Suburban,Rainy,170.07,On-time
+SC-DEL-00448,2025-05-22 13:28:42,Thursday,13,Large,24.08,Suburban,Snowy,61.55,On-time
+SC-DEL-00449,2025-08-04 10:48:02,Monday,10,Small,29.94,Industrial,Cloudy,64.55,On-time
+SC-DEL-00450,2025-06-07 08:50:46,Saturday,8,Large,47.89,Rural,Snowy,100.38,On-time
+SC-DEL-00451,2025-08-08 00:17:01,Friday,0,Small,33.89,Suburban,Snowy,100.27,On-time
+SC-DEL-00452,2025-07-22 02:26:46,Tuesday,2,Medium,19.76,Industrial,Rainy,92.37,On-time
+SC-DEL-00453,2025-06-25 05:16:20,Wednesday,5,Small,13.97,Rural,Stormy,41.35,On-time
+SC-DEL-00454,2025-06-20 08:42:12,Friday,8,Large,4.18,Industrial,Cloudy,23.51,On-time
+SC-DEL-00455,2025-06-18 02:44:04,Wednesday,2,Special,50.79,Rural,Stormy,138.04,On-time
+SC-DEL-00456,2025-06-16 05:32:34,Monday,5,Large,4.4,Shopping Center,Rainy,30.43,On-time
+SC-DEL-00457,2025-08-08 21:53:14,Friday,21,Medium,3.21,Industrial,Sunny,38.10,On-time
+SC-DEL-00458,2025-07-30 18:23:32,Wednesday,18,Medium,52.08,Urban,Stormy,128.11,On-time
+SC-DEL-00459,2025-08-13 05:12:44,Wednesday,5,Small,20.53,Shopping Center,Rainy,94.12,On-time
+SC-DEL-00460,2025-07-04 10:28:17,Friday,10,Extra Large,13.69,Shopping Center,Snowy,82.24,On-time
+SC-DEL-00461,2025-06-18 14:02:37,Wednesday,14,Large,56.96,Industrial,Rainy,142.51,On-time
+SC-DEL-00462,2025-06-07 14:24:42,Saturday,14,Medium,73.29,Industrial,Sunny,157.11,Delayed
+SC-DEL-00463,2025-07-11 22:32:12,Friday,22,Medium,8.2,Urban,Snowy,38.40,On-time
+SC-DEL-00464,2025-07-18 00:24:32,Friday,0,Special,19.55,Shopping Center,Sunny,83.46,On-time
+SC-DEL-00465,2025-06-13 16:56:09,Friday,16,Small,41.29,Shopping Center,Stormy,109.17,On-time
+SC-DEL-00466,2025-06-19 21:10:00,Thursday,21,Extra Large,33.94,Suburban,Snowy,74.25,On-time
+SC-DEL-00467,2025-06-09 18:59:33,Monday,18,Extra Large,40.58,Industrial,Stormy,124.49,On-time
+SC-DEL-00468,2025-08-19 06:45:08,Tuesday,6,Large,8.14,Urban,Sunny,27.00,On-time
+SC-DEL-00469,2025-06-23 04:09:31,Monday,4,Medium,43.66,Suburban,Stormy,91.23,On-time
+SC-DEL-00470,2025-05-25 05:29:28,Sunday,5,Extra Large,8.54,Rural,Cloudy,69.57,On-time
+SC-DEL-00471,2025-07-07 17:36:26,Monday,17,Medium,6.8,Urban,Cloudy,47.23,On-time
+SC-DEL-00472,2025-08-03 04:21:36,Sunday,4,Extra Large,54.47,Industrial,Rainy,116.16,On-time
+SC-DEL-00473,2025-07-18 15:22:40,Friday,15,Large,19.69,Shopping Center,Cloudy,53.43,On-time
+SC-DEL-00474,2025-08-18 09:36:01,Monday,9,Special,56.08,Industrial,Cloudy,134.46,On-time
+SC-DEL-00475,2025-07-31 04:47:03,Thursday,4,Special,31.91,Industrial,Sunny,98.18,On-time
+SC-DEL-00476,2025-07-24 23:13:29,Thursday,23,Extra Large,55.67,Shopping Center,Rainy,129.49,On-time
+SC-DEL-00477,2025-06-02 21:31:17,Monday,21,Special,51.88,Suburban,Snowy,93.54,On-time
+SC-DEL-00478,2025-08-01 03:31:33,Friday,3,Extra Large,12.56,Shopping Center,Snowy,74.43,On-time
+SC-DEL-00479,2025-07-05 15:40:16,Saturday,15,Special,23.72,Shopping Center,Sunny,59.08,On-time
+SC-DEL-00480,2025-07-25 17:27:14,Friday,17,Extra Large,20.83,Rural,Stormy,45.23,On-time
+SC-DEL-00481,2025-07-08 17:53:24,Tuesday,17,Small,55.65,Rural,Snowy,142.44,On-time
+SC-DEL-00482,2025-08-04 09:36:25,Monday,9,Extra Large,50.72,Industrial,Cloudy,138.46,On-time
+SC-DEL-00483,2025-07-28 00:20:11,Monday,0,Extra Large,45.45,Rural,Snowy,89.22,On-time
+SC-DEL-00484,2025-06-26 10:57:55,Thursday,10,Small,40.96,Suburban,Snowy,97.58,On-time
+SC-DEL-00485,2025-08-05 23:16:02,Tuesday,23,Small,48.45,Shopping Center,Rainy,134.06,On-time
+SC-DEL-00486,2025-07-02 06:16:46,Wednesday,6,Medium,49.38,Suburban,Stormy,93.03,On-time
+SC-DEL-00487,2025-05-28 22:57:11,Wednesday,22,Medium,14.76,Urban,Stormy,70.46,On-time
+SC-DEL-00488,2025-06-25 22:11:47,Wednesday,22,Special,19.68,Industrial,Stormy,72.30,On-time
+SC-DEL-00489,2025-07-23 09:30:38,Wednesday,9,Large,35.84,Rural,Snowy,110.12,On-time
+SC-DEL-00490,2025-07-10 22:49:41,Thursday,22,Special,53.1,Suburban,Rainy,97.04,On-time
+SC-DEL-00491,2025-06-05 03:43:52,Thursday,3,Large,14.28,Shopping Center,Snowy,83.30,On-time
+SC-DEL-00492,2025-07-21 14:08:26,Monday,14,Small,70.03,Rural,Sunny,127.34,On-time
+SC-DEL-00493,2025-07-29 03:35:17,Tuesday,3,Special,49.93,Suburban,Cloudy,131.58,On-time
+SC-DEL-00494,2025-06-24 06:17:55,Tuesday,6,Large,6.21,Suburban,Stormy,32.51,On-time
+SC-DEL-00495,2025-07-01 12:53:07,Tuesday,12,Extra Large,39.45,Industrial,Cloudy,79.41,On-time
+SC-DEL-00496,2025-06-24 02:59:29,Tuesday,2,Medium,37.54,Shopping Center,Cloudy,82.47,On-time
+SC-DEL-00497,2025-06-07 18:49:58,Saturday,18,Medium,40.65,Suburban,Sunny,88.30,On-time
+SC-DEL-00498,2025-05-24 17:45:18,Saturday,17,Small,59.45,Shopping Center,Stormy,112.06,On-time
+SC-DEL-00499,2025-06-18 04:45:02,Wednesday,4,Large,37.16,Urban,Rainy,81.13,On-time
+SC-DEL-00500,2025-07-02 01:10:19,Wednesday,1,Extra Large,33.99,Rural,Rainy,97.31,On-time
+SC-DEL-00501,2025-08-12 20:16:36,Tuesday,20,Small,47.87,Rural,Cloudy,113.20,On-time
+SC-DEL-00502,2025-05-27 11:04:42,Tuesday,11,Large,4.88,Rural,Stormy,62.22,On-time
+SC-DEL-00503,2025-06-30 11:38:59,Monday,11,Medium,48.98,Industrial,Sunny,95.46,On-time
+SC-DEL-00504,2025-05-25 16:57:54,Sunday,16,Extra Large,72.17,Urban,Cloudy,136.37,On-time
+SC-DEL-00505,2025-08-11 08:56:39,Monday,8,Medium,24.68,Shopping Center,Rainy,67.13,On-time
+SC-DEL-00506,2025-06-23 21:17:51,Monday,21,Extra Large,56.76,Suburban,Sunny,110.02,On-time
+SC-DEL-00507,2025-06-11 11:45:21,Wednesday,11,Extra Large,29.79,Rural,Snowy,59.05,On-time
+SC-DEL-00508,2025-06-17 02:28:30,Tuesday,2,Small,34.35,Rural,Sunny,112.19,On-time
+SC-DEL-00509,2025-07-24 14:13:15,Thursday,14,Small,19.97,Shopping Center,Snowy,61.07,On-time
+SC-DEL-00510,2025-05-30 16:28:28,Friday,16,Large,44.14,Urban,Stormy,95.05,On-time
+SC-DEL-00511,2025-07-04 23:21:57,Friday,23,Medium,28.01,Suburban,Cloudy,93.54,On-time
+SC-DEL-00512,2025-06-02 19:14:18,Monday,19,Medium,38.58,Rural,Stormy,80.39,On-time
+SC-DEL-00513,2025-08-16 05:24:25,Saturday,5,Small,32.75,Rural,Cloudy,95.35,On-time
+SC-DEL-00514,2025-06-22 17:55:31,Sunday,17,Small,36.3,Shopping Center,Stormy,102.21,On-time
+SC-DEL-00515,2025-07-14 07:05:07,Monday,7,Medium,28.09,Rural,Cloudy,60.10,On-time
+SC-DEL-00516,2025-08-01 09:07:12,Friday,9,Medium,53.34,Urban,Rainy,144.09,On-time
+SC-DEL-00517,2025-08-14 12:28:54,Thursday,12,Extra Large,47.86,Suburban,Sunny,113.40,On-time
+SC-DEL-00518,2025-07-03 02:26:42,Thursday,2,Small,51.85,Rural,Rainy,114.55,On-time
+SC-DEL-00519,2025-08-13 23:02:17,Wednesday,23,Special,18.68,Suburban,Cloudy,89.35,On-time
+SC-DEL-00520,2025-06-15 06:01:19,Sunday,6,Extra Large,26.31,Industrial,Cloudy,55.50,On-time
+SC-DEL-00521,2025-07-11 20:10:48,Friday,20,Small,66.7,Suburban,Rainy,157.18,On-time
+SC-DEL-00522,2025-07-10 05:09:03,Thursday,5,Large,27.76,Suburban,Sunny,66.10,On-time
+SC-DEL-00523,2025-06-21 15:23:02,Saturday,15,Extra Large,19.59,Shopping Center,Rainy,69.21,On-time
+SC-DEL-00524,2025-06-23 05:01:29,Monday,5,Large,4.06,Suburban,Rainy,24.40,On-time
+SC-DEL-00525,2025-07-24 04:27:48,Thursday,4,Large,52.41,Rural,Stormy,106.09,On-time
+SC-DEL-00526,2025-06-14 13:10:59,Saturday,13,Small,34.32,Urban,Snowy,110.58,On-time
+SC-DEL-00527,2025-06-14 02:38:48,Saturday,2,Special,27.48,Rural,Rainy,80.34,On-time
+SC-DEL-00528,2025-08-18 23:24:40,Monday,23,Special,27.97,Urban,Cloudy,87.07,On-time
+SC-DEL-00529,2025-06-16 22:29:24,Monday,22,Small,56.51,Industrial,Sunny,138.14,Delayed
+SC-DEL-00530,2025-06-24 00:59:06,Tuesday,0,Small,17.93,Industrial,Rainy,65.54,On-time
+SC-DEL-00531,2025-05-25 01:05:29,Sunday,1,Special,26.86,Suburban,Rainy,84.44,On-time
+SC-DEL-00532,2025-08-06 13:06:45,Wednesday,13,Special,29.16,Shopping Center,Stormy,53.53,On-time
+SC-DEL-00533,2025-06-30 11:21:50,Monday,11,Extra Large,46.4,Urban,Sunny,113.57,On-time
+SC-DEL-00534,2025-06-14 03:14:04,Saturday,3,Special,8.87,Shopping Center,Cloudy,76.20,On-time
+SC-DEL-00535,2025-07-07 01:24:14,Monday,1,Large,36.7,Suburban,Cloudy,92.52,On-time
+SC-DEL-00536,2025-06-08 11:07:20,Sunday,11,Large,71.17,Urban,Sunny,160.41,On-time
+SC-DEL-00537,2025-07-03 22:54:34,Thursday,22,Medium,21.56,Industrial,Cloudy,79.35,On-time
+SC-DEL-00538,2025-06-24 19:52:06,Tuesday,19,Extra Large,46.45,Urban,Sunny,88.42,On-time
+SC-DEL-00539,2025-06-04 07:02:27,Wednesday,7,Small,74.75,Suburban,Snowy,156.33,On-time
+SC-DEL-00540,2025-06-29 08:39:23,Sunday,8,Large,36.84,Industrial,Stormy,89.55,On-time
+SC-DEL-00541,2025-06-06 20:05:40,Friday,20,Special,50.58,Suburban,Sunny,126.25,On-time
+SC-DEL-00542,2025-07-29 18:29:39,Tuesday,18,Large,72.57,Industrial,Stormy,146.49,On-time
+SC-DEL-00543,2025-06-27 17:20:13,Friday,17,Large,28.0,Suburban,Stormy,72.13,On-time
+SC-DEL-00544,2025-06-17 14:46:39,Tuesday,14,Special,20.1,Suburban,Snowy,55.45,On-time
+SC-DEL-00545,2025-07-28 19:50:57,Monday,19,Special,18.46,Industrial,Rainy,49.14,On-time
+SC-DEL-00546,2025-07-02 19:52:45,Wednesday,19,Large,70.73,Rural,Stormy,126.47,On-time
+SC-DEL-00547,2025-08-07 08:45:55,Thursday,8,Special,14.58,Industrial,Stormy,45.23,On-time
+SC-DEL-00548,2025-06-04 06:27:56,Wednesday,6,Special,73.17,Shopping Center,Rainy,169.35,On-time
+SC-DEL-00549,2025-08-02 02:07:18,Saturday,2,Large,65.91,Shopping Center,Rainy,150.52,On-time
+SC-DEL-00550,2025-08-04 12:21:05,Monday,12,Large,4.31,Shopping Center,Stormy,44.06,On-time
+SC-DEL-00551,2025-07-28 11:47:51,Monday,11,Special,8.3,Rural,Sunny,47.11,On-time
+SC-DEL-00552,2025-08-12 17:59:41,Tuesday,17,Extra Large,41.65,Rural,Rainy,123.41,On-time
+SC-DEL-00553,2025-06-01 00:14:07,Sunday,0,Small,52.75,Rural,Rainy,100.56,On-time
+SC-DEL-00554,2025-07-29 22:49:02,Tuesday,22,Special,46.75,Urban,Snowy,103.43,On-time
+SC-DEL-00555,2025-08-18 05:06:43,Monday,5,Small,8.28,Suburban,Sunny,53.08,On-time
+SC-DEL-00556,2025-07-01 15:57:38,Tuesday,15,Special,61.65,Rural,Snowy,139.20,On-time
+SC-DEL-00557,2025-07-05 09:13:16,Saturday,9,Special,12.75,Shopping Center,Cloudy,59.33,On-time
+SC-DEL-00558,2025-08-13 20:13:10,Wednesday,20,Special,73.65,Shopping Center,Sunny,144.40,On-time
+SC-DEL-00559,2025-08-10 18:33:03,Sunday,18,Extra Large,29.61,Suburban,Stormy,89.52,On-time
+SC-DEL-00560,2025-07-01 06:20:54,Tuesday,6,Medium,68.33,Urban,Snowy,120.03,On-time
+SC-DEL-00561,2025-05-27 06:21:42,Tuesday,6,Large,23.64,Rural,Rainy,66.58,On-time
+SC-DEL-00562,2025-06-20 08:51:58,Friday,8,Special,47.95,Industrial,Cloudy,107.01,On-time
+SC-DEL-00563,2025-06-17 01:36:39,Tuesday,1,Extra Large,59.02,Industrial,Snowy,146.28,On-time
+SC-DEL-00564,2025-08-08 05:51:27,Friday,5,Special,2.01,Rural,Sunny,30.11,On-time
+SC-DEL-00565,2025-07-06 12:40:27,Sunday,12,Small,47.83,Suburban,Snowy,101.17,On-time
+SC-DEL-00566,2025-06-10 05:29:38,Tuesday,5,Medium,28.66,Shopping Center,Stormy,55.16,On-time
+SC-DEL-00567,2025-06-06 22:31:08,Friday,22,Large,16.17,Suburban,Rainy,72.25,On-time
+SC-DEL-00568,2025-07-13 08:47:16,Sunday,8,Small,31.01,Shopping Center,Sunny,61.05,On-time
+SC-DEL-00569,2025-06-07 02:01:12,Saturday,2,Special,58.5,Rural,Sunny,145.05,On-time
+SC-DEL-00570,2025-06-27 04:15:30,Friday,4,Small,42.4,Suburban,Sunny,74.40,On-time
+SC-DEL-00571,2025-06-04 01:06:58,Wednesday,1,Extra Large,8.43,Urban,Rainy,32.23,On-time
+SC-DEL-00572,2025-08-17 10:38:26,Sunday,10,Medium,7.38,Industrial,Sunny,74.39,Delayed
+SC-DEL-00573,2025-05-22 16:02:17,Thursday,16,Large,74.35,Rural,Cloudy,123.10,On-time
+SC-DEL-00574,2025-07-20 13:44:45,Sunday,13,Extra Large,39.19,Industrial,Stormy,102.52,On-time
+SC-DEL-00575,2025-06-30 19:38:16,Monday,19,Medium,12.29,Shopping Center,Snowy,31.40,On-time
+SC-DEL-00576,2025-06-21 02:58:33,Saturday,2,Extra Large,58.61,Suburban,Cloudy,134.49,On-time
+SC-DEL-00577,2025-08-13 04:03:23,Wednesday,4,Large,55.24,Urban,Rainy,117.26,On-time
+SC-DEL-00578,2025-05-29 06:14:23,Thursday,6,Small,35.15,Industrial,Snowy,104.52,On-time
+SC-DEL-00579,2025-07-30 05:52:24,Wednesday,5,Medium,14.79,Suburban,Cloudy,79.11,On-time
+SC-DEL-00580,2025-05-27 15:30:19,Tuesday,15,Medium,68.62,Urban,Cloudy,150.22,On-time
+SC-DEL-00581,2025-05-25 07:53:49,Sunday,7,Large,28.67,Urban,Sunny,105.20,On-time
+SC-DEL-00582,2025-06-08 04:52:08,Sunday,4,Medium,41.12,Industrial,Sunny,79.48,On-time
+SC-DEL-00583,2025-06-17 07:59:35,Tuesday,7,Large,15.25,Rural,Stormy,70.31,On-time
+SC-DEL-00584,2025-06-07 19:57:22,Saturday,19,Large,45.42,Urban,Cloudy,99.55,On-time
+SC-DEL-00585,2025-07-16 06:25:51,Wednesday,6,Small,8.96,Suburban,Cloudy,68.37,Delayed
+SC-DEL-00586,2025-07-19 02:49:40,Saturday,2,Special,21.06,Urban,Sunny,76.20,On-time
+SC-DEL-00587,2025-07-13 01:19:18,Sunday,1,Extra Large,68.39,Urban,Snowy,132.45,On-time
+SC-DEL-00588,2025-07-18 03:48:42,Friday,3,Extra Large,19.86,Urban,Rainy,50.29,On-time
+SC-DEL-00589,2025-07-01 22:52:47,Tuesday,22,Small,65.28,Rural,Sunny,150.55,On-time
+SC-DEL-00590,2025-06-28 23:05:36,Saturday,23,Extra Large,42.03,Suburban,Sunny,76.57,On-time
+SC-DEL-00591,2025-08-10 21:19:58,Sunday,21,Special,64.41,Urban,Stormy,107.20,On-time
+SC-DEL-00592,2025-07-23 07:44:24,Wednesday,7,Special,71.84,Shopping Center,Stormy,167.51,On-time
+SC-DEL-00593,2025-06-28 16:36:44,Saturday,16,Small,5.58,Suburban,Cloudy,64.12,Delayed
+SC-DEL-00594,2025-06-24 19:35:19,Tuesday,19,Extra Large,12.34,Shopping Center,Sunny,39.14,On-time
+SC-DEL-00595,2025-08-11 07:02:05,Monday,7,Special,39.07,Urban,Stormy,77.02,On-time
+SC-DEL-00596,2025-07-04 13:30:03,Friday,13,Large,3.87,Shopping Center,Rainy,31.48,On-time
+SC-DEL-00597,2025-06-28 15:19:55,Saturday,15,Extra Large,73.73,Rural,Sunny,129.13,On-time
+SC-DEL-00598,2025-08-12 11:06:33,Tuesday,11,Medium,46.28,Shopping Center,Sunny,102.21,On-time
+SC-DEL-00599,2025-08-06 06:39:44,Wednesday,6,Medium,53.24,Urban,Sunny,112.00,On-time
+SC-DEL-00600,2025-08-01 14:18:53,Friday,14,Special,33.74,Urban,Sunny,82.23,On-time
+SC-DEL-00601,2025-06-11 08:45:38,Wednesday,8,Medium,62.28,Industrial,Snowy,111.05,On-time
+SC-DEL-00602,2025-05-23 07:07:53,Friday,7,Large,54.0,Shopping Center,Rainy,138.53,On-time
+SC-DEL-00603,2025-06-06 04:45:42,Friday,4,Large,41.85,Industrial,Snowy,88.09,On-time
+SC-DEL-00604,2025-07-08 17:34:12,Tuesday,17,Special,2.27,Rural,Snowy,32.30,On-time
+SC-DEL-00605,2025-06-04 05:25:59,Wednesday,5,Large,73.8,Suburban,Rainy,121.01,On-time
+SC-DEL-00606,2025-07-11 18:23:52,Friday,18,Extra Large,7.19,Industrial,Stormy,48.05,On-time
+SC-DEL-00607,2025-08-11 16:08:55,Monday,16,Medium,35.49,Rural,Stormy,89.06,On-time
+SC-DEL-00608,2025-06-08 06:51:10,Sunday,6,Special,46.23,Suburban,Rainy,110.24,On-time
+SC-DEL-00609,2025-08-18 04:34:06,Monday,4,Medium,69.51,Industrial,Stormy,138.34,On-time
+SC-DEL-00610,2025-05-30 12:04:09,Friday,12,Extra Large,50.16,Rural,Sunny,125.49,On-time
+SC-DEL-00611,2025-08-08 16:16:18,Friday,16,Special,15.02,Urban,Sunny,70.05,On-time
+SC-DEL-00612,2025-08-08 22:32:05,Friday,22,Extra Large,43.88,Suburban,Sunny,125.12,On-time
+SC-DEL-00613,2025-08-17 04:46:01,Sunday,4,Special,12.41,Suburban,Rainy,52.21,On-time
+SC-DEL-00614,2025-08-18 08:15:13,Monday,8,Special,53.6,Rural,Snowy,121.15,On-time
+SC-DEL-00615,2025-06-24 11:47:55,Tuesday,11,Small,6.95,Rural,Stormy,33.23,On-time
+SC-DEL-00616,2025-06-07 10:31:44,Saturday,10,Small,72.07,Rural,Sunny,164.35,Delayed
+SC-DEL-00617,2025-07-28 02:03:15,Monday,2,Medium,25.34,Industrial,Snowy,50.37,On-time
+SC-DEL-00618,2025-06-05 08:54:24,Thursday,8,Special,27.24,Shopping Center,Rainy,102.56,On-time
+SC-DEL-00619,2025-06-01 17:18:01,Sunday,17,Extra Large,65.0,Suburban,Rainy,118.42,On-time
+SC-DEL-00620,2025-07-28 14:45:14,Monday,14,Medium,33.42,Suburban,Snowy,74.29,On-time
+SC-DEL-00621,2025-06-25 01:03:56,Wednesday,1,Large,32.48,Shopping Center,Snowy,102.55,On-time
+SC-DEL-00622,2025-06-19 13:41:20,Thursday,13,Extra Large,40.14,Rural,Snowy,75.06,On-time
+SC-DEL-00623,2025-07-15 09:04:08,Tuesday,9,Large,67.82,Suburban,Stormy,150.41,On-time
+SC-DEL-00624,2025-07-19 10:59:00,Saturday,10,Small,29.87,Industrial,Cloudy,65.05,Delayed
+SC-DEL-00625,2025-07-19 22:53:57,Saturday,22,Medium,47.78,Rural,Sunny,93.03,On-time
+SC-DEL-00626,2025-07-16 17:26:32,Wednesday,17,Medium,15.63,Urban,Snowy,86.16,On-time
+SC-DEL-00627,2025-06-05 18:44:44,Thursday,18,Special,34.31,Shopping Center,Cloudy,90.13,On-time
+SC-DEL-00628,2025-08-08 09:56:05,Friday,9,Large,16.74,Industrial,Cloudy,38.27,On-time
+SC-DEL-00629,2025-07-05 16:45:57,Saturday,16,Medium,70.7,Shopping Center,Rainy,140.40,On-time
+SC-DEL-00630,2025-07-14 10:49:56,Monday,10,Extra Large,62.89,Rural,Cloudy,106.28,On-time
+SC-DEL-00631,2025-06-15 14:29:00,Sunday,14,Large,42.26,Industrial,Rainy,119.16,Delayed
+SC-DEL-00632,2025-08-17 21:32:47,Sunday,21,Large,23.14,Suburban,Sunny,47.56,On-time
+SC-DEL-00633,2025-08-17 01:27:40,Sunday,1,Special,23.45,Suburban,Snowy,58.44,On-time
+SC-DEL-00634,2025-07-25 10:19:06,Friday,10,Special,62.15,Suburban,Sunny,144.53,On-time
+SC-DEL-00635,2025-06-27 10:58:35,Friday,10,Medium,3.17,Industrial,Snowy,49.16,On-time
+SC-DEL-00636,2025-05-30 00:21:52,Friday,0,Large,46.16,Industrial,Cloudy,89.02,On-time
+SC-DEL-00637,2025-07-30 05:17:19,Wednesday,5,Extra Large,49.25,Shopping Center,Cloudy,132.27,On-time
+SC-DEL-00638,2025-06-09 07:06:35,Monday,7,Small,13.14,Industrial,Sunny,83.39,Delayed
+SC-DEL-00639,2025-06-11 14:40:54,Wednesday,14,Medium,54.76,Urban,Stormy,92.16,On-time
+SC-DEL-00640,2025-06-01 00:44:45,Sunday,0,Large,58.16,Shopping Center,Rainy,151.49,On-time
+SC-DEL-00641,2025-06-26 05:12:49,Thursday,5,Extra Large,71.29,Urban,Sunny,131.18,On-time
+SC-DEL-00642,2025-07-07 06:18:23,Monday,6,Extra Large,67.55,Suburban,Rainy,114.43,On-time
+SC-DEL-00643,2025-06-10 13:15:44,Tuesday,13,Large,39.74,Urban,Cloudy,91.52,On-time
+SC-DEL-00644,2025-06-13 00:49:48,Friday,0,Large,21.49,Shopping Center,Snowy,49.43,On-time
+SC-DEL-00645,2025-08-09 11:37:23,Saturday,11,Extra Large,72.12,Rural,Sunny,137.53,On-time
+SC-DEL-00646,2025-07-29 12:01:22,Tuesday,12,Extra Large,65.38,Urban,Cloudy,123.05,On-time
+SC-DEL-00647,2025-08-11 23:11:32,Monday,23,Special,14.21,Industrial,Snowy,81.00,On-time
+SC-DEL-00648,2025-08-03 04:32:38,Sunday,4,Medium,18.29,Suburban,Rainy,71.22,On-time
+SC-DEL-00649,2025-06-02 16:38:35,Monday,16,Special,40.37,Rural,Sunny,92.01,On-time
+SC-DEL-00650,2025-07-02 13:49:53,Wednesday,13,Extra Large,31.16,Industrial,Cloudy,100.32,On-time
+SC-DEL-00651,2025-06-12 03:52:52,Thursday,3,Medium,39.21,Shopping Center,Stormy,73.32,On-time
+SC-DEL-00652,2025-08-03 21:22:38,Sunday,21,Extra Large,53.65,Rural,Snowy,95.40,On-time
+SC-DEL-00653,2025-06-30 21:49:10,Monday,21,Small,28.86,Shopping Center,Stormy,60.50,On-time
+SC-DEL-00654,2025-07-13 17:49:51,Sunday,17,Medium,3.12,Industrial,Snowy,49.02,On-time
+SC-DEL-00655,2025-05-31 21:49:31,Saturday,21,Small,35.13,Urban,Rainy,70.22,On-time
+SC-DEL-00656,2025-07-11 15:54:27,Friday,15,Small,6.43,Suburban,Snowy,43.23,On-time
+SC-DEL-00657,2025-07-17 21:56:52,Thursday,21,Small,60.52,Industrial,Rainy,111.29,On-time
+SC-DEL-00658,2025-07-12 20:02:35,Saturday,20,Large,6.77,Shopping Center,Sunny,24.01,On-time
+SC-DEL-00659,2025-07-17 03:01:55,Thursday,3,Large,13.79,Industrial,Stormy,49.01,On-time
+SC-DEL-00660,2025-08-19 04:28:31,Tuesday,4,Medium,67.49,Rural,Stormy,139.02,On-time
+SC-DEL-00661,2025-05-24 17:05:20,Saturday,17,Medium,3.23,Suburban,Stormy,46.24,On-time
+SC-DEL-00662,2025-07-23 08:04:29,Wednesday,8,Small,15.38,Shopping Center,Stormy,41.32,On-time
+SC-DEL-00663,2025-06-25 01:02:39,Wednesday,1,Extra Large,12.34,Shopping Center,Snowy,46.47,On-time
+SC-DEL-00664,2025-06-11 18:33:47,Wednesday,18,Medium,26.43,Shopping Center,Snowy,67.00,On-time
+SC-DEL-00665,2025-05-22 22:50:02,Thursday,22,Medium,67.0,Industrial,Stormy,113.29,On-time
+SC-DEL-00666,2025-07-09 16:22:45,Wednesday,16,Large,32.31,Urban,Rainy,96.30,On-time
+SC-DEL-00667,2025-07-25 13:56:49,Friday,13,Large,3.68,Urban,Stormy,40.22,On-time
+SC-DEL-00668,2025-06-06 16:35:20,Friday,16,Special,33.94,Shopping Center,Sunny,94.09,On-time
+SC-DEL-00669,2025-08-11 01:56:10,Monday,1,Special,8.76,Rural,Rainy,59.23,On-time
+SC-DEL-00670,2025-05-22 14:34:32,Thursday,14,Large,4.8,Urban,Cloudy,68.59,On-time
+SC-DEL-00671,2025-07-22 13:23:16,Tuesday,13,Small,65.63,Suburban,Sunny,163.01,Delayed
+SC-DEL-00672,2025-05-23 02:56:04,Friday,2,Special,46.5,Urban,Cloudy,97.50,On-time
+SC-DEL-00673,2025-05-25 12:39:29,Sunday,12,Small,15.3,Industrial,Rainy,37.30,On-time
+SC-DEL-00674,2025-07-03 00:58:19,Thursday,0,Large,48.59,Shopping Center,Stormy,97.49,On-time
+SC-DEL-00675,2025-07-12 00:43:28,Saturday,0,Small,28.76,Urban,Rainy,99.49,Delayed
+SC-DEL-00676,2025-08-18 07:03:09,Monday,7,Extra Large,5.91,Rural,Rainy,49.06,On-time
+SC-DEL-00677,2025-07-27 19:15:46,Sunday,19,Special,29.69,Rural,Cloudy,93.39,On-time
+SC-DEL-00678,2025-06-11 13:56:36,Wednesday,13,Large,36.3,Industrial,Cloudy,114.49,Delayed
+SC-DEL-00679,2025-06-28 03:00:04,Saturday,3,Extra Large,36.56,Suburban,Snowy,95.24,On-time
+SC-DEL-00680,2025-07-14 00:57:28,Monday,0,Special,42.02,Industrial,Rainy,100.57,On-time
+SC-DEL-00681,2025-07-26 05:24:50,Saturday,5,Medium,16.74,Suburban,Sunny,52.32,On-time
+SC-DEL-00682,2025-06-17 13:55:25,Tuesday,13,Large,62.41,Rural,Sunny,112.42,On-time
+SC-DEL-00683,2025-05-26 15:49:42,Monday,15,Extra Large,71.07,Shopping Center,Sunny,141.37,On-time
+SC-DEL-00684,2025-07-31 08:08:18,Thursday,8,Large,22.87,Rural,Stormy,86.20,On-time
+SC-DEL-00685,2025-08-02 23:23:29,Saturday,23,Extra Large,23.13,Industrial,Rainy,79.36,On-time
+SC-DEL-00686,2025-05-23 01:19:04,Friday,1,Small,61.24,Industrial,Snowy,113.04,On-time
+SC-DEL-00687,2025-05-25 09:39:04,Sunday,9,Large,2.29,Urban,Sunny,57.05,On-time
+SC-DEL-00688,2025-06-23 08:38:24,Monday,8,Extra Large,16.54,Urban,Rainy,46.18,On-time
+SC-DEL-00689,2025-06-17 01:58:12,Tuesday,1,Medium,1.15,Suburban,Snowy,35.22,On-time
+SC-DEL-00690,2025-07-16 03:24:39,Wednesday,3,Small,64.92,Shopping Center,Sunny,115.39,On-time
+SC-DEL-00691,2025-08-15 08:46:47,Friday,8,Extra Large,73.32,Industrial,Sunny,168.39,On-time
+SC-DEL-00692,2025-05-24 07:35:13,Saturday,7,Extra Large,19.41,Suburban,Cloudy,92.08,On-time
+SC-DEL-00693,2025-07-19 02:15:54,Saturday,2,Special,3.25,Urban,Sunny,43.26,On-time
+SC-DEL-00694,2025-07-17 16:59:36,Thursday,16,Extra Large,32.97,Rural,Sunny,84.37,On-time
+SC-DEL-00695,2025-07-10 12:25:24,Thursday,12,Medium,53.73,Urban,Sunny,101.02,On-time
+SC-DEL-00696,2025-06-22 21:55:56,Sunday,21,Large,73.31,Suburban,Rainy,141.48,On-time
+SC-DEL-00697,2025-06-02 09:31:09,Monday,9,Extra Large,71.35,Rural,Stormy,156.04,On-time
+SC-DEL-00698,2025-05-22 23:01:48,Thursday,23,Medium,46.23,Urban,Rainy,111.12,On-time
+SC-DEL-00699,2025-08-13 10:32:03,Wednesday,10,Small,28.3,Suburban,Sunny,75.07,Delayed
+SC-DEL-00700,2025-07-20 19:12:53,Sunday,19,Medium,71.54,Suburban,Snowy,151.49,On-time
+SC-DEL-00701,2025-06-10 02:59:42,Tuesday,2,Large,62.79,Shopping Center,Sunny,124.10,On-time
+SC-DEL-00702,2025-07-02 12:47:19,Wednesday,12,Special,2.32,Urban,Rainy,66.39,On-time
+SC-DEL-00703,2025-07-23 12:38:40,Wednesday,12,Small,41.32,Urban,Cloudy,105.18,Delayed
+SC-DEL-00704,2025-08-18 13:21:33,Monday,13,Special,48.63,Rural,Stormy,130.39,On-time
+SC-DEL-00705,2025-05-29 23:57:52,Thursday,23,Extra Large,16.39,Industrial,Cloudy,36.41,On-time
+SC-DEL-00706,2025-07-10 14:53:47,Thursday,14,Medium,57.02,Industrial,Stormy,118.55,On-time
+SC-DEL-00707,2025-07-09 07:41:36,Wednesday,7,Special,64.18,Urban,Cloudy,137.09,On-time
+SC-DEL-00708,2025-05-29 10:38:36,Thursday,10,Special,40.29,Rural,Sunny,111.52,On-time
+SC-DEL-00709,2025-05-31 00:44:13,Saturday,0,Extra Large,40.54,Rural,Snowy,120.03,On-time
+SC-DEL-00710,2025-06-12 11:00:11,Thursday,11,Large,43.32,Industrial,Cloudy,114.32,On-time
+SC-DEL-00711,2025-05-27 00:26:28,Tuesday,0,Medium,60.25,Rural,Sunny,102.31,On-time
+SC-DEL-00712,2025-05-22 12:26:47,Thursday,12,Extra Large,22.36,Rural,Rainy,82.31,On-time
+SC-DEL-00713,2025-06-17 14:40:51,Tuesday,14,Large,72.25,Shopping Center,Snowy,165.47,On-time
+SC-DEL-00714,2025-08-04 10:49:50,Monday,10,Special,41.67,Urban,Cloudy,74.54,On-time
+SC-DEL-00715,2025-06-19 09:26:17,Thursday,9,Small,15.07,Suburban,Cloudy,57.13,On-time
+SC-DEL-00716,2025-08-02 01:56:44,Saturday,1,Large,48.55,Shopping Center,Cloudy,115.30,On-time
+SC-DEL-00717,2025-06-13 12:26:54,Friday,12,Extra Large,73.18,Urban,Rainy,151.38,On-time
+SC-DEL-00718,2025-07-23 05:34:35,Wednesday,5,Large,62.52,Industrial,Rainy,124.50,On-time
+SC-DEL-00719,2025-07-29 04:07:34,Tuesday,4,Extra Large,7.14,Shopping Center,Sunny,43.39,On-time
+SC-DEL-00720,2025-07-19 06:56:16,Saturday,6,Extra Large,60.97,Rural,Stormy,156.08,On-time
+SC-DEL-00721,2025-06-27 01:08:03,Friday,1,Special,60.66,Shopping Center,Sunny,125.05,On-time
+SC-DEL-00722,2025-08-08 23:37:21,Friday,23,Extra Large,28.26,Rural,Cloudy,64.22,On-time
+SC-DEL-00723,2025-07-16 07:04:16,Wednesday,7,Medium,72.04,Urban,Cloudy,131.50,On-time
+SC-DEL-00724,2025-06-17 18:39:39,Tuesday,18,Large,51.37,Industrial,Snowy,97.35,On-time
+SC-DEL-00725,2025-07-18 19:08:18,Friday,19,Special,35.46,Industrial,Cloudy,67.29,On-time
+SC-DEL-00726,2025-06-08 02:15:09,Sunday,2,Extra Large,63.2,Industrial,Snowy,120.42,On-time
+SC-DEL-00727,2025-05-26 19:36:51,Monday,19,Medium,59.3,Shopping Center,Rainy,100.51,On-time
+SC-DEL-00728,2025-06-20 03:53:44,Friday,3,Small,9.19,Urban,Sunny,47.20,On-time
+SC-DEL-00729,2025-05-30 12:31:51,Friday,12,Small,71.79,Industrial,Sunny,160.07,Delayed
+SC-DEL-00730,2025-07-11 23:24:38,Friday,23,Special,14.78,Urban,Rainy,48.08,On-time
+SC-DEL-00731,2025-06-13 10:14:12,Friday,10,Special,11.41,Shopping Center,Snowy,35.23,On-time
+SC-DEL-00732,2025-06-09 02:03:40,Monday,2,Extra Large,31.79,Industrial,Cloudy,72.27,On-time
+SC-DEL-00733,2025-06-10 03:59:16,Tuesday,3,Extra Large,11.96,Shopping Center,Stormy,45.24,On-time
+SC-DEL-00734,2025-05-27 13:18:03,Tuesday,13,Large,61.97,Urban,Stormy,148.16,On-time
+SC-DEL-00735,2025-08-15 06:28:24,Friday,6,Medium,56.45,Rural,Sunny,100.35,On-time
+SC-DEL-00736,2025-07-08 06:23:35,Tuesday,6,Special,41.21,Suburban,Cloudy,113.40,On-time
+SC-DEL-00737,2025-08-15 08:04:58,Friday,8,Small,36.86,Industrial,Sunny,101.27,Delayed
+SC-DEL-00738,2025-06-09 19:40:40,Monday,19,Special,51.01,Urban,Cloudy,100.54,On-time
+SC-DEL-00739,2025-08-05 23:49:15,Tuesday,23,Large,62.31,Shopping Center,Rainy,113.20,On-time
+SC-DEL-00740,2025-06-14 01:16:52,Saturday,1,Special,69.65,Industrial,Sunny,163.01,On-time
+SC-DEL-00741,2025-06-25 16:15:32,Wednesday,16,Extra Large,5.88,Urban,Sunny,42.01,On-time
+SC-DEL-00742,2025-06-14 23:01:58,Saturday,23,Large,7.5,Suburban,Cloudy,25.16,On-time
+SC-DEL-00743,2025-06-16 09:56:56,Monday,9,Extra Large,69.33,Rural,Cloudy,127.21,On-time
+SC-DEL-00744,2025-06-19 15:56:48,Thursday,15,Small,14.75,Suburban,Stormy,32.17,On-time
+SC-DEL-00745,2025-07-06 01:54:29,Sunday,1,Large,74.69,Urban,Stormy,158.49,On-time
+SC-DEL-00746,2025-06-08 19:32:50,Sunday,19,Small,53.08,Suburban,Stormy,140.09,On-time
+SC-DEL-00747,2025-07-25 00:40:18,Friday,0,Extra Large,65.56,Rural,Sunny,124.17,On-time
+SC-DEL-00748,2025-06-06 08:12:15,Friday,8,Special,16.36,Suburban,Stormy,58.45,On-time
+SC-DEL-00749,2025-06-02 20:59:29,Monday,20,Extra Large,57.34,Industrial,Sunny,112.34,On-time
+SC-DEL-00750,2025-06-15 05:52:33,Sunday,5,Special,30.85,Industrial,Stormy,62.07,On-time
+SC-DEL-00751,2025-06-14 19:43:51,Saturday,19,Small,37.07,Industrial,Cloudy,80.45,On-time
+SC-DEL-00752,2025-06-20 13:10:39,Friday,13,Extra Large,31.3,Shopping Center,Snowy,100.23,On-time
+SC-DEL-00753,2025-07-24 14:09:19,Thursday,14,Extra Large,10.93,Shopping Center,Snowy,26.51,On-time
+SC-DEL-00754,2025-08-04 23:37:34,Monday,23,Small,65.78,Industrial,Rainy,139.57,On-time
+SC-DEL-00755,2025-07-26 11:18:27,Saturday,11,Extra Large,42.07,Industrial,Snowy,115.42,On-time
+SC-DEL-00756,2025-08-11 23:35:56,Monday,23,Special,14.11,Rural,Snowy,78.27,On-time
+SC-DEL-00757,2025-06-19 15:37:41,Thursday,15,Special,72.27,Urban,Stormy,154.48,On-time
+SC-DEL-00758,2025-08-19 17:09:34,Tuesday,17,Medium,70.57,Shopping Center,Cloudy,116.52,On-time
+SC-DEL-00759,2025-07-27 23:33:52,Sunday,23,Extra Large,1.15,Suburban,Stormy,31.30,On-time
+SC-DEL-00760,2025-06-22 12:54:27,Sunday,12,Medium,54.26,Suburban,Cloudy,93.52,On-time
+SC-DEL-00761,2025-08-03 15:48:24,Sunday,15,Extra Large,27.82,Shopping Center,Rainy,70.35,On-time
+SC-DEL-00762,2025-07-29 17:52:27,Tuesday,17,Extra Large,59.84,Industrial,Sunny,128.49,On-time
+SC-DEL-00763,2025-06-08 15:25:13,Sunday,15,Special,15.92,Suburban,Snowy,71.33,On-time
+SC-DEL-00764,2025-08-09 06:03:29,Saturday,6,Special,5.97,Suburban,Sunny,22.59,On-time
+SC-DEL-00765,2025-08-07 21:42:44,Thursday,21,Medium,12.51,Urban,Stormy,50.53,On-time
+SC-DEL-00766,2025-07-16 04:16:40,Wednesday,4,Small,44.07,Shopping Center,Cloudy,124.54,On-time
+SC-DEL-00767,2025-06-27 13:35:53,Friday,13,Medium,74.9,Suburban,Rainy,148.26,On-time
+SC-DEL-00768,2025-06-03 22:35:59,Tuesday,22,Medium,40.26,Shopping Center,Cloudy,82.30,On-time
+SC-DEL-00769,2025-06-06 00:16:16,Friday,0,Small,27.7,Shopping Center,Stormy,101.43,On-time
+SC-DEL-00770,2025-08-14 02:13:58,Thursday,2,Medium,56.12,Rural,Snowy,148.51,On-time
+SC-DEL-00771,2025-07-26 09:54:49,Saturday,9,Small,3.84,Industrial,Cloudy,45.00,Delayed
+SC-DEL-00772,2025-06-26 08:34:34,Thursday,8,Extra Large,60.31,Suburban,Snowy,122.07,On-time
+SC-DEL-00773,2025-08-02 11:00:24,Saturday,11,Small,10.58,Urban,Cloudy,76.19,Delayed
+SC-DEL-00774,2025-08-12 14:15:42,Tuesday,14,Medium,47.14,Industrial,Snowy,96.54,On-time
+SC-DEL-00775,2025-07-21 23:28:25,Monday,23,Extra Large,70.17,Shopping Center,Sunny,140.07,On-time
+SC-DEL-00776,2025-06-05 08:10:04,Thursday,8,Small,24.34,Industrial,Rainy,52.00,On-time
+SC-DEL-00777,2025-07-25 02:02:41,Friday,2,Special,23.64,Urban,Cloudy,74.10,On-time
+SC-DEL-00778,2025-06-29 13:57:30,Sunday,13,Small,64.96,Shopping Center,Stormy,140.00,On-time
+SC-DEL-00779,2025-06-04 13:00:13,Wednesday,13,Small,24.77,Industrial,Rainy,56.42,On-time
+SC-DEL-00780,2025-07-28 14:26:42,Monday,14,Medium,50.64,Shopping Center,Snowy,88.16,On-time
+SC-DEL-00781,2025-07-04 12:53:05,Friday,12,Special,59.64,Rural,Stormy,132.53,On-time
+SC-DEL-00782,2025-08-05 03:15:17,Tuesday,3,Small,56.54,Industrial,Cloudy,147.52,Delayed
+SC-DEL-00783,2025-08-10 01:13:44,Sunday,1,Extra Large,19.49,Industrial,Sunny,66.35,On-time
+SC-DEL-00784,2025-08-11 10:52:08,Monday,10,Extra Large,73.77,Suburban,Cloudy,163.32,On-time
+SC-DEL-00785,2025-07-24 07:18:34,Thursday,7,Large,43.88,Shopping Center,Rainy,84.06,On-time
+SC-DEL-00786,2025-07-10 17:16:43,Thursday,17,Special,8.14,Industrial,Cloudy,46.47,On-time
+SC-DEL-00787,2025-06-30 10:41:59,Monday,10,Medium,61.88,Shopping Center,Stormy,120.54,On-time
+SC-DEL-00788,2025-07-04 20:11:02,Friday,20,Special,36.6,Urban,Sunny,96.05,On-time
+SC-DEL-00789,2025-06-28 06:08:43,Saturday,6,Special,51.61,Shopping Center,Stormy,113.23,On-time
+SC-DEL-00790,2025-07-05 23:38:33,Saturday,23,Small,9.51,Shopping Center,Stormy,75.05,On-time
+SC-DEL-00791,2025-07-27 21:30:41,Sunday,21,Extra Large,49.48,Urban,Rainy,97.05,On-time
+SC-DEL-00792,2025-07-22 14:51:40,Tuesday,14,Small,70.51,Suburban,Stormy,150.47,On-time
+SC-DEL-00793,2025-05-27 16:01:03,Tuesday,16,Extra Large,20.06,Urban,Stormy,84.34,On-time
+SC-DEL-00794,2025-05-23 22:57:11,Friday,22,Large,37.16,Suburban,Sunny,87.33,On-time
+SC-DEL-00795,2025-07-23 00:24:26,Wednesday,0,Special,25.45,Urban,Sunny,57.34,On-time
+SC-DEL-00796,2025-07-19 16:10:20,Saturday,16,Large,28.11,Urban,Cloudy,95.13,On-time
+SC-DEL-00797,2025-07-29 19:53:35,Tuesday,19,Large,16.16,Industrial,Cloudy,83.19,On-time
+SC-DEL-00798,2025-07-22 22:47:31,Tuesday,22,Special,20.12,Suburban,Cloudy,43.13,On-time
+SC-DEL-00799,2025-05-28 12:12:48,Wednesday,12,Large,49.82,Rural,Cloudy,116.29,On-time
+SC-DEL-00800,2025-06-13 18:06:35,Friday,18,Extra Large,51.73,Shopping Center,Stormy,91.24,On-time
+SC-DEL-00801,2025-07-07 15:57:20,Monday,15,Small,34.46,Rural,Sunny,79.30,On-time
+SC-DEL-00802,2025-08-15 05:40:05,Friday,5,Large,74.41,Rural,Sunny,153.28,On-time
+SC-DEL-00803,2025-06-12 21:39:46,Thursday,21,Extra Large,3.2,Rural,Cloudy,40.27,On-time
+SC-DEL-00804,2025-08-01 06:54:18,Friday,6,Small,53.32,Rural,Sunny,98.01,On-time
+SC-DEL-00805,2025-06-21 18:02:39,Saturday,18,Medium,69.1,Rural,Rainy,132.15,On-time
+SC-DEL-00806,2025-07-25 20:52:21,Friday,20,Large,52.68,Shopping Center,Sunny,102.16,On-time
+SC-DEL-00807,2025-06-24 08:34:50,Tuesday,8,Special,50.09,Industrial,Stormy,123.22,On-time
+SC-DEL-00808,2025-06-04 09:04:52,Wednesday,9,Special,31.82,Shopping Center,Sunny,85.58,On-time
+SC-DEL-00809,2025-08-12 22:21:20,Tuesday,22,Medium,60.33,Suburban,Snowy,100.54,On-time
+SC-DEL-00810,2025-08-07 18:40:26,Thursday,18,Special,53.4,Industrial,Snowy,131.49,On-time
+SC-DEL-00811,2025-07-29 02:06:03,Tuesday,2,Medium,33.27,Suburban,Stormy,95.41,On-time
+SC-DEL-00812,2025-08-18 09:34:06,Monday,9,Small,72.26,Suburban,Cloudy,125.44,On-time
+SC-DEL-00813,2025-07-06 08:57:30,Sunday,8,Medium,27.79,Suburban,Sunny,85.56,On-time
+SC-DEL-00814,2025-08-19 13:39:18,Tuesday,13,Extra Large,26.06,Urban,Snowy,50.05,On-time
+SC-DEL-00815,2025-06-22 03:49:14,Sunday,3,Special,44.43,Urban,Rainy,83.34,On-time
+SC-DEL-00816,2025-06-26 19:17:58,Thursday,19,Medium,54.3,Rural,Rainy,115.22,On-time
+SC-DEL-00817,2025-08-02 18:02:08,Saturday,18,Special,27.31,Shopping Center,Sunny,88.56,On-time
+SC-DEL-00818,2025-06-05 01:26:42,Thursday,1,Extra Large,65.52,Urban,Sunny,134.13,On-time
+SC-DEL-00819,2025-06-13 04:02:44,Friday,4,Medium,3.29,Industrial,Sunny,57.41,Delayed
+SC-DEL-00820,2025-07-10 04:21:02,Thursday,4,Small,68.85,Shopping Center,Sunny,159.38,On-time
+SC-DEL-00821,2025-06-20 16:57:05,Friday,16,Small,28.62,Rural,Snowy,94.28,On-time
+SC-DEL-00822,2025-06-17 18:49:48,Tuesday,18,Special,26.76,Shopping Center,Snowy,69.40,On-time
+SC-DEL-00823,2025-08-10 12:27:09,Sunday,12,Small,37.17,Urban,Snowy,120.04,On-time
+SC-DEL-00824,2025-06-21 10:53:14,Saturday,10,Small,39.86,Urban,Snowy,86.07,On-time
+SC-DEL-00825,2025-07-09 07:14:45,Wednesday,7,Extra Large,7.56,Rural,Cloudy,40.28,On-time
+SC-DEL-00826,2025-07-01 07:10:07,Tuesday,7,Small,58.22,Rural,Rainy,107.41,On-time
+SC-DEL-00827,2025-06-30 13:28:15,Monday,13,Large,3.59,Shopping Center,Snowy,18.26,On-time
+SC-DEL-00828,2025-07-30 11:07:16,Wednesday,11,Large,14.97,Rural,Stormy,64.40,On-time
+SC-DEL-00829,2025-07-08 18:44:27,Tuesday,18,Special,67.38,Suburban,Snowy,128.41,On-time
+SC-DEL-00830,2025-08-17 17:49:49,Sunday,17,Small,31.71,Suburban,Stormy,70.09,On-time
+SC-DEL-00831,2025-06-07 09:05:33,Saturday,9,Medium,48.09,Industrial,Cloudy,130.44,Delayed
+SC-DEL-00832,2025-07-16 19:30:50,Wednesday,19,Small,10.88,Rural,Rainy,33.12,On-time
+SC-DEL-00833,2025-06-22 02:26:33,Sunday,2,Special,35.23,Rural,Cloudy,88.00,On-time
+SC-DEL-00834,2025-08-17 04:18:54,Sunday,4,Small,52.89,Shopping Center,Rainy,132.43,On-time
+SC-DEL-00835,2025-06-17 10:37:09,Tuesday,10,Special,22.99,Industrial,Cloudy,99.08,On-time
+SC-DEL-00836,2025-07-09 01:36:07,Wednesday,1,Large,14.95,Industrial,Snowy,71.39,On-time
+SC-DEL-00837,2025-07-13 15:41:34,Sunday,15,Extra Large,24.32,Suburban,Sunny,52.07,On-time
+SC-DEL-00838,2025-08-01 19:21:41,Friday,19,Medium,66.64,Shopping Center,Snowy,149.35,On-time
+SC-DEL-00839,2025-05-30 18:39:41,Friday,18,Small,74.82,Urban,Cloudy,165.17,On-time
+SC-DEL-00840,2025-07-30 23:21:26,Wednesday,23,Small,60.41,Industrial,Sunny,133.37,Delayed
+SC-DEL-00841,2025-07-14 05:51:40,Monday,5,Large,6.97,Urban,Rainy,50.23,On-time
+SC-DEL-00842,2025-08-10 21:17:30,Sunday,21,Large,66.46,Urban,Stormy,148.08,On-time
+SC-DEL-00843,2025-07-26 08:33:09,Saturday,8,Small,5.56,Urban,Cloudy,61.16,Delayed
+SC-DEL-00844,2025-08-03 08:08:10,Sunday,8,Large,57.15,Industrial,Sunny,100.02,On-time
+SC-DEL-00845,2025-07-01 05:45:58,Tuesday,5,Large,11.8,Suburban,Cloudy,64.12,On-time
+SC-DEL-00846,2025-05-31 14:51:51,Saturday,14,Extra Large,43.11,Shopping Center,Rainy,81.39,On-time
+SC-DEL-00847,2025-07-09 05:11:30,Wednesday,5,Special,69.17,Rural,Stormy,140.35,On-time
+SC-DEL-00848,2025-08-17 04:10:33,Sunday,4,Large,73.81,Suburban,Rainy,124.56,On-time
+SC-DEL-00849,2025-06-29 04:23:31,Sunday,4,Medium,39.77,Industrial,Cloudy,99.08,Delayed
+SC-DEL-00850,2025-07-21 12:40:02,Monday,12,Small,48.11,Industrial,Stormy,115.50,On-time
+SC-DEL-00851,2025-06-19 08:36:13,Thursday,8,Large,36.44,Industrial,Rainy,67.14,On-time
+SC-DEL-00852,2025-08-07 13:39:55,Thursday,13,Medium,57.94,Shopping Center,Stormy,144.20,On-time
+SC-DEL-00853,2025-07-24 06:02:49,Thursday,6,Large,19.62,Urban,Stormy,77.12,On-time
+SC-DEL-00854,2025-06-11 22:51:32,Wednesday,22,Medium,53.67,Urban,Cloudy,117.23,On-time
+SC-DEL-00855,2025-08-03 08:53:31,Sunday,8,Small,51.47,Urban,Sunny,122.06,Delayed
+SC-DEL-00856,2025-06-11 14:40:56,Wednesday,14,Medium,10.58,Industrial,Stormy,57.02,On-time
+SC-DEL-00857,2025-07-13 09:46:51,Sunday,9,Extra Large,50.48,Suburban,Sunny,86.56,On-time
+SC-DEL-00858,2025-08-12 11:03:11,Tuesday,11,Small,35.26,Shopping Center,Sunny,114.07,Delayed
+SC-DEL-00859,2025-07-08 03:50:09,Tuesday,3,Medium,19.99,Shopping Center,Snowy,42.42,On-time
+SC-DEL-00860,2025-06-08 22:49:16,Sunday,22,Special,63.63,Rural,Sunny,134.31,On-time
+SC-DEL-00861,2025-07-02 18:28:54,Wednesday,18,Small,21.75,Industrial,Cloudy,70.09,On-time
+SC-DEL-00862,2025-06-24 06:23:45,Tuesday,6,Special,68.22,Suburban,Stormy,150.59,On-time
+SC-DEL-00863,2025-07-16 12:59:17,Wednesday,12,Large,29.31,Urban,Snowy,87.35,On-time
+SC-DEL-00864,2025-06-23 05:01:02,Monday,5,Extra Large,55.45,Rural,Rainy,126.04,On-time
+SC-DEL-00865,2025-06-26 19:20:16,Thursday,19,Special,63.73,Suburban,Rainy,127.10,On-time
+SC-DEL-00866,2025-08-09 05:52:59,Saturday,5,Small,61.34,Urban,Rainy,145.00,On-time
+SC-DEL-00867,2025-07-18 01:52:21,Friday,1,Medium,55.0,Urban,Snowy,128.25,On-time
+SC-DEL-00868,2025-08-08 22:47:01,Friday,22,Extra Large,42.66,Shopping Center,Sunny,116.20,On-time
+SC-DEL-00869,2025-08-06 03:07:34,Wednesday,3,Extra Large,52.96,Urban,Stormy,112.13,On-time
+SC-DEL-00870,2025-07-28 15:09:43,Monday,15,Small,19.72,Rural,Cloudy,88.50,Delayed
+SC-DEL-00871,2025-07-20 15:22:28,Sunday,15,Small,52.32,Industrial,Rainy,126.09,Delayed
+SC-DEL-00872,2025-07-13 14:14:22,Sunday,14,Small,24.25,Rural,Cloudy,46.43,On-time
+SC-DEL-00873,2025-08-14 15:51:56,Thursday,15,Large,6.83,Industrial,Rainy,46.12,On-time
+SC-DEL-00874,2025-06-12 22:39:28,Thursday,22,Large,34.94,Suburban,Stormy,100.51,On-time
+SC-DEL-00875,2025-07-20 01:51:34,Sunday,1,Medium,26.86,Suburban,Cloudy,102.09,Delayed
+SC-DEL-00876,2025-08-18 23:53:53,Monday,23,Special,24.42,Suburban,Cloudy,86.30,On-time
+SC-DEL-00877,2025-07-02 09:21:06,Wednesday,9,Special,17.91,Shopping Center,Cloudy,55.33,On-time
+SC-DEL-00878,2025-06-05 10:10:23,Thursday,10,Large,26.95,Urban,Stormy,94.00,On-time
+SC-DEL-00879,2025-08-06 02:05:47,Wednesday,2,Small,68.32,Industrial,Sunny,135.22,Delayed
+SC-DEL-00880,2025-07-19 06:33:02,Saturday,6,Medium,57.69,Rural,Stormy,96.36,On-time
+SC-DEL-00881,2025-07-31 10:09:06,Thursday,10,Medium,39.6,Shopping Center,Rainy,74.46,On-time
+SC-DEL-00882,2025-08-18 13:19:26,Monday,13,Small,63.52,Rural,Stormy,157.49,On-time
+SC-DEL-00883,2025-06-07 09:45:08,Saturday,9,Extra Large,34.01,Industrial,Cloudy,78.46,On-time
+SC-DEL-00884,2025-07-03 08:55:23,Thursday,8,Extra Large,20.15,Suburban,Snowy,76.46,On-time
+SC-DEL-00885,2025-07-07 15:38:02,Monday,15,Small,64.79,Industrial,Sunny,120.30,Delayed
+SC-DEL-00886,2025-08-17 19:48:41,Sunday,19,Special,37.52,Suburban,Cloudy,85.33,On-time
+SC-DEL-00887,2025-07-20 20:53:03,Sunday,20,Large,53.72,Rural,Stormy,124.44,On-time
+SC-DEL-00888,2025-05-30 11:22:51,Friday,11,Large,10.02,Industrial,Snowy,50.40,On-time
+SC-DEL-00889,2025-08-15 04:44:34,Friday,4,Extra Large,33.27,Suburban,Snowy,101.00,On-time
+SC-DEL-00890,2025-06-27 16:44:14,Friday,16,Small,41.43,Urban,Cloudy,124.43,Delayed
+SC-DEL-00891,2025-07-15 20:27:42,Tuesday,20,Extra Large,11.56,Urban,Sunny,47.58,On-time
+SC-DEL-00892,2025-07-19 14:02:19,Saturday,14,Special,63.4,Industrial,Sunny,156.38,On-time
+SC-DEL-00893,2025-05-28 09:14:32,Wednesday,9,Extra Large,65.67,Rural,Snowy,116.02,On-time
+SC-DEL-00894,2025-07-01 15:51:20,Tuesday,15,Special,36.06,Rural,Snowy,95.45,On-time
+SC-DEL-00895,2025-05-29 01:26:25,Thursday,1,Special,52.91,Suburban,Snowy,94.55,On-time
+SC-DEL-00896,2025-06-12 17:07:47,Thursday,17,Special,46.16,Rural,Stormy,83.50,On-time
+SC-DEL-00897,2025-06-17 18:59:03,Tuesday,18,Special,57.48,Industrial,Snowy,127.37,On-time
+SC-DEL-00898,2025-06-23 18:38:54,Monday,18,Large,12.35,Industrial,Sunny,51.35,On-time
+SC-DEL-00899,2025-05-24 18:47:02,Saturday,18,Medium,10.59,Urban,Stormy,77.25,On-time
+SC-DEL-00900,2025-06-22 17:53:37,Sunday,17,Special,41.39,Shopping Center,Stormy,83.17,On-time
+SC-DEL-00901,2025-07-05 23:18:54,Saturday,23,Medium,51.05,Urban,Stormy,124.42,On-time
+SC-DEL-00902,2025-06-21 06:39:42,Saturday,6,Extra Large,1.48,Rural,Snowy,42.11,On-time
+SC-DEL-00903,2025-06-09 10:34:49,Monday,10,Extra Large,11.66,Shopping Center,Snowy,30.37,On-time
+SC-DEL-00904,2025-07-03 21:33:33,Thursday,21,Medium,33.26,Rural,Cloudy,103.35,On-time
+SC-DEL-00905,2025-08-17 09:49:41,Sunday,9,Special,22.37,Suburban,Sunny,85.30,On-time
+SC-DEL-00906,2025-07-26 03:28:34,Saturday,3,Extra Large,12.2,Industrial,Stormy,82.07,On-time
+SC-DEL-00907,2025-07-26 10:34:56,Saturday,10,Extra Large,15.38,Shopping Center,Snowy,57.37,On-time
+SC-DEL-00908,2025-08-01 00:53:12,Friday,0,Small,3.03,Rural,Snowy,53.58,On-time
+SC-DEL-00909,2025-06-09 15:05:14,Monday,15,Extra Large,27.01,Suburban,Cloudy,53.42,On-time
+SC-DEL-00910,2025-06-18 11:20:23,Wednesday,11,Special,58.69,Suburban,Cloudy,112.49,On-time
+SC-DEL-00911,2025-07-05 00:36:17,Saturday,0,Large,39.11,Urban,Cloudy,100.15,On-time
+SC-DEL-00912,2025-05-28 13:03:29,Wednesday,13,Medium,27.57,Rural,Snowy,69.19,On-time
+SC-DEL-00913,2025-06-12 09:19:32,Thursday,9,Small,68.04,Rural,Stormy,140.36,On-time
+SC-DEL-00914,2025-07-24 11:29:15,Thursday,11,Medium,53.96,Urban,Sunny,131.40,On-time
+SC-DEL-00915,2025-07-24 12:59:43,Thursday,12,Small,39.31,Rural,Snowy,87.19,On-time
+SC-DEL-00916,2025-07-06 09:26:06,Sunday,9,Medium,70.46,Urban,Rainy,117.30,On-time
+SC-DEL-00917,2025-05-24 05:32:17,Saturday,5,Extra Large,1.5,Suburban,Stormy,27.54,On-time
+SC-DEL-00918,2025-07-10 03:05:08,Thursday,3,Special,18.09,Rural,Stormy,89.27,On-time
+SC-DEL-00919,2025-07-11 01:41:17,Friday,1,Extra Large,4.89,Suburban,Stormy,40.27,On-time
+SC-DEL-00920,2025-08-09 23:00:54,Saturday,23,Extra Large,66.78,Suburban,Stormy,155.20,On-time
+SC-DEL-00921,2025-05-23 12:44:19,Friday,12,Large,74.72,Shopping Center,Rainy,126.25,On-time
+SC-DEL-00922,2025-07-14 08:46:42,Monday,8,Large,5.8,Rural,Sunny,36.28,On-time
+SC-DEL-00923,2025-07-24 17:29:59,Thursday,17,Extra Large,26.32,Industrial,Rainy,94.41,On-time
+SC-DEL-00924,2025-05-29 00:51:50,Thursday,0,Large,26.13,Urban,Stormy,63.38,On-time
+SC-DEL-00925,2025-06-30 08:26:29,Monday,8,Extra Large,28.79,Shopping Center,Sunny,93.01,On-time
+SC-DEL-00926,2025-05-24 04:39:25,Saturday,4,Medium,51.85,Industrial,Stormy,108.33,On-time
+SC-DEL-00927,2025-05-26 13:40:11,Monday,13,Small,41.37,Industrial,Sunny,112.27,Delayed
+SC-DEL-00928,2025-08-13 08:02:22,Wednesday,8,Small,14.02,Shopping Center,Stormy,46.42,On-time
+SC-DEL-00929,2025-05-28 06:57:19,Wednesday,6,Special,54.03,Suburban,Stormy,107.47,On-time
+SC-DEL-00930,2025-06-14 20:36:46,Saturday,20,Extra Large,32.01,Rural,Snowy,63.22,On-time
+SC-DEL-00931,2025-07-14 01:42:45,Monday,1,Large,14.35,Suburban,Stormy,34.01,On-time
+SC-DEL-00932,2025-07-21 12:59:31,Monday,12,Special,8.41,Urban,Stormy,77.02,On-time
+SC-DEL-00933,2025-06-11 22:08:51,Wednesday,22,Medium,58.49,Industrial,Cloudy,119.09,On-time
+SC-DEL-00934,2025-06-08 08:50:50,Sunday,8,Large,61.39,Urban,Cloudy,111.56,On-time
+SC-DEL-00935,2025-07-21 06:57:46,Monday,6,Small,28.5,Urban,Sunny,102.03,Delayed
+SC-DEL-00936,2025-06-27 04:49:33,Friday,4,Extra Large,14.03,Urban,Sunny,46.23,On-time
+SC-DEL-00937,2025-06-12 23:13:20,Thursday,23,Extra Large,16.67,Industrial,Rainy,39.43,On-time
+SC-DEL-00938,2025-06-27 16:22:02,Friday,16,Extra Large,65.86,Suburban,Cloudy,132.23,On-time
+SC-DEL-00939,2025-07-09 03:31:57,Wednesday,3,Extra Large,22.78,Shopping Center,Rainy,72.47,On-time
+SC-DEL-00940,2025-06-19 11:44:24,Thursday,11,Large,49.18,Industrial,Snowy,114.40,On-time
+SC-DEL-00941,2025-06-15 02:51:24,Sunday,2,Small,16.11,Rural,Cloudy,49.02,On-time
+SC-DEL-00942,2025-06-11 21:37:44,Wednesday,21,Large,49.24,Shopping Center,Sunny,121.33,On-time
+SC-DEL-00943,2025-08-20 09:41:23,Wednesday,9,Extra Large,51.25,Suburban,Cloudy,141.40,On-time
+SC-DEL-00944,2025-06-01 11:07:22,Sunday,11,Special,70.77,Industrial,Snowy,124.37,On-time
+SC-DEL-00945,2025-06-09 04:11:46,Monday,4,Medium,8.86,Industrial,Sunny,24.03,On-time
+SC-DEL-00946,2025-08-20 06:19:00,Wednesday,6,Special,67.6,Industrial,Rainy,151.19,On-time
+SC-DEL-00947,2025-08-18 20:10:07,Monday,20,Large,73.03,Suburban,Sunny,134.04,On-time
+SC-DEL-00948,2025-05-26 20:16:53,Monday,20,Small,2.51,Industrial,Sunny,36.25,On-time
+SC-DEL-00949,2025-08-09 17:10:11,Saturday,17,Small,34.2,Suburban,Snowy,71.11,On-time
+SC-DEL-00950,2025-07-22 12:32:48,Tuesday,12,Small,59.65,Urban,Sunny,138.02,Delayed
+SC-DEL-00951,2025-08-13 08:52:26,Wednesday,8,Extra Large,12.6,Urban,Stormy,41.19,On-time
+SC-DEL-00952,2025-06-17 13:46:41,Tuesday,13,Medium,65.08,Rural,Sunny,134.45,On-time
+SC-DEL-00953,2025-05-28 02:58:21,Wednesday,2,Special,1.73,Rural,Sunny,49.31,On-time
+SC-DEL-00954,2025-08-09 13:46:41,Saturday,13,Medium,40.05,Industrial,Rainy,99.57,Delayed
+SC-DEL-00955,2025-08-06 06:56:28,Wednesday,6,Special,12.47,Urban,Sunny,58.15,On-time
+SC-DEL-00956,2025-06-12 21:09:52,Thursday,21,Small,31.6,Suburban,Cloudy,86.48,On-time
+SC-DEL-00957,2025-07-06 23:08:27,Sunday,23,Extra Large,4.07,Urban,Snowy,56.18,On-time
+SC-DEL-00958,2025-06-13 04:54:18,Friday,4,Large,67.94,Urban,Sunny,134.32,On-time
+SC-DEL-00959,2025-08-08 20:40:37,Friday,20,Medium,17.78,Suburban,Sunny,55.59,On-time
+SC-DEL-00960,2025-08-17 15:01:49,Sunday,15,Small,31.39,Shopping Center,Sunny,106.20,Delayed
+SC-DEL-00961,2025-06-13 17:50:10,Friday,17,Small,22.22,Shopping Center,Sunny,84.09,On-time
+SC-DEL-00962,2025-05-25 09:14:23,Sunday,9,Large,27.6,Urban,Sunny,51.54,On-time
+SC-DEL-00963,2025-07-19 15:45:37,Saturday,15,Small,67.61,Shopping Center,Cloudy,161.55,Delayed
+SC-DEL-00964,2025-05-25 15:18:29,Sunday,15,Extra Large,71.05,Urban,Stormy,158.49,On-time
+SC-DEL-00965,2025-07-11 12:23:30,Friday,12,Small,40.15,Rural,Stormy,115.13,On-time
+SC-DEL-00966,2025-08-05 14:46:21,Tuesday,14,Medium,1.1,Rural,Stormy,16.07,On-time
+SC-DEL-00967,2025-08-17 07:29:58,Sunday,7,Small,60.56,Suburban,Snowy,142.43,On-time
+SC-DEL-00968,2025-07-07 09:29:49,Monday,9,Medium,59.27,Suburban,Stormy,103.11,On-time
+SC-DEL-00969,2025-07-09 13:12:31,Wednesday,13,Medium,7.2,Urban,Cloudy,44.37,On-time
+SC-DEL-00970,2025-08-16 12:40:25,Saturday,12,Large,69.19,Suburban,Snowy,156.48,On-time
+SC-DEL-00971,2025-05-22 17:57:26,Thursday,17,Special,23.19,Urban,Snowy,80.49,On-time
+SC-DEL-00972,2025-07-20 06:46:48,Sunday,6,Extra Large,57.15,Shopping Center,Snowy,132.09,On-time
+SC-DEL-00973,2025-06-17 10:00:52,Tuesday,10,Special,52.84,Urban,Cloudy,126.54,On-time
+SC-DEL-00974,2025-06-01 07:14:00,Sunday,7,Small,67.69,Urban,Cloudy,162.35,Delayed
+SC-DEL-00975,2025-07-31 22:48:40,Thursday,22,Small,28.52,Urban,Snowy,60.45,On-time
+SC-DEL-00976,2025-06-02 09:13:16,Monday,9,Special,64.16,Shopping Center,Stormy,153.22,On-time
+SC-DEL-00977,2025-06-21 00:56:03,Saturday,0,Small,22.84,Urban,Cloudy,95.01,Delayed
+SC-DEL-00978,2025-07-28 17:07:06,Monday,17,Extra Large,51.19,Suburban,Stormy,117.45,On-time
+SC-DEL-00979,2025-07-17 23:16:53,Thursday,23,Medium,27.31,Suburban,Stormy,89.11,On-time
+SC-DEL-00980,2025-05-27 04:35:36,Tuesday,4,Large,67.01,Rural,Cloudy,124.49,On-time
+SC-DEL-00981,2025-06-27 02:50:54,Friday,2,Special,2.34,Industrial,Stormy,66.12,On-time
+SC-DEL-00982,2025-06-17 20:41:06,Tuesday,20,Special,57.52,Urban,Cloudy,140.50,On-time
+SC-DEL-00983,2025-07-31 04:35:07,Thursday,4,Small,69.22,Suburban,Sunny,117.39,On-time
+SC-DEL-00984,2025-07-13 13:12:17,Sunday,13,Special,16.65,Suburban,Cloudy,47.11,On-time
+SC-DEL-00985,2025-06-08 17:46:05,Sunday,17,Special,36.29,Suburban,Stormy,98.39,On-time
+SC-DEL-00986,2025-07-23 17:16:00,Wednesday,17,Small,52.97,Shopping Center,Sunny,125.21,On-time
+SC-DEL-00987,2025-08-08 17:22:50,Friday,17,Extra Large,68.98,Shopping Center,Rainy,130.13,On-time
+SC-DEL-00988,2025-06-19 02:47:37,Thursday,2,Large,66.63,Urban,Rainy,115.24,On-time
+SC-DEL-00989,2025-07-22 19:43:21,Tuesday,19,Medium,37.22,Industrial,Snowy,100.39,On-time
+SC-DEL-00990,2025-06-30 04:57:19,Monday,4,Large,40.6,Suburban,Sunny,104.16,On-time
+SC-DEL-00991,2025-06-02 14:30:26,Monday,14,Large,18.18,Suburban,Rainy,38.38,On-time
+SC-DEL-00992,2025-08-07 14:24:44,Thursday,14,Extra Large,74.92,Suburban,Rainy,123.34,On-time
+SC-DEL-00993,2025-06-08 16:31:50,Sunday,16,Special,33.16,Shopping Center,Stormy,103.34,On-time
+SC-DEL-00994,2025-07-01 00:02:56,Tuesday,0,Large,72.56,Rural,Snowy,157.12,On-time
+SC-DEL-00995,2025-08-02 22:04:40,Saturday,22,Extra Large,16.85,Shopping Center,Sunny,86.16,On-time
+SC-DEL-00996,2025-07-23 21:19:57,Wednesday,21,Small,63.37,Industrial,Sunny,147.53,Delayed
+SC-DEL-00997,2025-07-14 19:20:22,Monday,19,Extra Large,31.23,Rural,Stormy,111.17,On-time
+SC-DEL-00998,2025-06-25 00:35:30,Wednesday,0,Large,6.08,Urban,Sunny,33.53,On-time
+SC-DEL-00999,2025-06-13 05:55:16,Friday,5,Special,38.28,Suburban,Sunny,91.34,On-time
+SC-DEL-01000,2025-08-15 13:01:13,Friday,13,Medium,36.9,Rural,Rainy,105.42,On-time
