@@ -2,12 +2,13 @@ name: pysupercourieretl
 channels:
   - defaults
 dependencies:
-  - numpy=2.0.1
-  - numpy-base=2.0.1
-  - openpyxl=3.1.5
-  - pandas=2.3.1
-  - pyarrow=19.0.0
-  - pyinstaller=6.12.0
-  - pytest=8.4.1
-  - python=3.12.9
-  - xlsxwriter=3.2.3
+  - numpy=2.0.1=py312hc5e2394_1
+  - numpy-base=2.0.1=py312h0da6c21_1
+  - openpyxl=3.1.5=py312h5eee18b_1
+  - pandas=2.3.1=py312h277b779_0
+  - pyarrow=19.0.0=py312h6a678d5_1
+  - pyinstaller=6.12.0=py312h39e8969_0
+  - pyinstaller-hooks-contrib=2025.1=py312h06a4308_0
+  - pytest=8.4.1=py312h06a4308_0
+  - python=3.12.9=h5148396_0
+  - xlsxwriter=3.2.3=py312h06a4308_0

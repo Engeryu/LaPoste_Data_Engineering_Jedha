@@ -20,7 +20,7 @@ COPY main.py .
 # Use ENTRYPOINT to set up the environment. The 'conda run' command with '--no-capture-output'
 # ensures that the terminal (stdin/stdout) is passed through correctly to the child process.
 # This is the key to making interactive scripts work reliably.
-ENTRYPOINT ["conda", "run", "-n", "pysupercourier", "--no-capture-output"]
+ENTRYPOINT ["conda", "run", "-n", "pysupercourieretl", "--no-capture-output"]
 
 # Use CMD to define the default command to execute within the activated environment.
 CMD ["python", "-u", "main.py"]

@@ -55,18 +55,18 @@ The pipeline has been benchmarked to showcase its performance and scalability. T
 * **No xlsx** **:** Exports to CSV, Parquet, JSON, and SQLite.
 * **All** **:** Exports to all formats, including the more time-intensive Excel (.xlsx) file.
 
-| **Deliveries** | **Weather Days** | **Output Format** | **Execution Time (in seconds)** |
+| **Deliveries** | **Weather Days** | **Output Format** | **Execution Time (2017 Windows Laptop / 2021 Linux PC, in seconds)** |
 | -------------------- | ---------------------- | ----------------------- | ------------------------------------- |
-| **1,000**      | **90**           | **No xlsx**       | **0.15**                        |
-| **1,000**      | **90**           | **All**           | **0.33**                        |
-| **5,000**      | **450**          | **No xlsx**       | **0.40**                        |
-| **5,000**      | **450**          | **All**           | **0.91**                        |
-| **10,000**     | **900**          | **No xlsx**       | **0.67**                        |
-| **10,000**     | **900**          | **All**           | **1.62**                        |
-| **100,000**    | **9,000**        | **No xlsx**       | **5.90**                        |
-| **100,000**    | **9,000**        | **All**           | **15.59**                       |
-| **1,000,000**  | **90,000**       | **No xlsx**       | **60.52**                       |
-| **1,000,000**  | **90,000**       | **All**           | **154.40**                      |
+| **1,000**      | **90**           | **No xlsx**       | **0.15 / 0.14**                        |
+| **1,000**      | **90**           | **All**           | **0.33 / 0.16**                        |
+| **5,000**      | **450**          | **No xlsx**       | **0.40 / 0.18**                        |
+| **5,000**      | **450**          | **All**           | **0.91 / 0.31**                        |
+| **10,000**     | **900**          | **No xlsx**       | **0.67 / 0.25**                        |
+| **10,000**     | **900**          | **All**           | **1.62 / 0.50**                        |
+| **100,000**    | **9,000**        | **No xlsx**       | **5.90 / 1.58**                        |
+| **100,000**    | **9,000**        | **All**           | **15.59 / 3.93**                       |
+| **1,000,000**  | **90,000**       | **No xlsx**       | **60.52 / 15.60**                       |
+| **1,000,000**  | **90,000**       | **All**           | **154.40 / 38.86**                      |
 
 ## Getting Started
 
@@ -86,7 +86,7 @@ There are three ways to run the ETL pipeline, from the simplest method for non-d
 
    ```bash
    pyinstaller --distpath . SuperCourierETL.spec && rmdir /s /q build # Windows base Command
-   pyinstaller --distpath . SuperCourierETL.spec; Remove-Item -Recurse -Force build # Windows Powershell Command
+   pyinstaller --distpath . SuperCourierETL.spec; Remove-Item -Recurse -Force build # Windows PowerShell
    pyinstaller --distpath . SuperCourierETL.spec && rm -rf build # Linux Command
 
    ```
