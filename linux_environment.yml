@@ -3,7 +3,7 @@ channels:
   - defaults
 dependencies:
   - numpy=2.0.1=py312hc5e2394_1
-  - numpy-base=2.0.1=py312h0da6c21_1
+  - numpy-base==2.0.1=py312h0da6c21_1
   - openpyxl=3.1.5=py312h5eee18b_1
   - pandas=2.3.1=py312h277b779_0
   - pyarrow=19.0.0=py312h6a678d5_1

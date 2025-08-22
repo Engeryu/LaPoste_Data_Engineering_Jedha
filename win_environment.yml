@@ -1,0 +1,14 @@
+name: pysupercourieretl
+channels:
+  - defaults
+dependencies:
+  - python=3.12.9
+  - pandas
+  - pyarrow
+  - openpyxl
+  - pytest
+  - scikit-learn
+  - pyinstaller
+  - seaborn
+  - conda-forge::xlsxwriter
+prefix: D:\Languages\miniconda\envs\pysupercourieretl
