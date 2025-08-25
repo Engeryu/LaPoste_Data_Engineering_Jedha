@@ -22,8 +22,9 @@ import numpy as np
 #==================================================================================
 # --- Configuration & Logging ---
 #==================================================================================
-OUTPUT_DIR = 'output_files_mono'
-ORIGINALS_DIR = os.path.join(OUTPUT_DIR, 'originals')
+DATA_DIR = 'data'
+OUTPUT_DIR = os.path.join(DATA_DIR, 'output_files_mono')
+ORIGINALS_DIR = os.path.join(DATA_DIR, 'originals')
 DB_PATH = os.path.join(ORIGINALS_DIR, 'supercourier_logistics.db')
 WEATHER_PATH = os.path.join(ORIGINALS_DIR, 'weather_conditions.json')
 OUTPUT_FILENAME_BASE = os.path.join(OUTPUT_DIR, 'deliveries_analysis')
