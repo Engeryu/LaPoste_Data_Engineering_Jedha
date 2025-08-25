@@ -1,8 +1,10 @@
 # supercourier_etl/domain.py
 """
-Domain Logic Module for the SuperCourier ETL pipeline.\n
-This module centralizes the core business logic, coefficients, and calculations.\n
-By isolating these rules, the system becomes easier to maintain and update as business requirements evolve.\n
+Domain Logic Module for the SuperCourier ETL pipeline.
+
+This module centralizes the core business logic, coefficients, and calculations.
+By isolating these rules, the system becomes easier to maintain and update
+as business requirements evolve.
 """
 
 # Imports of the necessary libraries
@@ -11,13 +13,13 @@ import numpy as np
 
 # --- Business Coefficients ---
 """
-These dictionaries define the core coefficients for the business logic.\n
-They are used in vectorized calculations to adjust theoretical delivery times.\n
-- PACKAGE_TYPE_COEFFS: Multipliers based on the size and type of the package.\n
-- DELIVERY_ZONE_COEFFS: Multipliers for different delivery destinations.\n
-- WEATHER_CONDITION_COEFFS: Multipliers that account for weather-related delays.\n
-- DAY_TYPE_COEFFS: Multipliers for weekday vs. weekend deliveries.\n
-- PEAK_HOUR_COEFFS: Multipliers for deliveries during different time periods.\n
+These dictionaries define the core coefficients for the business logic.
+They are used in vectorized calculations to adjust theoretical delivery times.
+- PACKAGE_TYPE_COEFFS: Multipliers based on the size and type of the package.
+- DELIVERY_ZONE_COEFFS: Multipliers for different delivery destinations.
+- WEATHER_CONDITION_COEFFS: Multipliers that account for weather-related delays.
+- DAY_TYPE_COEFFS: Multipliers for weekday vs. weekend deliveries.
+- PEAK_HOUR_COEFFS: Multipliers for deliveries during different time periods.
 """
 PACKAGE_TYPE_COEFFS = {'Small': 1.0, 'Medium': 1.2, 'Large': 1.5, 'Extra Large': 2.0, 'Special': 2.5}
 DELIVERY_ZONE_COEFFS = {'Urban': 1.2, 'Suburban': 1.0, 'Rural': 1.3, 'Industrial': 0.9, 'Shopping Center': 1.4}
@@ -30,10 +32,18 @@ PEAK_HOUR_COEFFS = {'Morning Peak': 1.3, 'Evening Peak': 1.4, 'Off-Peak': 1.0, '
 #==================================================================================
 
 def get_peak_hour_type(hour: int) -> str:
-    """
-    Categorizes a single hour into a specific delivery period.\n
-    This function serves as a reference and is not used in the main vectorized calculation for performance reasons.\n
-    The logic is implemented directly within `calculate_delivery_status` using `numpy.select`.\n
+    """Categorizes a single hour into a specific delivery period.
+
+    This function serves as a reference and is not used in the main vectorized
+    calculation for performance reasons. The logic is implemented directly
+    within `calculate_delivery_status` using `numpy.select`.
+
+    Args:
+        hour (int): The hour of the day (0-23).
+
+    Returns:
+        str: The corresponding peak hour type ('Morning Peak', 'Evening Peak',
+             'Night', or 'Off-Peak').
     """
     if 7 <= hour <= 9: return 'Morning Peak'
     if 17 <= hour <= 19: return 'Evening Peak'
@@ -41,14 +51,25 @@ def get_peak_hour_type(hour: int) -> str:
     return 'Off-Peak'
 
 def calculate_delivery_status(df: pd.DataFrame) -> pd.DataFrame:
-    """Calculates the final delivery status for each record in the DataFrame.\n
-    This is the core function where all business rules are applied using efficient, vectorized operations.\n
-    It performs the following steps:\n
-    - Determines the peak hour type for each delivery using `numpy.select` for performance.\n
-    - Calculates an adjusted theoretical delivery time by applying all relevant coefficients.\n
-    - Compares the actual delivery time against a calculated delay threshold.\n
-    - Assigns a final status of 'On-time' or 'Delayed' to each delivery.\n
-    Returns the DataFrame with the new 'Status' and 'Peak_Hour_Type' columns.\n
+    """Calculates the final delivery status for each record in the DataFrame.
+
+    This is the core function where all business rules are applied using
+    efficient, vectorized operations. It performs the following steps:
+    - Determines the peak hour type for each delivery using `numpy.select`.
+    - Calculates an adjusted theoretical delivery time by applying all
+      relevant coefficients.
+    - Compares the actual delivery time against a calculated delay threshold.
+    - Assigns a final status of 'On-time' or 'Delayed' to each delivery.
+
+    Args:
+        df (pd.DataFrame): The input DataFrame containing delivery data.
+                           Must include 'Hour', 'Distance', 'Package_Type',
+                           'Delivery_Zone', 'Weather_Condition', 'Day_Type',
+                           and 'Actual_Delivery_Time_Minutes' columns.
+
+    Returns:
+        pd.DataFrame: The DataFrame with the new 'Status' and 'Peak_Hour_Type'
+                      columns.
     """
     # Vectorized way to determine peak hour type
     conditions = [
@@ -59,7 +80,7 @@ def calculate_delivery_status(df: pd.DataFrame) -> pd.DataFrame:
     choices = ['Morning Peak', 'Evening Peak', 'Night']
     df['Peak_Hour_Type'] = np.select(conditions, choices, default='Off-Peak')
 
-    # Map coefficients to the DataFrame to prepare for vectorized calculation, performed on all rows simultaneously for maximum efficiency.
+    # Map coefficients to the DataFrame for vectorized calculation
     base_theoretical_time = 30 + df['Distance'] * 0.8
     adjusted_theoretical_time = (
         base_theoretical_time *

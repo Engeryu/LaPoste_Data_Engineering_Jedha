@@ -1,9 +1,11 @@
 # supercourier_etl/file_manager.py
 """
-File Management Utility for the SuperCourier ETL.\n
+File Management Utility for the SuperCourier ETL.
+
 This module centralizes all file system operations, such as archiving, deleting,
-and versioning of data files.\n
-This separation of concerns cleans up the main pipeline orchestrator, making it easier to read and maintain.\n
+and versioning of data files.
+This separation of concerns cleans up the main pipeline orchestrator, making it
+easier to read and maintain.
 """
 
 # Imports of the necessary libraries
@@ -14,11 +16,14 @@ import logging
 from . import config
 
 def archive_existing_file(file_path: str):
-    """
-    Archives an existing file by renaming it with an incremental suffix.\n
-    If 'file.txt' exists, it is renamed to 'file_old.txt'.\n
-    If 'file_old.txt' also exists, it is renamed to 'file_old_1.txt', and so on.\n
-    This prevents accidental data loss during pipeline regeneration.\n
+    """Archives an existing file by renaming it with an incremental suffix.
+
+    If 'file.txt' exists, it is renamed to 'file_old.txt'.
+    If 'file_old.txt' also exists, it is renamed to 'file_old_1.txt', and so on.
+    This prevents accidental data loss during pipeline regeneration.
+
+    Args:
+        file_path (str): The absolute or relative path to the file to be archived.
     """
     if not os.path.exists(file_path): return
 
@@ -39,10 +44,13 @@ def archive_existing_file(file_path: str):
         i += 1
 
 def replace_main_file(file_path: str):
-    """
-    Deletes a specific file if it exists, without touching its archived versions.\n
-    This is used when the user chooses to replace existing data but keep old archives.\n
-    Logs an error if the file deletion fails.\n
+    """Deletes a specific file if it exists, without touching its archived versions.
+
+    This is used when the user chooses to replace existing data but keep old archives.
+    Logs an error if the file deletion fails.
+
+    Args:
+        file_path (str): The path to the file to be deleted.
     """
     try:
         if os.path.exists(file_path):
@@ -52,14 +60,17 @@ def replace_main_file(file_path: str):
         config.logger.error(f"Error deleting file {file_path}: {e}")
 
 def delete_all_file_versions(file_path: str):
-    """
-    Performs a complete cleanup by deleting a file and all of its archived versions.\n
-    It operates on a base file path (e.g., 'output/data.db').\n
-    It will then delete all files in the same directory that match the pattern:\n
-    - data.db\n
-    - data_old.db\n
-    - data_old_1.db\n
-    This is useful for a full reset of the output directory.\n
+    """Performs a complete cleanup by deleting a file and all of its archived versions.
+
+    It operates on a base file path (e.g., 'output/data.db').
+    It will then delete all files in the same directory that match the pattern:
+    - data.db
+    - data_old.db
+    - data_old_1.db
+    This is useful for a full reset of the output directory.
+
+    Args:
+        file_path (str): The base path of the file for which all versions should be deleted.
     """
     try:
         dir_name = os.path.dirname(file_path)

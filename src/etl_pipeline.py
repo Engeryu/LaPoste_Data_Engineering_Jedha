@@ -15,11 +15,15 @@ import sqlite3
 from . import config, domain
 
 def _add_datetime_features(df: pd.DataFrame) -> pd.DataFrame:
-    """Enriches the DataFrame with time-based features from the 'Pickup_DateTime' column.
-    This function adds the following new columns:
-    - Weekday: The name of the day (e.g., 'Monday').
-    - Hour: The hour of the day (0-23).
-    - Day_Type: Categorizes the day as either 'Weekday' or 'Weekend'.
+    """Enriches DataFrame with time-based features.
+
+    Adds 'Weekday', 'Hour', and 'Day_Type' columns based on 'Pickup_DateTime'.
+
+    Args:
+        df (pd.DataFrame): The input DataFrame with a 'Pickup_DateTime' column.
+
+    Returns:
+        pd.DataFrame: The DataFrame enriched with time features.
     """
     df['Pickup_DateTime'] = pd.to_datetime(df['Pickup_DateTime'])
     df['Weekday'] = df['Pickup_DateTime'].dt.day_name()
@@ -28,10 +32,20 @@ def _add_datetime_features(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 def _enrich_with_weather(df: pd.DataFrame) -> pd.DataFrame:
-    """Enriches the DataFrame with weather data by mapping pickup times to hourly conditions.
-    It reads weather data from the JSON file specified in the configuration.
-    A 'Weather_Key' is created from the timestamp to look up the corresponding condition.
-    If a match is not found, the condition is set to 'Unknown' and a warning is logged.
+    """Enriches DataFrame with weather data from a JSON file.
+
+    Maps pickup times to hourly weather conditions. A 'Weather_Key' is created
+    from the timestamp for lookup. Unmatched records get 'Unknown' status.
+
+    Args:
+        df (pd.DataFrame): DataFrame with a 'Pickup_DateTime' column.
+
+    Returns:
+        pd.DataFrame: The DataFrame enriched with a 'Weather_Condition' column.
+
+    Raises:
+        FileNotFoundError: If the weather JSON file is not found.
+        json.JSONDecodeError: If the weather JSON file is malformed.
     """
     try:
         with open(config.WEATHER_PATH, 'r') as f:
@@ -47,12 +61,18 @@ def _enrich_with_weather(df: pd.DataFrame) -> pd.DataFrame:
 
 def transform_data(df: pd.DataFrame) -> pd.DataFrame:
     """Orchestrates the full data transformation pipeline.
-    This function applies a series of enrichment and business logic steps in a specific order:
-    1. Adds time-based features using `_add_datetime_features`.
-    2. Enriches the data with weather conditions using `_enrich_with_weather`.
-    3. Applies core business rules to calculate delivery status via `domain.calculate_delivery_status`.
-    4. Selects and renames the final columns for the output dataset.
-    Returns a clean, analysis-ready DataFrame.
+
+    Applies a sequence of enrichment and business logic steps:
+    1. Adds time-based features.
+    2. Enriches with weather conditions.
+    3. Calculates delivery status using business rules.
+    4. Selects and renames final columns.
+
+    Args:
+        df (pd.DataFrame): The raw DataFrame extracted from the source.
+
+    Returns:
+        pd.DataFrame: A clean, analysis-ready DataFrame.
     """
     config.logger.info("Starting data transformation pipeline...")
     
@@ -74,10 +94,16 @@ def transform_data(df: pd.DataFrame) -> pd.DataFrame:
     return final_df
 
 def extract_data_from_sqlite() -> pd.DataFrame:
-    """Extracts the complete 'deliveries' table from the source SQLite database.
+    """Extracts the 'deliveries' table from the source SQLite database.
+
     This function represents the 'Extract' step of the ETL process.
-    It connects to the database path defined in the configuration and loads the data into a pandas DataFrame.
-    Raises a FileNotFoundError if the database file does not exist.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing all records from the 'deliveries' table.
+
+    Raises:
+        FileNotFoundError: If the database file does not exist.
+        sqlite3.Error: If a database error occurs during extraction.
     """
     config.logger.info(f"Extracting data from '{config.DB_PATH}'...")
     if not os.path.exists(config.DB_PATH):
@@ -98,13 +124,16 @@ def extract_data_from_sqlite() -> pd.DataFrame:
 
 def load_data(df: pd.DataFrame, output_format: str) -> None:
     """Saves the final transformed DataFrame to a specified file format.
-    This function represents the 'Load' step of the ETL process.
-    It handles the logic for writing to various formats based on user selection:
-    - csv: Comma-Separated Values.
-    - parquet: Compressed, columnar format ideal for big data.
-    - json: Human-readable format for web applications.
-    - db: A new SQLite database table.
-    - xlsx: Excel spreadsheet, optimized for large files using `constant_memory` mode.
+
+    This function represents the 'Load' step of the ETL process. It supports
+    'csv', 'parquet', 'json', 'db', and 'xlsx' formats.
+
+    Args:
+        df (pd.DataFrame): The final, transformed DataFrame to be saved.
+        output_format (str): The target file format.
+
+    Raises:
+        Exception: Propagates any exceptions that occur during file writing.
     """
     output_path = f"{config.OUTPUT_FILENAME_BASE}.{output_format}"
     config.logger.info(f"Loading final data to '{output_path}'...")
@@ -113,11 +142,8 @@ def load_data(df: pd.DataFrame, output_format: str) -> None:
         elif output_format == 'parquet': df.to_parquet(output_path, index=False, engine='pyarrow', compression='snappy')
         elif output_format == 'json': df.to_json(output_path, orient='records', indent=4)
         elif output_format == 'xlsx':
-            # Use xlsxwriter's constant_memory mode for performance with large files.
-            # This reduces memory usage by writing data to temporary files on disk.
             with pd.ExcelWriter(output_path, engine='xlsxwriter', engine_kwargs={'options': {'constant_memory': True}}) as writer:
                 df.to_excel(writer, index=False, sheet_name='Deliveries Analysis')
-
         elif output_format == 'db':
             conn = sqlite3.connect(output_path)
             df.to_sql('deliveries_analysis', conn, if_exists='replace', index=False)

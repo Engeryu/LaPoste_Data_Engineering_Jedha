@@ -1,8 +1,9 @@
 # main.py
 """
-Main entry point for the SuperCourier ETL application.\n
+Main entry point for the SuperCourier ETL application.
+
 This script initializes and runs the main ETL pipeline, handling user interactions
-for parameter configuration and file management.\n
+for parameter configuration and file management.
 """
 
 # Imports of the necessary libraries
@@ -15,24 +16,23 @@ from src import config, data_generators, etl_pipeline, file_manager
 
 class SuperCourierPipeline:
     """
-    Encapsulates and orchestrates the entire ETL pipeline from start to finish.\n
-    This class manages user interactions, file system operations, and the sequential execution of the ETL steps.\n
-    It delegates specific tasks to the appropriate modules for data generation, transformation, and loading.\n
+    Encapsulates and orchestrates the entire ETL pipeline from start to finish.
+
+    This class manages user interactions, file system operations, and the
+    sequential execution of the ETL steps. It delegates specific tasks to the
+    appropriate modules for data generation, transformation, and loading.
     """
 
     def __init__(self):
-        """
-        Initializes the pipeline with default data generation parameters.\n
-        Sets the number of delivery records and weather days to their default values from the config module.\n
-        """
+        """Initializes the pipeline with default data generation parameters."""
         self.rows_deliveries = config.MIN_ROW_DELIVERIES
         self.num_weather_days = config.MIN_NUM_WEATHER_DAYS
 
     def _get_user_parameters(self):
-        """
-        Prompts the user to configure the data generation parameters via the command line.\n
-        Allows customization of the number of delivery records and weather days.\n
-        Ensures that user inputs are valid integers and meet the minimum requirements defined in the config.\n
+        """Prompts the user to configure data generation parameters.
+
+        Allows customization of the number of delivery records and weather days.
+        Ensures that user inputs are valid integers and meet minimum requirements.
         """
         print("\n--- Configure Data Generation ---")
         while True:
@@ -61,13 +61,12 @@ class SuperCourierPipeline:
                 print("Invalid input. Please enter a whole number.")
 
     def _handle_existing_files(self):
-        """
-        Manages pre-existing data and log files to ensure a clean run.\n
-        Prompts the user to choose an action for existing files:\n
-        - Archive current files.\n
-        - Replace current files (while keeping archives).\n
-        - Delete all versions of all files for a complete cleanup.\n
-        Delegates the chosen file operation to the `file_manager` module.\n
+        """Manages pre-existing data and log files to ensure a clean run.
+
+        Prompts the user to choose an action for existing files:
+        - Archive current files.
+        - Replace current files (while keeping archives).
+        - Delete all versions of all files for a complete cleanup.
         """
         if not os.path.exists(config.DB_PATH) and not os.path.exists(config.WEATHER_PATH):
             return
@@ -89,7 +88,6 @@ class SuperCourierPipeline:
                 handler.close()
                 config.logger.removeHandler(handler)
 
-        # Handle all relevant files, including source data, analysis outputs, and logs.
         source_files = [config.DB_PATH, config.WEATHER_PATH]
         analysis_base_name = os.path.basename(config.OUTPUT_FILENAME_BASE)
 
@@ -98,7 +96,6 @@ class SuperCourierPipeline:
             file_manager.archive_existing_file(config.LOG_PATH)
             for f in source_files:
                 file_manager.archive_existing_file(f)
-            # Find and archive all corresponding analysis files
             for filename in os.listdir(config.OUTPUT_DIR):
                 if filename.startswith(analysis_base_name):
                     file_manager.archive_existing_file(os.path.join(config.OUTPUT_DIR, filename))
@@ -108,7 +105,6 @@ class SuperCourierPipeline:
             file_manager.replace_main_file(config.LOG_PATH)
             for f in source_files:
                 file_manager.replace_main_file(f)
-            # Find and replace all corresponding non-archived analysis files
             for filename in os.listdir(config.OUTPUT_DIR):
                 if filename.startswith(analysis_base_name) and '_old' not in filename:
                     file_manager.replace_main_file(os.path.join(config.OUTPUT_DIR, filename))
@@ -124,10 +120,10 @@ class SuperCourierPipeline:
                 file_manager.delete_all_file_versions(output_path_to_delete)
     
     def _get_output_format(self) -> str:
-        """
-        Prompts the user to select the desired output format for the final dataset.\n
-        Provides a menu of supported formats, including individual options and bulk selections.\n
-        Returns the user's selection as a string for the loading step.\n
+        """Prompts the user to select the desired output format.
+
+        Returns:
+            str: The user's selected format ('csv', 'parquet', 'all', etc.).
         """
         print("\n--- Choose Output Format ---")
         formats = {'1': 'csv', '2': 'parquet', '3': 'json', '4': 'db', '5': 'xlsx', '6': 'No xlsx', '7': 'all'}
@@ -142,15 +138,15 @@ class SuperCourierPipeline:
             print("Invalid choice, please try again.")
 
     def run(self):
-        """
-        Executes the full ETL pipeline in a sequential and orchestrated manner.\n
-        This method acts as the main conductor, calling other methods and modules in the correct order:\n
-        1. Gathers user parameters for data generation.\n
-        2. Manages existing files based on user choice.\n
-        3. Sets up file-based logging for the current run.\n
-        4. Triggers the generation of source data.\n
-        5. Executes the Extract, Transform, and Load steps via the `etl_pipeline` module.\n
-        6. Measures and logs the total execution time.\n
+        """Executes the full ETL pipeline in a sequential manner.
+
+        This method orchestrates the entire process:
+        1. Gathers user parameters.
+        2. Manages existing files.
+        3. Sets up file-based logging.
+        4. Generates source data.
+        5. Executes the ETL steps (Extract, Transform, Load).
+        6. Measures and logs the total execution time.
         """
         os.makedirs(config.OUTPUT_DIR, exist_ok=True)
         os.makedirs(config.ORIGINALS_DIR, exist_ok=True)
@@ -201,10 +197,10 @@ class SuperCourierPipeline:
         print("--- Pipeline Finished ---")
 
 def main():
-    """
-    Main entry point for the SuperCourier ETL application.\n
-    This function creates an instance of the `SuperCourierPipeline` and executes its `run` method.\n
-    It includes top-level error handling to catch and log any critical exceptions during the pipeline's execution.\n
+    """Main entry point for the application.
+
+    Creates an instance of the `SuperCourierPipeline` and executes its `run`
+    method. Includes top-level error handling.
     """
     try:
         pipeline = SuperCourierPipeline()

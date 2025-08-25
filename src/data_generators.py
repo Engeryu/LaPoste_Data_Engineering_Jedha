@@ -17,18 +17,18 @@ from . import config, domain
 #==================================================================================
 
 def generate_sqlite_database(rows_deliveries: int):
-    """
-    Generates a SQLite database with simulated delivery tracking data.\n
-    This function creates the primary data source for the ETL pipeline.\n
-    It populates a 'deliveries' table with a specified number of records.\n
-    The table includes the following fields:\n
-    - Delivery_ID\n
-    - Pickup_DateTime\n
-    - Package_Type\n
-    - Distance\n
-    - Delivery_Zone\n
-    - Actual_Delivery_Time_Minutes\n
-    Data values are randomized but weighted using coefficients from the `domain` module to ensure realism.\n
+    """Generates a SQLite database with simulated delivery tracking data.
+
+    This function creates the primary data source for the ETL pipeline.
+    It populates a 'deliveries' table with a specified number of records.
+    Data values are randomized but weighted using coefficients from the `domain`
+    module to ensure realism.
+
+    Args:
+        rows_deliveries (int): The number of delivery records to generate.
+
+    Raises:
+        sqlite3.Error: If any database-related error occurs during generation.
     """
     config.logger.info(f"Generating SQLite database at '{config.DB_PATH}' with {rows_deliveries} records...")
     conn = None
@@ -72,12 +72,17 @@ def generate_sqlite_database(rows_deliveries: int):
 #==================================================================================
 
 def generate_weather_data(num_days: int):
-    """
-    Generates a JSON file with simulated hourly weather data for a given period.\n
-    This function creates a secondary data source used for data enrichment in the transform step.\n
-    The weather conditions are randomly selected based on coefficients from the `domain` module.\n
-    The JSON structure is a dictionary where each key represents a specific hour.\n
-    Keys are formatted as 'YYYY-MM-DD-HH' for easy lookup.\n
+    """Generates a JSON file with simulated hourly weather data for a given period.
+
+    This function creates a secondary data source used for data enrichment.
+    The weather conditions are randomly selected from the `domain` module.
+    The JSON structure is a dictionary where keys are formatted as 'YYYY-MM-DD-HH'.
+
+    Args:
+        num_days (int): The number of past days for which to generate weather data.
+
+    Raises:
+        IOError: If the file cannot be written to disk.
     """
     config.logger.info(f"Generating JSON weather data at '{config.WEATHER_PATH}' for the last {num_days} days...")
     weather_data = {}
