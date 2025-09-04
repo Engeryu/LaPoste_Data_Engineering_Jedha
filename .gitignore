@@ -1,0 +1,10 @@
+# Pycache
+supercourier_etl/__pycache__
+supercourier_etl/*/__pycache__
+tests/__pycache__
+
+# Environment files
+.env
+
+# Output files
+output_manifest.json

@@ -1,6 +1,10 @@
 # supercourier_etl/main.py
 import typer
+from dotenv import load_dotenv
 from .pipeline import Pipeline
+
+# Load environment variables from .env file
+load_dotenv()
 
 app = typer.Typer()
 
