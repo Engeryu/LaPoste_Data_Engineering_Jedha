@@ -30,8 +30,17 @@ class Transformer:
 
     def _calculate_delivery_duration(self, df: pl.DataFrame) -> pl.DataFrame:
         """Calculates the actual delivery time."""
-        # Logic for calculation will be added here
-        return df
+        print(" -> Calculating delivery durations...")
+
+        df_with_duration = df.with_columns(
+            (
+                (pl.col("Delivery_Timestamp") - pl.col("Pickup_DateTime"))
+                .dt.total_minutes()
+                .cast(pl.Int64)
+                .alias("Actual_Delivery_Time")
+            )
+        )
+        return df_with_duration
 
     def _enrich_with_weather_data(self, df: pl.DataFrame) -> pl.DataFrame:
         """Fetches and merges weather data."""
