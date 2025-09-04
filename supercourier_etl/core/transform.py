@@ -77,6 +77,7 @@ class Transformer:
         """
         print("  -> Determining delay status...")
 
+        # 1. Define all adjustment factors from the business logic
         package_factor = (
             pl.when(pl.col("Package_Type") == "Small").then(1.0)
             .when(pl.col("Package_Type") == "Medium").then(1.2)
@@ -95,20 +96,45 @@ class Transformer:
             .otherwise(1.0)
         )
         
-        df_with_theoretical_time = df.with_columns(
-            (
-                (30 + pl.col("Distance") * 0.8) * package_factor * zone_factor
-            ).alias("Theoretical_Time_Minutes")
+        # Assumption: Morning peak is 7-9am, Evening peak is 5-7pm (17-19)
+        peak_hour_factor = (
+            pl.when(pl.col("Hour").is_between(7, 9)).then(1.3)
+            .when(pl.col("Hour").is_between(17, 19)).then(1.4)
+            .otherwise(1.0)
+        )
+
+        day_factor = (
+            pl.when(pl.col("Weekday").is_in(["Monday", "Friday"])).then(1.2)
+            .when(pl.col("Weekday").is_in(["Saturday", "Sunday"])).then(0.9)
+            .otherwise(1.0)
         )
         
-        # 3. Determine status (to be completed)
+        # 2. Calculate theoretical time with all factors
+        theoretical_time_expr = (
+            (30 + pl.col("Distance") * 0.8) 
+            * package_factor 
+            * zone_factor 
+            * peak_hour_factor 
+            * day_factor
+        )
         
-        return df_with_theoretical_time
+        # 3. Calculate delay threshold and determine final status
+        delay_threshold_expr = theoretical_time_expr * 1.2
+
+        status_expr = (
+            pl.when(pl.col("Actual_Delivery_Time_Minutes") > delay_threshold_expr)
+            .then(pl.lit("Delayed"))
+            .otherwise(pl.lit("On-time"))
+            .alias("Status")
+        )
+
+        df_with_status = df.with_columns(
+            theoretical_time_expr.round(2).alias("Theoretical_Time_Minutes"),
+            status_expr
+        )
+        
+        return df_with_status
 
     def _enrich_with_weather_data(self, df: pl.DataFrame) -> pl.DataFrame:
         """Fetches and merges weather data."""
-        return df
-
-    def _determine_delay_status(self, df: pl.DataFrame) -> pl.DataFrame:
-        """Applies the delay calculation formula."""
         return df
