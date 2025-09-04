@@ -16,12 +16,11 @@ class Transformer:
         if df.is_empty():
             return df
 
-        # Chain of transformations
         transformed_df = (
             df.pipe(self._calculate_delivery_duration)
               .pipe(self._add_temporal_features)
+              .pipe(self._determine_delay_status)
             # .pipe(self._enrich_with_weather_data)
-            # .pipe(self._determine_delay_status)
         )
 
         return transformed_df
