@@ -29,18 +29,31 @@ class Transformer:
         return transformed_df
 
     def _calculate_delivery_duration(self, df: pl.DataFrame) -> pl.DataFrame:
-        """Calculates the actual delivery time."""
-        print(" -> Calculating delivery durations...")
-
-        df_with_duration = df.with_columns(
-            (
-                (pl.col("Delivery_Timestamp") - pl.col("Pickup_DateTime"))
-                .dt.total_minutes()
-                .cast(pl.Int64)
-                .alias("Actual_Delivery_Time")
-            )
+        """
+        Calculates delivery duration in two formats:
+        1.  Decimal minutes for analysis (e.g., 90.5).
+        2.  A string "minutes.seconds" for display (e.g., "90.30").
+        """
+        print("  -> Calculating delivery duration (numeric and display formats)...")
+        
+        duration_in_seconds = (
+            (pl.col("Delivery_Timestamp") - pl.col("Pickup_DateTime"))
+            .dt.total_seconds()
         )
-        return df_with_duration
+
+        df_with_formats = df.with_columns(
+            (duration_in_seconds / 60)
+            .round(2)
+            .alias("Actual_Delivery_Time_Minutes"),
+            
+            # 2. The string column for pure display
+            (
+                (duration_in_seconds // 60).cast(pl.Utf8) + "." + 
+                (duration_in_seconds % 60).cast(pl.Utf8).str.pad_start(2, "0")
+            ).alias("Actual_Delivery_Time_Display")
+        )
+        
+        return df_with_formats
 
     def _enrich_with_weather_data(self, df: pl.DataFrame) -> pl.DataFrame:
         """Fetches and merges weather data."""
