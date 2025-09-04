@@ -4,7 +4,7 @@ channels:
   - conda-forge
 dependencies:
   # Core
-  - python=3.11
+  - python=3.12.11
   - pip
 
   # Data Processing
