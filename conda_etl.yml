@@ -1,0 +1,30 @@
+# environment.yml
+name: supercourier-etl
+channels:
+  - conda-forge
+dependencies:
+  # Core
+  - python=3.11
+  - pip
+
+  # Data Processing
+  - polars
+  - pyarrow
+
+  # API Communication
+  - requests
+  - tenacity
+
+  # CLI
+  - typer
+  - rich
+
+  # File I/O
+  - openpyxl
+  - xlsxwriter
+
+  # Configuration
+  - python-dotenv
+
+  # Testing
+  - pytest
