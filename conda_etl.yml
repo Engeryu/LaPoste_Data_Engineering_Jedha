@@ -10,6 +10,7 @@ dependencies:
   # Data Processing
   - polars
   - pyarrow
+  - numpy
 
   # API Communication
   - requests
@@ -28,3 +29,6 @@ dependencies:
 
   # Testing
   - pytest
+
+  # Data Generation
+  - faker
