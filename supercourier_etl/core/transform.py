@@ -31,14 +31,14 @@ class Transformer:
     def _calculate_delivery_duration(self, df: pl.DataFrame) -> pl.DataFrame:
         """Calculates the actual delivery time."""
         # Logic for calculation will be added here
-        pass
+        return df
 
     def _enrich_with_weather_data(self, df: pl.DataFrame) -> pl.DataFrame:
         """Fetches and merges weather data."""
         # Logic for API calls will be added here
-        pass
+        return df
 
     def _determine_delay_status(self, df: pl.DataFrame) -> pl.DataFrame:
         """Applies the delay calculation formula."""
         # Business logic for delay status will be added here
-        pass
+        return df
