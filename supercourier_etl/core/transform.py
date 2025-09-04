@@ -4,15 +4,31 @@ import os
 from ..utils.api_client import WeatherAPIClient
 
 class Transformer:
-    """Applies business logic to transform the data."""
+    """
+    Applies all business logic transformations to the delivery data.
+    """
 
     def __init__(self, config: dict):
+        """
+        Initializes the Transformer, setting up the API client.
+
+        Args:
+            config: The pipeline configuration dictionary.
+        """
         self.config = config
         api_key = os.getenv("WEATHERAPI_KEY")
         self.weather_client = WeatherAPIClient(api_key)
 
     def transform_data(self, df: pl.DataFrame) -> pl.DataFrame:
-        """Applies a series of transformations to the input DataFrame."""
+        """
+        Orchestrates the sequence of transformations on the input DataFrame.
+
+        Args:
+            df: The raw DataFrame from the Extractor.
+
+        Returns:
+            The fully transformed and enriched DataFrame.
+        """
         print("Transforming data...")
         if df.is_empty():
             return df
@@ -26,6 +42,16 @@ class Transformer:
         return transformed_df
     
     def _calculate_delivery_duration(self, df: pl.DataFrame) -> pl.DataFrame:
+        """
+        Calculates delivery duration in both numeric and display formats.
+
+        Args:
+            df: The input DataFrame with 'Pickup_DateTime' and 'Delivery_Timestamp'.
+
+        Returns:
+            The DataFrame with added 'Actual_Delivery_Time_Minutes' (float)
+            and 'Actual_Delivery_Time_Display' (string) columns.
+        """
         print("  -> Calculating delivery duration (numeric and display formats)...")
         duration_in_seconds = ((pl.col("Delivery_Timestamp") - pl.col("Pickup_DateTime")).dt.total_seconds())
         df_with_formats = df.with_columns(
@@ -35,6 +61,15 @@ class Transformer:
         return df_with_formats
 
     def _add_temporal_features(self, df: pl.DataFrame) -> pl.DataFrame:
+        """
+        Adds time-based features ('Hour', 'Weekday') based on the pickup time.
+
+        Args:
+            df: The input DataFrame with a 'Pickup_DateTime' column.
+
+        Returns:
+            The DataFrame with added 'Hour' and 'Weekday' columns.
+        """
         print("  -> Adding temporal features (weekday, hour)...")
         weekday_map = {1: "Monday", 2: "Tuesday", 3: "Wednesday", 4: "Thursday", 5: "Friday", 6: "Saturday", 7: "Sunday"}
         df_with_features = df.with_columns(
@@ -45,13 +80,19 @@ class Transformer:
 
     def _enrich_with_weather_data(self, df: pl.DataFrame) -> pl.DataFrame:
         """
-        Enriches the DataFrame with historical weather data.
-        Optimizes API calls by fetching data once per unique date.
+        Enriches the DataFrame with historical weather data from WeatherAPI.
+
+        Optimizes API calls by fetching data once per unique date. Assumes a single
+        pickup location for all deliveries.
+
+        Args:
+            df: The DataFrame with 'Pickup_DateTime' and 'Hour' columns.
+
+        Returns:
+            The DataFrame enriched with a 'Weather_Condition' column.
         """
         print("  -> Enriching with weather data (this may take a moment)...")
-        
-        location = "Paris" 
-        
+        location = "Thiais"
         unique_dates = df.select(pl.col("Pickup_DateTime").dt.date().unique()).to_series()
         
         all_hourly_data = []
@@ -62,8 +103,7 @@ class Transformer:
                 hourly = weather_data["forecast"]["forecastday"][0]["hour"]
                 for hour_data in hourly:
                     all_hourly_data.append({
-                        "date": date_obj,
-                        "Hour": int(hour_data["time"].split(" ")[1].split(":")[0]),
+                        "date": date_obj, "Hour": int(hour_data["time"].split(" ")[1].split(":")[0]),
                         "Weather_Condition": hour_data["condition"]["text"]
                     })
 
@@ -72,25 +112,46 @@ class Transformer:
             return df.with_columns(pl.lit(None, dtype=pl.Utf8).alias("Weather_Condition"))
 
         weather_df = pl.DataFrame(all_hourly_data)
-
-        df_with_join_key = df.with_columns(
-            pl.col("Pickup_DateTime").dt.date().alias("date")
-        )
+        df_with_join_key = df.with_columns(pl.col("Pickup_DateTime").dt.date().alias("date"))
         
-        # Join the weather data back to the main DataFrame
         df_enriched = df_with_join_key.join(
-            weather_df,
-            on=["date", "Hour"],
-            how="left"
-        ).drop("date") # 3. Supprime la colonne temporaire après la jointure.
+            weather_df, on=["date", "Hour"], how="left"
+        ).drop("date")
         
         return df_enriched
 
     def _determine_delay_status(self, df: pl.DataFrame) -> pl.DataFrame:
-        """Applies the delay calculation formula to determine delivery status."""
+        """
+        Applies the delay calculation formula to determine delivery status.
+
+        A delivery is delayed if its actual time exceeds the theoretical time multiplied by 1.2.
+        This method calculates the theoretical time based on various factors (package, zone,
+        time of day, etc.) and compares it to the actual delivery time.
+
+        Args:
+            df: The input DataFrame enriched with temporal and weather data.
+
+        Returns:
+            The DataFrame with two new columns: 'Theoretical_Time_Minutes' and 'Status'.
+        """
         print("  -> Determining delay status...")
 
-        # Add the weather factor to the calculation
+        PACKAGE_FACTORS = {"Small": 1.0, "Medium": 1.2, "Large": 1.5, "Extra Large": 2.0, "Special": 2.5}
+        ZONE_FACTORS = {"Urban": 1.2, "Suburban": 1.0, "Rural": 1.3, "Industrial": 0.9, "Shopping Center": 1.4}
+        
+        package_factor = pl.col("Package_Type").replace(PACKAGE_FACTORS, default=1.0)
+        zone_factor = pl.col("Delivery_Zone").replace(ZONE_FACTORS, default=1.0)
+        
+        peak_hour_factor = (
+            pl.when(pl.col("Hour").is_between(7, 9, closed="both")).then(1.3)
+            .when(pl.col("Hour").is_between(17, 19, closed="both")).then(1.4)
+            .otherwise(1.0)
+        )
+        day_factor = (
+            pl.when(pl.col("Weekday").is_in(["Monday", "Friday"])).then(1.2)
+            .when(pl.col("Weekday").is_in(["Saturday", "Sunday"])).then(0.9)
+            .otherwise(1.0)
+        )
         weather_factor = (
             pl.when(pl.col("Weather_Condition").str.contains("(?i)rain|drizzle")).then(1.2)
             .when(pl.col("Weather_Condition").str.contains("(?i)snow|blizzard|sleet")).then(1.8)
@@ -98,15 +159,20 @@ class Transformer:
             .otherwise(1.0)
         )
         
-        package_factor = pl.when(pl.col("Package_Type") == "Small").then(1.0).when(pl.col("Package_Type") == "Medium").then(1.2).when(pl.col("Package_Type") == "Large").then(1.5).when(pl.col("Package_Type") == "Extra Large").then(2.0).when(pl.col("Package_Type") == "Special").then(2.5).otherwise(1.0)
-        zone_factor = pl.when(pl.col("Delivery_Zone") == "Urban").then(1.2).when(pl.col("Delivery_Zone") == "Suburban").then(1.0).when(pl.col("Delivery_Zone") == "Rural").then(1.3).when(pl.col("Delivery_Zone") == "Industrial").then(0.9).when(pl.col("Delivery_Zone") == "Shopping Center").then(1.4).otherwise(1.0)
-        peak_hour_factor = pl.when(pl.col("Hour").is_between(7, 9)).then(1.3).when(pl.col("Hour").is_between(17, 19)).then(1.4).otherwise(1.0)
-        day_factor = pl.when(pl.col("Weekday").is_in(["Monday", "Friday"])).then(1.2).when(pl.col("Weekday").is_in(["Saturday", "Sunday"])).then(0.9).otherwise(1.0)
-        
-        theoretical_time_expr = ((30 + pl.col("Distance") * 0.8) * package_factor * zone_factor * peak_hour_factor * day_factor * weather_factor)
+        theoretical_time_expr = (
+            (30 + pl.col("Distance") * 0.8) 
+            * package_factor * zone_factor 
+            * peak_hour_factor * day_factor * weather_factor
+        )
         
         delay_threshold_expr = theoretical_time_expr * 1.2
-        status_expr = pl.when(pl.col("Actual_Delivery_Time_Minutes") > delay_threshold_expr).then(pl.lit("Delayed")).otherwise(pl.lit("On-time")).alias("Status")
+
+        status_expr = (
+            pl.when(pl.col("Actual_Delivery_Time_Minutes") > delay_threshold_expr)
+            .then(pl.lit("Delayed"))
+            .otherwise(pl.lit("On-time"))
+            .alias("Status")
+        )
 
         df_with_status = df.with_columns(
             theoretical_time_expr.round(2).alias("Theoretical_Time_Minutes"),

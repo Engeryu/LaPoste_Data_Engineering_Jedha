@@ -3,46 +3,97 @@ import polars as pl
 import json
 from datetime import datetime
 import os
+from ..sources import writers
 
 class Loader:
-    """Loads the transformed data and generates a metadata manifest."""
+    """
+    Handles the final step of the ETL: loading the data to its destination.
+    This includes writing to various file formats and generating a metadata manifest.
+    """
+
+    WRITER_MAP = {
+        "csv": writers.CsvWriter,
+        "json": writers.JsonWriter,
+        "parquet": writers.ParquetWriter,
+        "xlsx": writers.XlsxWriter,
+    }
 
     def __init__(self, config: dict):
+        """
+        Initializes the Loader with the pipeline configuration.
+
+        Args:
+            config: The pipeline configuration dictionary.
+        """
         self.config = config
 
     def load_data(self, df: pl.DataFrame):
         """
-        Saves the DataFrame and generates a corresponding manifest file.
+        Saves the DataFrame to file(s) and generates a manifest.
+
+        Based on the output configuration, this method either prints a preview
+        to the console or writes the data to one or more specified file formats.
+        A manifest file is always generated regardless of the output format.
+
+        Args:
+            df: The final, transformed DataFrame to be loaded.
         """
-        output_format = self.config.get("output", {}).get("format", "preview")
+        output_conf = self.config.get("output", {})
+        output_format = output_conf.get("format", "preview")
+        base_path = output_conf.get("path", "output/default_name")
         
+        os.makedirs(os.path.dirname(base_path), exist_ok=True)
+        
+        print(f"Loading data with format: {output_format}...")
+
         if output_format == "preview":
-            print("Loading data to destination (preview mode)...")
             print("Final DataFrame schema:")
-            print(df)
+            print(df.head())
         else:
-            # We will implement file saving logic here later
-            raise NotImplementedError("File saving is not yet implemented.")
-
-        self._generate_manifest(df, output_format)
-
-    def _generate_manifest(self, df: pl.DataFrame, output_format: str):
-        """Generates a JSON manifest file with metadata about the run."""
+            formats_to_write = self._get_formats_to_write(output_format)
+            for fmt in formats_to_write:
+                writer_class = self.WRITER_MAP.get(fmt)
+                if writer_class:
+                    writer = writer_class(base_path)
+                    writer.write(df)
         
-        # We'll make the manifest path smarter later
-        manifest_path = "output_manifest.json"
+        self._generate_manifest(df, output_conf)
+
+    def _get_formats_to_write(self, format_str: str) -> list[str]:
+        """
+        Determines which writers to use based on the format string.
+
+        Args:
+            format_str: The format string from the configuration (e.g., "csv", "all").
+
+        Returns:
+            A list of format keys to be written.
+        """
+        if format_str == "all":
+            return list(self.WRITER_MAP.keys())
+        if format_str == "all_but_xlsx":
+            return [f for f in self.WRITER_MAP.keys() if f != "xlsx"]
+        return [format_str]
+
+    def _generate_manifest(self, df: pl.DataFrame, output_conf: dict):
+        """
+        Generates a JSON manifest file with metadata about the run.
+
+        Args:
+            df: The DataFrame being loaded, used to extract shape and column info.
+            output_conf: The output configuration dictionary.
+        """
+        base_path = output_conf.get("path", "output/default_name")
+        manifest_path = f"{base_path}_manifest.json"
         
         print(f"  -> Generating metadata manifest at {manifest_path}...")
         
         manifest_data = {
             "polars_version": pl.__version__,
             "run_timestamp_utc": datetime.utcnow().isoformat(),
-            "source_config": self.config.get("generate") or self.config.get("source"),
-            "output_format": output_format,
-            "dataset_shape": {
-                "rows": df.height,
-                "columns": df.width
-            },
+            "source_config": self.config.get("source"),
+            "output_config": output_conf,
+            "dataset_shape": {"rows": df.height, "columns": df.width},
             "columns": df.columns,
         }
         
