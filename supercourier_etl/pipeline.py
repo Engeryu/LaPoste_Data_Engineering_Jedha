@@ -58,3 +58,5 @@ class Pipeline:
         duration = end_time - start_time
         print(f"\n--- ETL process finished successfully ---")
         print(f"Total execution time: {duration:.2f} seconds.")
+
+        return duration

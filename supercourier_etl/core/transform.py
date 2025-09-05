@@ -1,6 +1,12 @@
 # supercourier_etl/core/transform.py
-import polars as pl
+"""Logic Transformation of:
+    - Delivery duration computation
+    - Split DateTime feature for in-depths Temporal Features (Days & Hours)
+    - Merging Weather with deliveries based on Day & Hour
+    - Apply duration computation to categorize Delivery Status (Delayed or On-Time) """
+
 import os
+import polars as pl
 from ..utils.api_client import WeatherAPIClient
 
 class Transformer:
@@ -40,7 +46,7 @@ class Transformer:
               .pipe(self._determine_delay_status)
         )
         return transformed_df
-    
+
     def _calculate_delivery_duration(self, df: pl.DataFrame) -> pl.DataFrame:
         """
         Calculates delivery duration in both numeric and display formats.
@@ -53,7 +59,7 @@ class Transformer:
             and 'Actual_Delivery_Time_Display' (string) columns.
         """
         print("  -> Calculating delivery duration (numeric and display formats)...")
-        
+
         duration_in_seconds = (
             (pl.col("Delivery_Timestamp") - pl.col("Pickup_DateTime"))
             .dt.total_seconds()
@@ -97,9 +103,9 @@ class Transformer:
             The DataFrame enriched with a 'Weather_Condition' column.
         """
         print("  -> Enriching with weather data (this may take a moment)...")
-        location = "Thiais"
+        location = "Paris"
         unique_dates = df.select(pl.col("Pickup_DateTime").dt.date().unique()).to_series()
-        
+
         all_hourly_data = []
         for date_obj in unique_dates:
             date_str = date_obj.strftime("%Y-%m-%d")
@@ -118,11 +124,11 @@ class Transformer:
 
         weather_df = pl.DataFrame(all_hourly_data)
         df_with_join_key = df.with_columns(pl.col("Pickup_DateTime").dt.date().alias("date"))
-        
+
         df_enriched = df_with_join_key.join(
             weather_df, on=["date", "Hour"], how="left"
         ).drop("date")
-        
+
         return df_enriched
 
     def _determine_delay_status(self, df: pl.DataFrame) -> pl.DataFrame:
@@ -143,10 +149,10 @@ class Transformer:
 
         PACKAGE_FACTORS = {"Small": 1.0, "Medium": 1.2, "Large": 1.5, "Extra Large": 2.0, "Special": 2.5}
         ZONE_FACTORS = {"Urban": 1.2, "Suburban": 1.0, "Rural": 1.3, "Industrial": 0.9, "Shopping Center": 1.4}
-        
+
         package_factor = pl.col("Package_Type").replace_strict(PACKAGE_FACTORS, default=1.0)
         zone_factor = pl.col("Delivery_Zone").replace_strict(ZONE_FACTORS, default=1.0)
-        
+
         peak_hour_factor = (
             pl.when(pl.col("Hour").is_between(7, 9, closed="both")).then(1.3)
             .when(pl.col("Hour").is_between(17, 19, closed="both")).then(1.4)
@@ -163,13 +169,13 @@ class Transformer:
             .when(pl.col("Weather_Condition").str.contains("(?i)fog|mist")).then(1.1)
             .otherwise(1.0)
         )
-        
+
         theoretical_time_expr = (
-            (30 + pl.col("Distance") * 0.8) 
-            * package_factor * zone_factor 
+            (30 + pl.col("Distance") * 0.8)
+            * package_factor * zone_factor
             * peak_hour_factor * day_factor * weather_factor
         )
-        
+
         delay_threshold_expr = theoretical_time_expr * 1.2
 
         status_expr = (
@@ -183,4 +189,5 @@ class Transformer:
             theoretical_time_expr.round(2).alias("Theoretical_Time_Minutes"),
             status_expr
         )
+
         return df_with_status

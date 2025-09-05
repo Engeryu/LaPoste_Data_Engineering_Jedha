@@ -1,0 +1,29 @@
+# docker-compose.yml
+services:
+  supercourier-etl:
+    # Indique à Compose de construire l'image à partir du Dockerfile
+    # présent dans le répertoire courant ('.').
+    build: .
+    
+    # Nom de l'image qui sera construite.
+    image: supercourier-etl:latest
+    
+    # Nom du conteneur une fois lancé.
+    container_name: supercourier_etl_runner
+    
+    # Gère les variables d'environnement.
+    # Docker Compose va automatiquement chercher un fichier .env à la racine
+    # et substituer ${WEATHERAPI_KEY} par la valeur trouvée.
+    environment:
+      - WEATHERAPI_KEY=${WEATHERAPI_KEY}
+      
+    # Monte les volumes. Équivalent du "-v" dans la commande docker run.
+    # On mappe le dossier local "./output" vers le dossier "/app/output" dans le conteneur.
+    # Cela nous permet de récupérer les fichiers générés.
+    volumes:
+      - ./output:/app/output
+      
+    # Équivalent du "-it" dans la commande docker run.
+    # Indispensable pour que le mode interactif fonctionne.
+    stdin_open: true  # Maintient STDIN ouvert pour l'interaction (-i)
+    tty: true         # Alloue un pseudo-terminal (-t)
