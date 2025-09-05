@@ -1,7 +1,7 @@
 # supercourier_etl/core/load.py
 import polars as pl
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 import os
 from ..sources import writers
 
@@ -104,7 +104,7 @@ class Loader:
         
         manifest_data = {
             "polars_version": pl.__version__,
-            "run_timestamp_utc": datetime.utcnow().isoformat(),
+            "run_timestamp_utc": datetime.now(timezone.utc).isoformat(),
             "source_config": self.config.get("source"),
             "output_config": output_conf,
             "dataset_shape": {"rows": df.height, "columns": df.width},

@@ -44,9 +44,11 @@ class Extractor:
         source_config = self.config.get("source", {})
         source_type = source_config.get("type")
 
+        df: pl.DataFrame
+
         if source_type == "generate":
             rows = source_config.get("rows", 1000)
-            return self._generate_data(rows, progress, task_id)
+            df = self._generate_data(rows, progress, task_id)
         
         elif source_type == "file":
             path = source_config.get("path")
@@ -60,12 +62,18 @@ class Extractor:
                 raise ValueError(f"Unsupported file type: {file_extension}")
             
             reader = reader_class(path)
+            df = reader.read()
+
             if progress and task_id is not None:
                 progress.update(task_id, completed=1)
-            return reader.read()
         
         else:
             raise ValueError(f"Unknown or missing source type in config: {source_type}")
+        
+        return df.with_columns(
+            pl.col("Pickup_DateTime").cast(pl.Datetime),
+            pl.col("Delivery_Timestamp").cast(pl.Datetime)
+        )
 
     def _generate_data(self, num_rows: int, progress=None, task_id=None) -> pl.DataFrame:
         """

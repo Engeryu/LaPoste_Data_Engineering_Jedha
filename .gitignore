@@ -1,11 +1,20 @@
-# Pycache
-supercourier_etl/__pycache__
-supercourier_etl/*/__pycache__
-tests/__pycache__
+# Git and IDE files
+.git
+.gitignore
+.vscode/
 
-# Environment files
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+
+# Local configuration and secrets
 .env
 
 # Output files
-data/
 output/
+data/

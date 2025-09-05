@@ -53,7 +53,12 @@ class Transformer:
             and 'Actual_Delivery_Time_Display' (string) columns.
         """
         print("  -> Calculating delivery duration (numeric and display formats)...")
-        duration_in_seconds = ((pl.col("Delivery_Timestamp") - pl.col("Pickup_DateTime")).dt.total_seconds())
+        
+        duration_in_seconds = (
+            (pl.col("Delivery_Timestamp") - pl.col("Pickup_DateTime"))
+            .dt.total_seconds()
+        )
+
         df_with_formats = df.with_columns(
             (duration_in_seconds / 60).round(2).alias("Actual_Delivery_Time_Minutes"),
             ((duration_in_seconds // 60).cast(pl.Utf8) + "." + (duration_in_seconds % 60).cast(pl.Utf8).str.pad_start(2, "0")).alias("Actual_Delivery_Time_Display")
@@ -139,8 +144,8 @@ class Transformer:
         PACKAGE_FACTORS = {"Small": 1.0, "Medium": 1.2, "Large": 1.5, "Extra Large": 2.0, "Special": 2.5}
         ZONE_FACTORS = {"Urban": 1.2, "Suburban": 1.0, "Rural": 1.3, "Industrial": 0.9, "Shopping Center": 1.4}
         
-        package_factor = pl.col("Package_Type").replace(PACKAGE_FACTORS, default=1.0)
-        zone_factor = pl.col("Delivery_Zone").replace(ZONE_FACTORS, default=1.0)
+        package_factor = pl.col("Package_Type").replace_strict(PACKAGE_FACTORS, default=1.0)
+        zone_factor = pl.col("Delivery_Zone").replace_strict(ZONE_FACTORS, default=1.0)
         
         peak_hour_factor = (
             pl.when(pl.col("Hour").is_between(7, 9, closed="both")).then(1.3)

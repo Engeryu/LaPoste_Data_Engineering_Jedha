@@ -1,4 +1,5 @@
 # supercourier_etl/pipeline.py
+import os
 import polars as pl
 import time
 from .core.extract import Extractor
