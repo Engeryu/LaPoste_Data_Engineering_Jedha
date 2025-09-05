@@ -34,6 +34,13 @@ class ParquetReader(BaseReader):
     def read(self) -> pl.DataFrame:
         return pl.read_parquet(self.path)
 
+class DatabaseReader(BaseReader):
+    """Reads data from a database using a SQL query."""
+    def read(self) -> pl.DataFrame:
+        query = "SELECT * FROM deliveries"
+        connection_string = f"sqlite:///{self.path}"
+        return pl.read_database(query=query, connection=connection_string)
+
 class XlsxReader(BaseReader):
     """Reads data from an Excel (.xlsx) file."""
     def read(self) -> pl.DataFrame:

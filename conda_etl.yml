@@ -9,8 +9,11 @@ dependencies:
 
   # Data Processing
   - polars
+  - pandas
+  - sqlalchemy
   - pyarrow
   - numpy
+  - connectorx
 
   # API Communication
   - requests

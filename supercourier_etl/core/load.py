@@ -10,12 +10,12 @@ class Loader:
     Handles the final step of the ETL: loading the data to its destination.
     This includes writing to various file formats and generating a metadata manifest.
     """
-
     WRITER_MAP = {
         "csv": writers.CsvWriter,
         "json": writers.JsonWriter,
         "parquet": writers.ParquetWriter,
-        "xlsx": writers.XlsxWriter,
+        "db": writers.DatabaseWriter,
+        "xlsx": writers.XlsxWriter
     }
 
     def __init__(self, config: dict):
@@ -27,7 +27,7 @@ class Loader:
         """
         self.config = config
 
-    def load_data(self, df: pl.DataFrame):
+    def load_data(self, df: pl.DataFrame, progress=None, parent_task_id=None):
         """
         Saves the DataFrame to file(s) and generates a manifest.
 
@@ -44,20 +44,34 @@ class Loader:
         
         os.makedirs(os.path.dirname(base_path), exist_ok=True)
         
-        print(f"Loading data with format: {output_format}...")
-
         if output_format == "preview":
-            print("Final DataFrame schema:")
+            print("\n--- Preview of Final DataFrame ---")
             print(df.head())
         else:
             formats_to_write = self._get_formats_to_write(output_format)
+            
+            if progress:
+                load_task = progress.add_task("[cyan]Writing output files...", total=len(formats_to_write))
+            
             for fmt in formats_to_write:
+                if progress:
+                    progress.update(load_task, description=f"[cyan]Writing {fmt.upper()} file...")
+                
                 writer_class = self.WRITER_MAP.get(fmt)
                 if writer_class:
                     writer = writer_class(base_path)
                     writer.write(df)
+                
+                if progress:
+                    progress.advance(load_task)
+
+            if progress:
+                progress.update(load_task, description="[cyan]All files written.")
         
         self._generate_manifest(df, output_conf)
+        
+        if progress and parent_task_id is not None:
+            progress.advance(parent_task_id)
 
     def _get_formats_to_write(self, format_str: str) -> list[str]:
         """
