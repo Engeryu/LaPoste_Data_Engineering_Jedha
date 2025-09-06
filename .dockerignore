@@ -4,3 +4,4 @@
 # 2. Re-include specific files and directories that are necessary
 !conda_etl.yml
 !supercourier_etl/
+!web_app/
