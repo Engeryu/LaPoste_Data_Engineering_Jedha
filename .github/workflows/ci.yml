@@ -1,0 +1,31 @@
+# .github/workflows/ci.yml
+name: Python ETL Pipeline CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Micromamba
+      uses: mamba-org/setup-micromamba@v1
+      with:
+        environment-file: conda_etl.yml
+        cache-environment: true
+
+    - name: Run Tests
+      shell: bash -el {0}
+      run: |
+        # We need to create a dummy .env file for the tests to pass
+        echo "WEATHERAPI_KEY=dummy_key_for_ci" > .env
+        
+        # Run pytest
+        pytest -v
