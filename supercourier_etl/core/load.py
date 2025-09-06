@@ -1,8 +1,11 @@
 # supercourier_etl/core/load.py
-import polars as pl
+"""
+    
+"""
+import os
 import json
 from datetime import datetime, timezone
-import os
+import polars as pl
 from ..sources import writers
 
 class Loader:
@@ -41,35 +44,35 @@ class Loader:
         output_conf = self.config.get("output", {})
         output_format = output_conf.get("format", "preview")
         base_path = output_conf.get("path", "output/default_name")
-        
+
         os.makedirs(os.path.dirname(base_path), exist_ok=True)
-        
+
         if output_format == "preview":
             print("\n--- Preview of Final DataFrame ---")
             print(df.head())
         else:
             formats_to_write = self._get_formats_to_write(output_format)
-            
+
             if progress:
                 load_task = progress.add_task("[cyan]Writing output files...", total=len(formats_to_write))
-            
+
             for fmt in formats_to_write:
                 if progress:
                     progress.update(load_task, description=f"[cyan]Writing {fmt.upper()} file...")
-                
+
                 writer_class = self.WRITER_MAP.get(fmt)
                 if writer_class:
                     writer = writer_class(base_path)
                     writer.write(df)
-                
+
                 if progress:
                     progress.advance(load_task)
 
             if progress:
                 progress.update(load_task, description="[cyan]All files written.")
-        
+
         self._generate_manifest(df, output_conf)
-        
+
         if progress and parent_task_id is not None:
             progress.advance(parent_task_id)
 
@@ -84,9 +87,10 @@ class Loader:
             A list of format keys to be written.
         """
         if format_str == "all":
-            return list(self.WRITER_MAP.keys())
+            return list(self.WRITER_MAP)
         if format_str == "all_but_xlsx":
-            return [f for f in self.WRITER_MAP.keys() if f != "xlsx"]
+            return [f for f in self.WRITER_MAP if f != "xlsx"]
+
         return [format_str]
 
     def _generate_manifest(self, df: pl.DataFrame, output_conf: dict):
@@ -99,9 +103,9 @@ class Loader:
         """
         base_path = output_conf.get("path", "output/default_name")
         manifest_path = f"{base_path}_manifest.json"
-        
+
         print(f"  -> Generating metadata manifest at {manifest_path}...")
-        
+
         manifest_data = {
             "polars_version": pl.__version__,
             "run_timestamp_utc": datetime.now(timezone.utc).isoformat(),
@@ -110,6 +114,6 @@ class Loader:
             "dataset_shape": {"rows": df.height, "columns": df.width},
             "columns": df.columns,
         }
-        
-        with open(manifest_path, 'w') as f:
+
+        with open(manifest_path, 'w', encoding="utf-8") as f:
             json.dump(manifest_data, f, indent=4)

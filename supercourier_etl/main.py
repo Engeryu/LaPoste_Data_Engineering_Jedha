@@ -1,8 +1,11 @@
 # supercourier_etl/main.py
+"""
+
+"""
+from typing import Optional
 import typer
 from dotenv import load_dotenv
 from typing_extensions import Annotated
-from typing import Optional
 from .pipeline import Pipeline
 
 load_dotenv()
@@ -11,14 +14,14 @@ app = typer.Typer()
 def _interactive_wizard() -> dict:
     """Guides the user through a basic interactive session to build the config."""
     print("\n--- SuperCourier ETL Interactive Mode ---")
-    
+
     # 1. Ask for source
     while True:
         choice = input("Choose a data source (1: Generate new data, 2: Use an existing file): ")
         if choice in ["1", "2"]:
             break
         print("Invalid input. Please enter 1 or 2.")
-    
+
     source_config = {}
     if choice == "1":
         while True:
@@ -30,14 +33,14 @@ def _interactive_wizard() -> dict:
     else:
         path = input("Enter the path to the source file: ")
         source_config = {"type": "file", "path": path}
-        
+
     # 2. Ask for output format
     formats = ["preview", "csv", "json", "db", "parquet", "xlsx", "all", "all_but_xlsx"]
     while True:
         print("\nAvailable output formats:")
         for i, fmt in enumerate(formats):
             print(f"  {i+1}: {fmt}")
-        choice_str = input(f"Choose an output format [1-8, default: preview]: ") or "1"
+        choice_str = input("Choose an output format [1-8, default: preview]: ") or "1"
         if choice_str.isdigit() and 1 <= int(choice_str) <= len(formats):
             output_format = formats[int(choice_str) - 1]
             break

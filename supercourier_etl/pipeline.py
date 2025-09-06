@@ -1,11 +1,13 @@
 # supercourier_etl/pipeline.py
+"""
+    Final Pipeline to orchestrates main functions of the Core Folder.
+"""
 import os
-import polars as pl
 import time
+from rich.progress import Progress, SpinnerColumn, BarColumn, TextColumn, TimeElapsedColumn
 from .core.extract import Extractor
 from .core.transform import Transformer
 from .core.load import Loader
-from rich.progress import Progress, SpinnerColumn, BarColumn, TextColumn, TimeElapsedColumn
 
 class Pipeline:
     """Orchestrates the entire ETL process from extraction to loading."""
@@ -16,10 +18,10 @@ class Pipeline:
         self.transformer = Transformer(config)
         self.loader = Loader(config)
 
-    def run(self):
+    def run(self) -> float:
         """Executes the ETL pipeline steps in order with a rich progress bar."""
         start_time = time.perf_counter()
-        
+
         with Progress(
             SpinnerColumn(),
             TextColumn("[progress.description]{task.description}"),
@@ -29,7 +31,7 @@ class Pipeline:
         ) as progress:
             etl_task = progress.add_task("[bold blue]Overall ETL Progress", total=3)
 
-            # --- 1. Extraction (with dynamic description) ---
+            # --- 1. Extraction (avec description dynamique) ---
             source_type = self.config.get("source", {}).get("type", "generate")
             if source_type == 'generate':
                 rows = self.config["source"]["rows"]
@@ -45,18 +47,17 @@ class Pipeline:
             progress.update(extract_task, completed=extract_total, description=f"[green]Extraction complete ({len(extracted_data):,} records)")
             progress.advance(etl_task)
 
-            # --- 2. Transformation (spinner description) ---
-            transform_task = progress.add_task("[magenta]Applying transformations...", total=None)
-            transformed_data = self.transformer.transform_data(extracted_data)
-            progress.update(transform_task, completed=1, total=1, description="[magenta]Transformation complete")
-            progress.advance(etl_task)
+            # --- 2. Transformation (maintenant un conteneur pour sous-tâches) ---
+            transform_task = progress.add_task("[magenta]Applying transformations...", total=1)
+            transformed_data = self.transformer.transform_data(extracted_data, progress, transform_task)
+            progress.update(transform_task, description="[magenta]Transformation complete")
 
-            # --- 3. Loading (managed by loader function) ---
+            # --- 3. Loading (géré par le Loader) ---
             self.loader.load_data(transformed_data, progress, etl_task)
-            
+
         end_time = time.perf_counter()
         duration = end_time - start_time
-        print(f"\n--- ETL process finished successfully ---")
+        print("\n--- ETL process finished successfully ---")
         print(f"Total execution time: {duration:.2f} seconds.")
 
         return duration

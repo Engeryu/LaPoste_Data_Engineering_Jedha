@@ -1,4 +1,7 @@
 # supercourier_etl/utils/api_client.py
+"""
+    
+"""
 import requests
 from tenacity import retry, stop_after_attempt, wait_fixed
 
@@ -30,9 +33,10 @@ class WeatherAPIClient:
             "dt": date
         }
         try:
-            response = requests.get(self.BASE_URL, params=params)
+            response = requests.get(self.BASE_URL, params=params, timeout=10)
             response.raise_for_status()
             return response.json()
         except requests.exceptions.RequestException as e:
             print(f"Error fetching weather data for {date} at {location}: {e}")
+
             return {}

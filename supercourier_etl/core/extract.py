@@ -1,9 +1,13 @@
 # supercourier_etl/core/extract.py
+"""
+    
+"""
+import os
+from datetime import timedelta
 import polars as pl
 import numpy as np
 from faker import Faker
-from datetime import timedelta
-import os
+
 from ..sources import readers
 
 class Extractor:
@@ -49,27 +53,27 @@ class Extractor:
         if source_type == "generate":
             rows = source_config.get("rows", 1000)
             df = self._generate_data(rows, progress, task_id)
-        
+
         elif source_type == "file":
             path = source_config.get("path")
             if not path or not os.path.exists(path):
                 raise FileNotFoundError(f"Source file not found at path: {path}")
-            
+
             file_extension = os.path.splitext(path)[1]
             reader_class = self.READER_MAP.get(file_extension)
 
             if not reader_class:
                 raise ValueError(f"Unsupported file type: {file_extension}")
-            
+
             reader = reader_class(path)
             df = reader.read()
 
             if progress and task_id is not None:
                 progress.update(task_id, completed=1)
-        
+
         else:
             raise ValueError(f"Unknown or missing source type in config: {source_type}")
-        
+
         return df.with_columns(
             pl.col("Pickup_DateTime").cast(pl.Datetime),
             pl.col("Delivery_Timestamp").cast(pl.Datetime)
@@ -89,13 +93,13 @@ class Extractor:
         """
         package_types = ["Small", "Medium", "Large", "Extra Large", "Special"]
         delivery_zones = ["Urban", "Suburban", "Rural", "Industrial", "Shopping Center"]
-        
+
         all_data_chunks = []
         CHUNK_SIZE = 10000
 
         for i in range(0, num_rows, CHUNK_SIZE):
             current_chunk_size = min(CHUNK_SIZE, num_rows - i)
-            
+
             pickup_datetimes = [self._fake.date_time_between(start_date="-30d", end_date="now") for _ in range(current_chunk_size)]
             delivery_timestamps = [p + timedelta(minutes=int(np.random.uniform(20, 360))) for p in pickup_datetimes]
 
@@ -111,5 +115,5 @@ class Extractor:
 
             if progress and task_id is not None:
                 progress.update(task_id, advance=current_chunk_size)
-        
+
         return pl.concat(all_data_chunks)

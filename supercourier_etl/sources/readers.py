@@ -1,10 +1,18 @@
 # supercourier_etl/sources/readers.py
-import polars as pl
+"""
+    All File Format Reading Functions:
+        - Comma-Separate Virgule
+        - JSON
+        - Parquet
+        - Database (SQLite3)
+        - XLSX
+"""
 from abc import ABC, abstractmethod
+import polars as pl
 
 class BaseReader(ABC):
     """Abstract base class for all file readers."""
-    
+
     def __init__(self, path: str):
         """
         Initializes the reader with the path to the source file.
@@ -17,7 +25,7 @@ class BaseReader(ABC):
     @abstractmethod
     def read(self) -> pl.DataFrame:
         """Reads a file and returns its content as a Polars DataFrame."""
-        pass
+        return pl
 
 class CsvReader(BaseReader):
     """Reads data from a CSV file."""
