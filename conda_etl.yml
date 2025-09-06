@@ -22,6 +22,8 @@ dependencies:
   # CLI
   - typer
   - rich
+  - fastapi
+  - uvicorn
 
   # File I/O
   - openpyxl
