@@ -30,6 +30,9 @@ RUN chown -R appuser:appuser /home/appuser/app
 USER appuser
 WORKDIR /home/appuser/app
 
+# Add the app directory to Python's path to ensure modules are found
+ENV PYTHONPATH=/home/appuser/app
+
 # Command to start the Uvicorn web server
 # The full path to the executable inside the conda env is more robust
 CMD ["/opt/conda/envs/supercourier-etl/bin/uvicorn", "webapp.api:app", "--host", "0.0.0.0", "--port", "80"]
