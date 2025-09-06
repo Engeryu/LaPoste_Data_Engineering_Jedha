@@ -1,20 +1,19 @@
-# Git and IDE files
-.git
-.gitignore
-.vscode/
+# 1. Ignore everything by default
+*
 
-# Python cache and virtual environments
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.pytest_cache/
-.venv/
-venv/
+# 2. Re-include essential files and directories
 
-# Local configuration and secrets
-.env
+# Configuration and project files
+!.gitignore
+!.dockerignore
+!conda_etl.yml
+!docker-compose.yml
+!Dockerfile
+!README.md
+!benchmarks.py
 
-# Output files
-output/
-data/
+# Source code, tests, and documentation directories
+# The trailing slash is important to re-include directories and their contents.
+!supercourier_etl/
+!tests/
+!docs/
