@@ -35,4 +35,4 @@ ENV PYTHONPATH=/home/appuser/app
 
 # Command to start the Uvicorn web server
 # The full path to the executable inside the conda env is more robust
-CMD ["/opt/conda/envs/supercourier-etl/bin/python", "-m", "uvicorn" "web_app.api:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["/opt/conda/envs/supercourier-etl/python", "-m", "uvicorn" "web_app.api:app", "--host", "0.0.0.0", "--port", "80"]
