@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperCourier ETL</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>SuperCourier ETL Pipeline</h1>
+
+        <div id="step1" class="step">
+            <h2>Step 1: Data Source</h2>
+            <div id="drop-zone">
+                <p>Drag & Drop a File or Click to Upload</p>
+                <input type="file" id="file-input" hidden>
+            </div>
+            <p id="file-name" style="min-height: 24px;"></p>
+            <div class="separator">OR</div>
+            <div class="generate-inputs">
+                <input type="number" id="row-count" value="1000" min="10" max="100000">
+                <button id="generate-btn">Generate Synthetic Data</button>
+            </div>
+        </div>
+
+        <div id="step2" class="step" style="display: none;">
+            <h2>Step 2: Output Formats</h2>
+            <div id="format-selector">
+                <label><input type="checkbox" name="format" value="csv" checked> CSV</label>
+                <label><input type="checkbox" name="format" value="json"> JSON</label>
+                <label><input type="checkbox" name="format" value="parquet"> Parquet</label>
+                <label><input type="checkbox" name="format" value="db"> SQLite</label>
+                <label><input type="checkbox" name="format" value="xlsx"> XLSX</label>
+            </div>
+        </div>
+
+        <div id="step3" class="step" style="display: none;">
+            <h2>Step 3: Process</h2>
+            <button id="process-btn">Run ETL Pipeline</button>
+        </div>
+        
+        <div id="status-container" class="step" style="display: none;">
+            <h2 id="status-title">Processing...</h2>
+            <div id="status"></div>
+        </div>
+    </div>
+
+    <script>
+        // --- State Management ---
+        let dataSource = { type: null, payload: null };
+
+        // --- DOM Elements ---
+        const dropZone = document.getElementById('drop-zone');
+        const fileInput = document.getElementById('file-input');
+        const fileNameDisplay = document.getElementById('file-name');
+        const generateBtn = document.getElementById('generate-btn');
+        const rowCountInput = document.getElementById('row-count');
+        const processBtn = document.getElementById('process-btn');
+        const statusContainer = document.getElementById('status-container');
+        const statusTitle = document.getElementById('status-title');
+        const statusText = document.getElementById('status');
+
+        // --- Event Listeners ---
+        dropZone.addEventListener('click', () => fileInput.click());
+        fileInput.addEventListener('change', handleFileSelect);
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, preventDefaults, false);
+        });
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => dropZone.classList.add('hover'), false);
+        });
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => dropZone.classList.remove('hover'), false);
+        });
+        dropZone.addEventListener('drop', handleDrop, false);
+        generateBtn.addEventListener('click', handleGenerateClick);
+        processBtn.addEventListener('click', handleProcessClick);
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        function handleFileSelect(e) {
+            const files = e.target.files;
+            if (files.length > 0) {
+                dataSource = { type: 'file', payload: files[0] };
+                fileNameDisplay.textContent = files[0].name;
+                // Désactiver l'autre option
+                generateBtn.disabled = true;
+                rowCountInput.disabled = true;
+                document.getElementById('step2').style.display = 'block';
+                document.getElementById('step3').style.display = 'block';
+            }
+        }
+
+        function handleDrop(e) {
+            const dt = e.dataTransfer;
+            const files = dt.files;
+            handleFileSelect({ target: { files: files } });
+        }
+        
+        function handleGenerateClick() {
+            dataSource = { type: 'generate', payload: parseInt(rowCountInput.value, 10) };
+            fileNameDisplay.textContent = `Generating ${dataSource.payload.toLocaleString()} rows`;
+            // Désactiver l'autre option
+            dropZone.style.pointerEvents = 'none';
+            dropZone.style.opacity = '0.5';
+            document.getElementById('step2').style.display = 'block';
+            document.getElementById('step3').style.display = 'block';
+        }
+
+        async function handleProcessClick() {
+            statusContainer.style.display = 'block';
+            statusTitle.textContent = "Processing...";
+            statusText.innerHTML = '<div class="loading-spinner" style="display: block;"></div>';
+            processBtn.disabled = true;
+
+            const selectedFormats = Array.from(document.querySelectorAll('input[name="format"]:checked')).map(cb => cb.value);
+            if (selectedFormats.length === 0) {
+                statusText.textContent = "Error: Please select at least one output format.";
+                processBtn.disabled = false;
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('formats', JSON.stringify(selectedFormats));
+
+            if (dataSource.type === 'file') {
+                formData.append('file', dataSource.payload);
+            } else if (dataSource.type === 'generate') {
+                formData.append('rows', dataSource.payload);
+            }
+
+            try {
+                const response = await fetch('/run-etl', { method: 'POST', body: formData });
+                if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+                
+                const data = await response.json();
+                pollStatus(data.session_id);
+
+            } catch (error) {
+                statusText.textContent = `Error: ${error.message}`;
+                processBtn.disabled = false;
+            }
+        }
+        
+        function pollStatus(sessionId) {
+            const interval = setInterval(async () => {
+                try {
+                    const response = await fetch(`/status/${sessionId}`);
+                    const data = await response.json();
+
+                    if (data.status === 'completed') {
+                        clearInterval(interval);
+                        statusTitle.textContent = "Success!";
+                        statusText.innerHTML = `<a href="${data.download_url}" class="button-link">Download Results (.zip)</a>`;
+                    } else if (data.status === 'error') {
+                        clearInterval(interval);
+                        statusTitle.textContent = "Error";
+                        statusText.textContent = data.message;
+                    }
+                    // Si 'processing', ne rien faire et continuer le polling.
+                } catch (error) {
+                    clearInterval(interval);
+                    statusTitle.textContent = "Error";
+                    statusText.textContent = "Could not retrieve job status.";
+                }
+            }, 3000); // Vérifie le statut toutes les 3 secondes
+        }
+
+    </script>
+</body>
+</html>
