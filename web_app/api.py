@@ -1,4 +1,4 @@
-# webapp/api.py
+# web_app/api.py
 """
 This module defines the FastAPI web server for the SuperCourier ETL pipeline.
 
@@ -33,8 +33,8 @@ app = FastAPI(
     description="API to run the delivery data enrichment pipeline.",
     version="1.0.0"
 )
-app.mount("/static", StaticFiles(directory="webapp/static"), name="static")
-templates = Jinja2Templates(directory="webapp/templates")
+app.mount("/static", StaticFiles(directory="web_app/static"), name="static")
+templates = Jinja2Templates(directory="web_app/templates")
 
 # Create temporary directories for file handling
 os.makedirs("temp_uploads", exist_ok=True)
