@@ -1,0 +1,37 @@
+# Conda environment configuration for the SuperCourier project
+# To create the environment, run: conda env create -f conda-etl.yml
+# To update the environment, run: conda env update -f conda-etl.yml --prune
+
+name: supercourier-etl
+channels:
+  - conda-forge
+
+dependencies:
+  # Core Interpreter
+  - python=3.12.11
+
+  # Core Data Processing
+  - polars
+  - pyarrow  # Required by Polars for Parquet I/O
+
+  # API & Web Services
+  - fastapi
+  - uvicorn
+  - requests # For the external weather API client
+  - httpx    # Modern async HTTP client
+
+  # CLI Interface
+  - typer
+  - rich     # For beautiful CLI outputs
+
+  # Configuration and I/O
+  - pyyaml
+  - openpyxl # For .xlsx file support
+  - aiosqlite # For async access to .db files
+
+  # Development & Testing
+  - pytest
+  - pytest-cov # For test coverage reports
+  - ruff       # Linter and formatter
+
+  # Pip dependencies (if any are not on conda-forge or for specific versions)

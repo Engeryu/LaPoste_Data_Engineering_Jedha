@@ -1,0 +1,11 @@
+1. Ignore everything
+2. But un-ignore files and directories that should be tracked
+
+!/.gitignore
+!/README.md
+!/conda-etl.yml
+Un-ignore entire directories
+
+!/config/
+!/src/
+!/tests/
