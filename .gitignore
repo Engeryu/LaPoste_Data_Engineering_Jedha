@@ -1,11 +1,13 @@
-1. Ignore everything
-2. But un-ignore files and directories that should be tracked
-
+# 1. Ignore everything
+# 2. But un-ignore files and directories that should be tracked
 !/.gitignore
+!/LICENSE
+!/SECURITY.md
+!/CODE_OF_CONDUCT.md
 !/README.md
 !/conda-etl.yml
-Un-ignore entire directories
 
+# Un-ignore entire directories
 !/config/
 !/src/
 !/tests/
