@@ -1,0 +1,83 @@
+name: supercourier-etl
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python et environnement
+  - python=3.12
+  
+  # Data Processing Core
+  - pandas>=2.0.0
+  - polars>=0.20.0
+  - numpy>=1.24.0
+  
+  # CLI et Interface
+  - rich>=13.0.0
+  - click>=8.1.0
+  - rich-click>=1.7.0
+  
+  # APIs et HTTP
+  - requests>=2.31.0
+  - httpx>=0.25.0
+  
+  # Multi-format Import/Export
+  - openpyxl>=3.1.0          # Excel (.xlsx) support
+  - xlrd>=2.0.1              # Excel (.xls) legacy support  
+  - pyarrow>=14.0.0          # Parquet support
+  - fastparquet>=2023.10.0   # Alternative Parquet engine
+  - sqlalchemy>=2.0.0        # Database support
+  - sqlite>=3.40.0           # SQLite database
+  - python-dateutil>=2.8.2   # Date parsing
+  
+  # Data Validation et Quality
+  - pydantic>=2.5.0          # Data validation
+  - pandera>=0.17.0          # DataFrame validation
+  
+  # Testing et Quality
+  - pytest>=7.4.0
+  - pytest-cov>=4.1.0
+  - pytest-benchmark>=4.0.0
+  - pytest-mock>=3.12.0
+  
+  # Performance Monitoring
+  - psutil>=5.9.0            # System monitoring
+  - memory-profiler>=0.61.0  # Memory profiling
+  
+  # Configuration Management
+  - pyyaml>=6.0.0            # YAML config files
+  - python-dotenv>=1.0.0     # Environment variables
+  
+  # Logging
+  - structlog>=23.2.0        # Structured logging
+  
+  # Development Tools
+  - black>=23.0.0            # Code formatting
+  - isort>=5.12.0            # Import sorting
+  - flake8>=6.1.0            # Code linting
+  
+  # Optional Web Interface (Streamlit)
+  - streamlit>=1.28.0
+  
+  # Pip dependencies
+  - pip
+  - pip:
+    # FastAPI Stack (if needed for REST API)
+    - "fastapi[all]>=0.104.0"
+    
+    # PyInstaller for executable distribution
+    - pyinstaller>=6.0.0
+    
+    # Pre-commit hooks for development
+    - pre-commit>=3.5.0
+    
+    # Additional data format support
+    - h5py>=3.10.0           # HDF5 format support
+    - tables>=3.9.0          # PyTables for HDF5
+    
+    # CLI enhancements
+    - typer>=0.9.0           # Alternative to Click
+    - tqdm>=4.66.0           # Progress bars
+    
+    # Data visualization (optional)
+    - plotly>=5.17.0         # Interactive plots
+    - matplotlib>=3.8.0     # Static plots
