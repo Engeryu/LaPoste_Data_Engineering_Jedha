@@ -1,0 +1,42 @@
+# environment.yml
+name: supercourier-etl
+channels:
+  - conda-forge
+dependencies:
+  # Core
+  - python=3.12.11
+  - pip
+
+  # Data Processing
+  - polars
+  - pandas
+  - sqlalchemy
+  - pyarrow
+  - numpy
+  - connectorx
+
+  # API Communication
+  - requests
+  - tenacity
+
+  # CLI
+  - typer
+  - rich
+  - uvicorn
+  - jinja2
+  - aiofiles
+  - pip:
+    - fastapi[all]
+
+  # File I/O
+  - openpyxl
+  - xlsxwriter
+
+  # Configuration
+  - python-dotenv
+
+  # Testing
+  - pytest
+
+  # Data Generation
+  - faker

@@ -1,0 +1,10 @@
+# 1. Ignore everything in the build context
+*
+
+# 2. Re-include specific files and directories that are necessary
+!conda_etl.yml
+!supercourier_etl/
+!templates/
+!static/
+!api.py
+!start.sh
