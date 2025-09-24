@@ -1,0 +1,234 @@
+/* web_app/static/style.css - "Corporate Classy" Theme */
+
+/* --- 1. Variables & Global Config --- */
+:root {
+    --primary-color: #00f5c9; /* Bright Turquoise/Mint for accents */
+    --primary-hover: #13ffda;
+    --background-color: #0f172a; /* Very dark midnight blue */
+    --card-background: #1e293b; /* Lighter blue-gray for the card */
+    --text-color: #f8fafc; /* Off-white */
+    --text-light: #94a3b8; /* Light gray for subtitles and labels */
+    --border-color: #334155; /* Blue-gray for borders */
+    --font-family: 'Inter', sans-serif; /* Clean UI font */
+    --border-radius: 8px;
+    --shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+/* --- 2. Main Container --- */
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem 0;
+    padding: 2rem 3rem;
+    background: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+/* --- 3. Steps & Typography --- */
+.step {
+    border-top: 1px solid var(--border-color);
+    padding-top: 2rem;
+}
+
+.step:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+h2 {
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: var(--text-light);
+    font-size: 1.1rem;
+}
+
+.separator {
+    text-align: center;
+    font-weight: 500;
+    color: var(--border-color);
+    margin: 2rem 0;
+}
+
+/* --- 4. Interactive Elements --- */
+
+/* Buttons */
+button {
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.8rem 1.6rem;
+    border: 1px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: transparent;
+    color: var(--primary-color);
+    width: 100%;
+}
+
+button:disabled {
+    border-color: var(--border-color);
+    color: var(--text-light);
+    cursor: not-allowed;
+    background-color: transparent;
+}
+
+button:hover:not(:disabled) {
+    background-color: var(--primary-color);
+    color: #0f172a; /* Dark background for text */
+    box-shadow: 0 0 15px rgba(0, 245, 201, 0.3);
+}
+
+/* Drop Zone */
+#drop-zone {
+    border: 2px dashed var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 3rem 1rem;
+    text-align: center;
+    color: var(--text-light);
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+}
+
+#drop-zone.hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+/* Inputs & Selectors */
+.generate-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    background-color: #0f172a;
+    color: var(--text-color);
+}
+
+#format-selector {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+}
+
+#format-selector label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background-color: rgba(0,0,0,0.1);
+    padding: 0.75rem;
+    border-radius: var(--border-radius);
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+#format-selector label:hover {
+    background-color: #334155;
+}
+
+input[type="checkbox"] {
+    width: 1.2em;
+    height: 1.2em;
+    accent-color: var(--primary-color);
+}
+
+/* Status & Output Area */
+#status-container {
+    margin-top: 1rem;
+    text-align: center;
+    min-height: 24px;
+}
+
+#file-name {
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.button-link {
+    display: inline-block;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.8rem 1.6rem;
+    border: 1px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #0f172a;
+    transition: all 0.2s ease-in-out;
+}
+
+.button-link:hover {
+    background-color: var(--primary-hover);
+    box-shadow: 0 0 15px rgba(0, 245, 201, 0.3);
+}
+
+.loading-spinner {
+    display: none; /* Hidden by default */
+    border: 4px solid rgba(255, 255, 255, .1);
+    border-left-color: var(--primary-color);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin .8s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* --- 5. Responsive Design --- */
+@media (max-width: 768px) {
+    .container {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+    .generate-inputs {
+        grid-template-columns: 1fr;
+    }
+}
