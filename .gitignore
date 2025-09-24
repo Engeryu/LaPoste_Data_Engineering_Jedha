@@ -1,24 +1,5 @@
-# 1. Ignore everything by default
-*
-
-# 2. Re-include essential files and directories
-
 # Configuration and project files
-!.gitignore
-!.dockerignore
-!conda_etl.yml
-!docker-compose.yml
-!Dockerfile
-!README.md
-!benchmarks.py
-
-# Source code, tests, and documentation directories
-# The trailing slash is important to re-include directories and their contents.
-!supercourier_etl/
-!tests/
-!docs/
-!.github/
-!templates/
-!static/
-!api.py
-!start.sh
+__pycache__
+.pytest_cache
+.env
+benchmark_results.csv
